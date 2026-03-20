@@ -3524,6 +3524,11 @@ div#navbarSupportedContent {
   object-fit: contain;
   margin-bottom: 15px;
 }
+.exp-image-dsme {
+  width: 190px;
+  height: 110px;
+  margin-bottom: 15px;
+}
 .content p {
   font-size: 18px;
   color: #000000b3;
@@ -3583,5 +3588,9 @@ img.exp-image-mcs {
     height: 80px;
 }
 
+.exp-image-dsme {
+    width: 140px;
+    height: 85px;
+}
 
 }
