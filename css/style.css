@@ -2807,6 +2807,7 @@ h6 {
     .testi_item .certificate-card-link:hover, .testi_item .certificate-card-link:focus {
       color: inherit;
       text-decoration: none; }
+
   @media (max-width: 991px) {
     .testi_item {
       margin-bottom: 0px; } }
@@ -3375,7 +3376,8 @@ form.subscription.relative input, form.subscription.relative textarea {
     width: 70%;
 }
 div#Certificate  p {
-  font-size: 10px;
+  font-size: 15px;
+  line-height: 24px;
 }
 section.newsletter_area {
   /* display: none; */
