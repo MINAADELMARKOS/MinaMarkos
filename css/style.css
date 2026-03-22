@@ -2832,6 +2832,50 @@ h6 {
   .testi_item:hover {
     box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1); }
 
+@media (max-width: 767px) {
+  .main_title p {
+    padding: 0 12px;
+    line-height: 26px; }
+
+  .portfolio_area .filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px; }
+
+  .portfolio_area .filters ul li {
+    margin-right: 20px; }
+
+  .testi_item {
+    padding: 30px 20px; }
+
+  .testi_item .row {
+    align-items: center; }
+
+  .testi_item img {
+    max-width: 180px;
+    width: 100% !important;
+    margin: 0 auto;
+    display: block; }
+
+  .testi_item .testi_text {
+    margin-top: 24px;
+    text-align: center; }
+
+  .testi_item .testi_text h4 {
+    font-size: 18px;
+    line-height: 28px; }
+
+  .testi_item .testi_text p {
+    font-size: 15px;
+    line-height: 24px; }
+
+  .subscription_box .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px; }
+}
+
 /* End Testimonial Area css
 ============================================================================================ */
 /* Start Newsletter Area css
