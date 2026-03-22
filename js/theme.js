@@ -73,28 +73,37 @@
 	/*----------------------------------------------------*/
 	/*  Testimonials Slider
     /*----------------------------------------------------*/
-	function testimonials_slider() {
-		if ($('.testi_slider').length) {
-			$('.testi_slider').owlCarousel({
+	function certificate_slider() {
+		if ($('.certificate_slider').length) {
+			$('.certificate_slider').owlCarousel({
 				loop: true,
 				margin: 30,
-				items: 2,
-				autoplay: true,
-				smartSpeed: 2500,
+				items: 1,
+				autoplay: false,
+				smartSpeed: 800,
 				dots: true,
+				nav: false,
+				mouseDrag: true,
+				touchDrag: true,
+				pullDrag: true,
+				freeDrag: false,
+				autoHeight: true,
 				responsiveClass: true,
 				responsive: {
 					0: {
 						items: 1
 					},
-					991: {
-						items: 2
+					768: {
+						items: 1
+					},
+					1200: {
+						items: 1
 					}
 				}
 			});
 		}
 	}
-	testimonials_slider();
+	certificate_slider();
 
 	/*----------------------------------------------------*/
 	/*  Google map js
