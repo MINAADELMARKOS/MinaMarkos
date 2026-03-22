@@ -2796,6 +2796,8 @@ h6 {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
+  .testi_item .certificate_btn {
+    margin-top: 22px; }
   @media (max-width: 991px) {
     .testi_item {
       margin-bottom: 0px; } }
@@ -2819,6 +2821,66 @@ h6 {
   line-height: 22px; }
   .testi_item:hover {
     box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1); }
+
+.certificate_slider .owl-stage {
+  display: flex;
+}
+
+.certificate_slider .owl-item {
+  display: flex;
+}
+
+.certificate_slider .testi_item {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .main_title p {
+    padding: 0 12px;
+    line-height: 26px; }
+
+  .portfolio_area .filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px; }
+
+  .portfolio_area .filters ul li {
+    margin-right: 20px; }
+
+  .testi_item {
+    padding: 30px 20px; }
+
+  .testi_item .row {
+    align-items: center; }
+
+  .testi_item img {
+    max-width: 180px;
+    width: 100% !important;
+    margin: 0 auto;
+    display: block; }
+
+  .testi_item .testi_text {
+    margin-top: 24px;
+    text-align: center; }
+
+  .testi_item .testi_text h4 {
+    font-size: 18px;
+    line-height: 28px; }
+
+  .testi_item .testi_text p {
+    font-size: 15px;
+    line-height: 24px; }
+
+  .subscription_box .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px; }
+
+  div#Certificate p {
+    font-size: 15px;
+    line-height: 24px; }
+}
 
 /* End Testimonial Area css
 ============================================================================================ */
@@ -3364,7 +3426,8 @@ form.subscription.relative input, form.subscription.relative textarea {
     width: 70%;
 }
 div#Certificate  p {
-  font-size: 10px;
+  font-size: 15px;
+  line-height: 24px;
 }
 section.newsletter_area {
   /* display: none; */
