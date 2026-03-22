@@ -1,0 +1,18 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="84" x2="552" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E6FFF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="44" fill="url(#bg)"/>
+  <rect x="48" y="48" width="544" height="544" rx="34" fill="white" stroke="#E8F3F1" stroke-width="4"/>
+  <circle cx="320" cy="214" r="88" fill="#10B981" fill-opacity="0.12"/>
+  <path d="M249 293V186" stroke="#10B981" stroke-width="24" stroke-linecap="round"/>
+  <path d="M320 293V154" stroke="#10B981" stroke-width="24" stroke-linecap="round"/>
+  <path d="M391 293V224" stroke="#10B981" stroke-width="24" stroke-linecap="round"/>
+  <path d="M226 322H414" stroke="#0F766E" stroke-width="20" stroke-linecap="round"/>
+  <text x="320" y="404" text-anchor="middle" fill="#F26722" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">CLOUDERA</text>
+  <text x="320" y="456" text-anchor="middle" fill="#222222" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="700">Data Analyst</text>
+  <text x="320" y="508" text-anchor="middle" fill="#6B7280" font-size="22" font-family="Arial, Helvetica, sans-serif">Analytics credential</text>
+</svg>
