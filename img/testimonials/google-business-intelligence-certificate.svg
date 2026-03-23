@@ -1,35 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
-  <title>Google Business Intelligence Certificate</title>
-  <desc>Dashboards • BI • Storytelling</desc>
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4285F4"/>
-      <stop offset="100%" stop-color="#34A853"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#EEF2FF"/>
+    <linearGradient id="bg" x1="88" y1="80" x2="552" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F0"/>
+      <stop offset="1" stop-color="#F4F8FF"/>
     </linearGradient>
   </defs>
-  <rect width="640" height="640" rx="42" fill="url(#panel)"/>
-  <rect x="36" y="36" width="568" height="568" rx="34" fill="white" stroke="#E2E8F0" stroke-width="4"/>
-  <rect x="68" y="72" width="172" height="38" rx="19" fill="#4285F4" opacity="0.12"/>
-  <text x="154" y="96" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#4285F4">Professional Certificate</text>
-  <g transform="translate(0 0)">
-    <rect x="46" y="118" width="216" height="154" rx="30" fill="url(#bg)"/>
-    
-    <rect x="86" y="132" width="132" height="84" rx="18" fill="white" opacity="0.98"/>
-    <path d="M106 190h92" stroke="#34A853" stroke-width="10" stroke-linecap="round"/>
-    <path d="M114 176l22-22 18 15 34-31" fill="none" stroke="#4285F4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="114" cy="176" r="8" fill="#4285F4"/>
-    <circle cx="154" cy="169" r="8" fill="#34A853"/>
-    <circle cx="188" cy="138" r="8" fill="white" stroke="#4285F4" stroke-width="6"/>
-    
-  </g>
-  <text x="320" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">
-    <tspan x="320" dy="0">Google Business</tspan><tspan x="320" dy="40">Intelligence Certificate</tspan>
-  </text>
-  <text x="320" y="454" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#475569">Dashboards • BI • Storytelling</text>
-  <line x1="124" y1="514" x2="516" y2="514" stroke="#E2E8F0" stroke-width="3"/>
-  <text x="320" y="566" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#4285F4">Google</text>
+  <rect width="640" height="640" rx="44" fill="url(#bg)"/>
+  <rect x="48" y="48" width="544" height="544" rx="34" fill="white" stroke="#ECECEC" stroke-width="4"/>
+  <circle cx="320" cy="208" r="92" fill="#4285F4" fill-opacity="0.10"/>
+  <path d="M320 208L378 150" stroke="#EA4335" stroke-width="22" stroke-linecap="round"/>
+  <path d="M320 208H398" stroke="#4285F4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M320 208L374 264" stroke="#34A853" stroke-width="22" stroke-linecap="round"/>
+  <path d="M320 208L270 268" stroke="#FBBC05" stroke-width="22" stroke-linecap="round"/>
+  <text x="320" y="390" text-anchor="middle" fill="#4285F4" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Google Business</text>
+  <text x="320" y="436" text-anchor="middle" fill="#222222" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Intelligence</text>
+  <text x="320" y="482" text-anchor="middle" fill="#222222" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Certificate</text>
+  <text x="320" y="538" text-anchor="middle" fill="#6B7280" font-size="22" font-family="Arial, Helvetica, sans-serif">Dashboarding &amp; storytelling credential</text>
 </svg>
