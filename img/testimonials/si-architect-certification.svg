@@ -1,38 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
-  <title>SI Architect Certification</title>
-  <desc>Architecture • Scale • Systems</desc>
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#0F766E"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F8FAFC"/>
-      <stop offset="100%" stop-color="#EEF2FF"/>
+    <linearGradient id="bg" x1="84" y1="76" x2="548" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4EEFF"/>
+      <stop offset="1" stop-color="#ECE6FF"/>
     </linearGradient>
   </defs>
-  <rect width="640" height="640" rx="42" fill="url(#panel)"/>
-  <rect x="36" y="36" width="568" height="568" rx="34" fill="white" stroke="#E2E8F0" stroke-width="4"/>
-  <rect x="68" y="72" width="172" height="38" rx="19" fill="#10B981" opacity="0.12"/>
-  <text x="154" y="96" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#10B981">Certification</text>
-  <g transform="translate(0 0)">
-    <rect x="46" y="118" width="216" height="154" rx="30" fill="url(#bg)"/>
-    
-    <circle cx="104" cy="160" r="20" fill="white" opacity="0.98"/>
-    <circle cx="154" cy="126" r="18" fill="white" opacity="0.98"/>
-    <circle cx="208" cy="160" r="20" fill="white" opacity="0.98"/>
-    <circle cx="154" cy="208" r="18" fill="white" opacity="0.98"/>
-    <path d="M122 152l18-12M168 140l22 12M154 144v46M118 176l20 18M190 176l-20 18" stroke="white" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="104" cy="160" r="7" fill="#10B981"/>
-    <circle cx="154" cy="126" r="7" fill="#0F766E"/>
-    <circle cx="208" cy="160" r="7" fill="#10B981"/>
-    <circle cx="154" cy="208" r="7" fill="#0F766E"/>
-    
-  </g>
-  <text x="320" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#0F172A">
-    <tspan x="320" dy="0">SI Architect</tspan><tspan x="320" dy="40">Certification</tspan>
-  </text>
-  <text x="320" y="454" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#475569">Architecture • Scale • Systems</text>
-  <line x1="124" y1="514" x2="516" y2="514" stroke="#E2E8F0" stroke-width="3"/>
-  <text x="320" y="566" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#10B981">Architecture</text>
+  <rect width="640" height="640" rx="44" fill="url(#bg)"/>
+  <rect x="48" y="48" width="544" height="544" rx="34" fill="white" stroke="#E6DFFF" stroke-width="4"/>
+  <polygon points="320,128 428,190 428,314 320,376 212,314 212,190" fill="#854FEE" fill-opacity="0.14" stroke="#854FEE" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M272 240L320 212L368 240V296L320 324L272 296V240Z" fill="#854FEE"/>
+  <text x="320" y="420" text-anchor="middle" fill="#854FEE" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">SI Architect</text>
+  <text x="320" y="466" text-anchor="middle" fill="#222222" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Certification</text>
+  <text x="320" y="520" text-anchor="middle" fill="#6B7280" font-size="22" font-family="Arial, Helvetica, sans-serif">Architecture credential</text>
 </svg>
