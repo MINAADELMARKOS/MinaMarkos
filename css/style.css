@@ -3789,3 +3789,192 @@ div#navbarSupportedContent {
     height: 85px;
   }
 }
+
+
+/* ===== Mina portfolio responsive polish override ===== */
+.container {
+  max-width: 1140px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.section_gap {
+  padding: 110px 0;
+}
+
+.section_gap_top {
+  padding-top: 110px;
+}
+
+.section_gap_bottom {
+  padding-bottom: 110px;
+}
+
+.main_title {
+  margin-bottom: 48px;
+}
+
+.brand_area,
+.features_area,
+.portfolio_area {
+  padding-bottom: 96px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+.desktop-view {
+  display: block;
+}
+
+.home_banner_area .banner_inner {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.home_banner_area .banner_inner .banner_content {
+  margin-top: 0;
+}
+
+.home_banner_area .banner_inner .home_right_img {
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.home_banner_area .banner_inner .home_right_img .hero-portrait,
+.home_banner_area .banner_inner .home_right_img img {
+  width: min(100%, 420px);
+  max-width: 420px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.about_area .about_img {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.about_area .about_img .about-portrait,
+.about_area .about_img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section_gap {
+    padding: 80px 0;
+  }
+
+  .section_gap_top {
+    padding-top: 80px;
+  }
+
+  .section_gap_bottom {
+    padding-bottom: 80px;
+  }
+
+  .brand_area,
+  .features_area,
+  .portfolio_area {
+    padding-bottom: 72px;
+  }
+
+  .home_banner_area .banner_inner {
+    padding-top: 110px;
+    padding-bottom: 20px;
+  }
+
+  .home_banner_area .banner_inner .home_right_img {
+    padding-top: 24px;
+  }
+
+  .home_banner_area .banner_inner .home_right_img .hero-portrait,
+  .home_banner_area .banner_inner .home_right_img img {
+    width: min(100%, 340px);
+    max-width: 340px;
+  }
+
+  .about_area .about_img {
+    max-width: 320px;
+    margin: 0 auto 28px;
+  }
+}
+
+@media (max-width: 740px) {
+  .mobile-view {
+    display: block;
+  }
+
+  .desktop-view {
+    display: none;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section_gap {
+    padding: 60px 0;
+  }
+
+  .section_gap_top {
+    padding-top: 60px;
+  }
+
+  .section_gap_bottom {
+    padding-bottom: 60px;
+  }
+
+  .main_title {
+    margin-bottom: 32px;
+  }
+
+  .brand_area,
+  .features_area,
+  .portfolio_area {
+    padding-bottom: 56px;
+  }
+
+  .home_banner_area {
+    min-height: auto;
+  }
+
+  .home_banner_area .banner_inner {
+    min-height: auto;
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+
+  .home_banner_area .banner_inner .banner_content {
+    padding: 0;
+  }
+
+  .home_banner_area .banner_inner .home_right_img {
+    padding-top: 8px;
+    margin-top: 16px;
+  }
+
+  .home_banner_area .banner_inner .home_right_img .hero-portrait,
+  .home_banner_area .banner_inner .home_right_img img {
+    width: min(100%, 250px);
+    max-width: 250px;
+  }
+
+  .about_area .about_img {
+    max-width: 240px;
+    margin: 0 auto 24px;
+  }
+}
