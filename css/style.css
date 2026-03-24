@@ -3979,21 +3979,22 @@ div#navbarSupportedContent {
   }
 }
 
-/* Force only one hero image to appear */
-.home_right_img .mobile-view {
-  display: none !important;
+
+/* ===== Fix hero duplicate image visibility ===== */
+.home_banner_area .banner_inner .home_right_img img.mobile-view {
+  display: none;
 }
 
-.home_right_img .desktop-view {
-  display: block !important;
+.home_banner_area .banner_inner .home_right_img img.desktop-view {
+  display: block;
 }
 
 @media (max-width: 740px) {
-  .home_right_img .mobile-view {
-    display: block !important;
+  .home_banner_area .banner_inner .home_right_img img.mobile-view {
+    display: block;
   }
 
-  .home_right_img .desktop-view {
-    display: none !important;
+  .home_banner_area .banner_inner .home_right_img img.desktop-view {
+    display: none;
   }
 }
