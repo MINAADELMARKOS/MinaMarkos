@@ -2478,13 +2478,13 @@ h6 {
     right: 0;
     max-width: 420px;
     margin-right: auto; }
-    @media (max-width: 1480px) {
+    @media (max-width: 420px) {
       .about_area .about_img {
         right: 0; }
         .about_area .about_img img {
           max-width: 100%;
           height: auto; } }
-    @media (max-width: 991px) {
+    @media (max-width: 420px) {
       .about_area .about_img {
         max-width: 360px;
         margin: 0 auto 40px; } }
