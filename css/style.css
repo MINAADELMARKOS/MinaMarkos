@@ -3978,3 +3978,22 @@ div#navbarSupportedContent {
     margin: 0 auto 24px;
   }
 }
+
+/* Force only one hero image to appear */
+.home_right_img .mobile-view {
+  display: none !important;
+}
+
+.home_right_img .desktop-view {
+  display: block !important;
+}
+
+@media (max-width: 740px) {
+  .home_right_img .mobile-view {
+    display: block !important;
+  }
+
+  .home_right_img .desktop-view {
+    display: none !important;
+  }
+}
