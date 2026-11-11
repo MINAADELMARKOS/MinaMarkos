@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudera CDP migration readiness from HDFS to object storage | Mina Markos</title>
+<meta name="description" content="A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cloudera CDP migration readiness from HDFS to object storage | Mina Markos">
+<meta property="og:description" content="A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.">
+<meta property="og:url" content="https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html">
+<meta property="og:site_name" content="Mina Markos">
+<meta property="og:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta property="og:image:alt" content="Mina Markos portrait">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cloudera CDP migration readiness from HDFS to object storage | Mina Markos">
+<meta name="twitter:description" content="A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.">
+<meta name="twitter:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta name="twitter:image:alt" content="Mina Markos portrait">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos",
+      "name": "Mina Markos",
+      "alternateName": [
+        "Mina Adel Markos",
+        "MINAADELMARKOS"
+      ],
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "jobTitle": "Senior Big Data Engineer",
+      "image": "https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png",
+      "description": "Senior Big Data Engineer focused on enterprise data platforms, modernization, and trusted data foundations for AI.",
+      "sameAs": [
+        "https://github.com/MINAADELMARKOS",
+        "https://www.linkedin.com/in/mina-markos-343b8b171/",
+        "https://www.youtube.com/@minamarkos9476"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "name": "Mina Markos",
+      "publisher": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html#article",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "headline": "Cloudera CDP migration readiness from HDFS to object storage",
+      "description": "A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "mainEntityOfPage": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "isPartOf": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Portfolio",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cloudera CDP migration readiness from HDFS to object storage",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html"
+        }
+      ]
+    }
+  ]
+}</script>
+<link rel="stylesheet" href="insights.css">
+</head>
+<body>
+<nav aria-label="Breadcrumb"><a href="../">Mina Markos portfolio</a> / Engineering insights</nav>
+<main>
+<article>
+<header><h1>Cloudera CDP migration readiness from HDFS to object storage</h1><p>A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.</p><p>By <a rel="author" href="../#about">Mina Markos</a></p></header>
+<h2>What should you verify before an HDFS migration?</h2>
+<p>Inventory the datasets and decide what equivalence means before estimating throughput. Record table owners, Hive table and transaction types, partition cadence, storage formats, file counts, protected data, downstream consumers and allowable interruption. Map Kafka, NiFi or Spark writers that may keep changing data during a copy.</p>
+<h2>Choose copy or rewrite by table class</h2>
+<ul><li>For compatible external files, test a staged copy and register the new locations only after reconciliation.</li><li>For transactional tables, establish how to preserve the current logical data and update semantics. Validate source reads with the proper transaction-aware engine, then choose a supported target writer and table format.</li><li>For workloads with many tiny files, benchmark copy and compaction separately. Counts, list/request load and destination scan performance can move in different directions.</li></ul>
+<h2>Measure whether the cutover is viable</h2>
+<p>Use a representative pilot with the same network path, engine versions and write patterns. Record bytes completed per hour, file and partition reconciliation, rejected data, runtime of representative queries, and impact on online workloads. Estimate catch-up using the measured net transfer rate after accounting for new writes. Keep a rollback window and make the original location available for reconciliation while cutover is evaluated.</p>
+<h2>Explain the decision in business terms</h2>
+<p>Compare the destination's storage, requests, compute, egress and operational support costs with the existing estate. Compare workload-level freshness and recovery objectives before approving the cutover. The checklist uses public patterns. Its throughput, compatibility and savings must be established for the intended environment.</p>
+<p>Source: <a href="https://docs.cloudera.com/cdp-public-cloud/cloud/cma-cdh-cdppc-migration/topics/cma-tool-overview.html">Cloudera Migration Assistant overview</a>.</p>
+
+</article>
+<aside aria-labelledby="related"><h2 id="related">Related engineering insights</h2><ul><li><a href="ai-dataops-investigation-copilot.html">Investigating data pipeline incidents with an AI DataOps copilot</a></li>
+<li><a href="gcp-data-quality-governance.html">Data quality and lineage on GCP with VerdaTrace</a></li>
+<li><a href="data-quality-foundation-for-ai.html">Data quality controls for reliable enterprise AI</a></li></ul></aside>
+</main>
+<footer><a href="https://github.com/MINAADELMARKOS">GitHub</a> · <a href="https://www.linkedin.com/in/mina-markos-343b8b171/">LinkedIn</a></footer>
+</body>
+</html>

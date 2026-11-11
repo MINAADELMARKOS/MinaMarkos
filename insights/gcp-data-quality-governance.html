@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data quality and lineage on GCP with VerdaTrace | Mina Markos</title>
+<meta name="description" content="A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Data quality and lineage on GCP with VerdaTrace | Mina Markos">
+<meta property="og:description" content="A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.">
+<meta property="og:url" content="https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html">
+<meta property="og:site_name" content="Mina Markos">
+<meta property="og:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta property="og:image:alt" content="Mina Markos portrait">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data quality and lineage on GCP with VerdaTrace | Mina Markos">
+<meta name="twitter:description" content="A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.">
+<meta name="twitter:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta name="twitter:image:alt" content="Mina Markos portrait">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos",
+      "name": "Mina Markos",
+      "alternateName": [
+        "Mina Adel Markos",
+        "MINAADELMARKOS"
+      ],
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "jobTitle": "Senior Big Data Engineer",
+      "image": "https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png",
+      "description": "Senior Big Data Engineer focused on enterprise data platforms, modernization, and trusted data foundations for AI.",
+      "sameAs": [
+        "https://github.com/MINAADELMARKOS",
+        "https://www.linkedin.com/in/mina-markos-343b8b171/",
+        "https://www.youtube.com/@minamarkos9476"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "name": "Mina Markos",
+      "publisher": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html#article",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html",
+      "headline": "Data quality and lineage on GCP with VerdaTrace",
+      "description": "A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "mainEntityOfPage": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html",
+      "isPartOf": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Portfolio",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Data quality and lineage on GCP with VerdaTrace",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html"
+        }
+      ]
+    }
+  ]
+}</script>
+<link rel="stylesheet" href="insights.css">
+</head>
+<body>
+<nav aria-label="Breadcrumb"><a href="../">Mina Markos portfolio</a> / Engineering insights</nav>
+<main>
+<article>
+<header><h1>Data quality and lineage on GCP with VerdaTrace</h1><p>A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.</p><p>By <a rel="author" href="../#about">Mina Markos</a></p></header>
+<h2>What makes a dataset safe to use?</h2>
+<p>Before a dataset is used in a report or decision, the reader should be able to identify the source, time coverage, license, quality checks and processing steps. A dashboard should show whether a figure represents source observations or a deterministic fixture.</p>
+<h2>Architecture and decision</h2>
+<p>VerdaTrace documents a Pub/Sub ingestion path with a Python worker and BigQuery and Cloud Storage destinations. Versioned dataset definitions attach rules and source information. The executable flow reads the supported input, validates it, tracks lineage and produces a normalized result for analytics and the public portal.</p>
+<p>A dataset registry adds work when onboarding a source. In return, it gives maintainers one place to decide what constitutes an acceptable row, where to quarantine invalid input and how to rerun the same logic. Let unknown license, sensitivity or coverage stay unknown until evidence resolves them.</p>
+<h2>Validation with actual and synthetic data</h2>
+<p>The public repository documents 72 attributed hourly Cairo weather observations from Open-Meteo, synthetic mobility data, and deliberately invalid fixtures. Run the repository's documented tests and demo build. Check that invalid input appears in quarantine, the report preserves the distinction between actual and synthetic sources, and the normalized output includes lineage and coverage.</p>
+<h2>Limitations and business use</h2>
+<p>The fixture and test evidence describe the reference implementation. They cannot establish a cloud SLA or cost at enterprise scale. On a real workload, measure onboarding time per source, invalid-row quarantine rate, and the share of reported metrics with traceable sources. Confirm warehouse and streaming costs with a representative workload before budgeting.</p>
+<p><a href="https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-">Explore the source repository and its validation instructions</a>.</p>
+</article>
+<aside aria-labelledby="related"><h2 id="related">Related engineering insights</h2><ul><li><a href="ai-dataops-investigation-copilot.html">Investigating data pipeline incidents with an AI DataOps copilot</a></li>
+<li><a href="data-quality-foundation-for-ai.html">Data quality controls for reliable enterprise AI</a></li>
+<li><a href="cloudera-hdfs-object-storage-migration-readiness.html">Cloudera CDP migration readiness from HDFS to object storage</a></li></ul></aside>
+</main>
+<footer><a href="https://github.com/MINAADELMARKOS">GitHub</a> · <a href="https://www.linkedin.com/in/mina-markos-343b8b171/">LinkedIn</a></footer>
+</body>
+</html>
