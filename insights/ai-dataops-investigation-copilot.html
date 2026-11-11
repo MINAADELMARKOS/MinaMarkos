@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigating data pipeline incidents with an AI DataOps copilot | Mina Markos</title>
+<meta name="description" content="How InvestiNator links pipeline symptoms to inspectable evidence, human approval and recovery checks in a local demo.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Investigating data pipeline incidents with an AI DataOps copilot | Mina Markos">
+<meta property="og:description" content="How InvestiNator links pipeline symptoms to inspectable evidence, human approval and recovery checks in a local demo.">
+<meta property="og:url" content="https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html">
+<meta property="og:site_name" content="Mina Markos">
+<meta property="og:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta property="og:image:alt" content="Mina Markos portrait">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Investigating data pipeline incidents with an AI DataOps copilot | Mina Markos">
+<meta name="twitter:description" content="How InvestiNator links pipeline symptoms to inspectable evidence, human approval and recovery checks in a local demo.">
+<meta name="twitter:image" content="https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png">
+<meta name="twitter:image:alt" content="Mina Markos portrait">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos",
+      "name": "Mina Markos",
+      "alternateName": [
+        "Mina Adel Markos",
+        "MINAADELMARKOS"
+      ],
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "jobTitle": "Senior Big Data Engineer",
+      "image": "https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png",
+      "description": "Senior Big Data Engineer focused on enterprise data platforms, modernization, and trusted data foundations for AI.",
+      "sameAs": [
+        "https://github.com/MINAADELMARKOS",
+        "https://www.linkedin.com/in/mina-markos-343b8b171/",
+        "https://www.youtube.com/@minamarkos9476"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "name": "Mina Markos",
+      "publisher": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html#article",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html",
+      "headline": "Investigating data pipeline incidents with an AI DataOps copilot",
+      "description": "How InvestiNator links pipeline symptoms to inspectable evidence, human approval and recovery checks in a local demo.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#mina-markos"
+      },
+      "mainEntityOfPage": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html",
+      "isPartOf": {
+        "@id": "https://minaadelmarkos.github.io/MinaMarkos/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Portfolio",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Investigating data pipeline incidents with an AI DataOps copilot",
+          "item": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html"
+        }
+      ]
+    }
+  ]
+}</script>
+<link rel="stylesheet" href="insights.css">
+</head>
+<body>
+<nav aria-label="Breadcrumb"><a href="../">Mina Markos portfolio</a> / Engineering insights</nav>
+<main>
+<article>
+<header><h1>Investigating data pipeline incidents with an AI DataOps copilot</h1><p>How InvestiNator links pipeline symptoms to inspectable evidence, human approval and recovery checks in a local demo.</p><p>By <a rel="author" href="../#about">Mina Markos</a></p></header>
+<h2>What should a DataOps investigation copilot do?</h2>
+<p>An investigation copilot should connect pipeline symptoms to evidence, propose a bounded action and show whether recovery succeeded. A fresh dashboard can still show stale business data when an upstream consumer lags. Operators need evidence about affected datasets, owners and deadlines before deciding whether to replay, wait or escalate.</p>
+<h2>From a Kafka signal to an incident decision</h2>
+<ol><li>Collect telemetry and scope signals to the same time window and data flow.</li><li>Correlate broker, consumer and freshness indicators. Keep evidence references with the incident.</li><li>Use deterministic checks or optional AI assistance to propose a likely cause and next action.</li><li>Have an operator approve the named action and confirm recovery against freshness and lag thresholds.</li></ol>
+<p>In InvestiNator, a local Kafka workload produces and consumes synthetic orders. ReplayLab supplies a disk-pressure scenario with correlated symptoms. The demo adapter emits recovery telemetry after the approved demo action. The project does not fill a real disk or restart a broker.</p>
+<h2>Trade-off and validation</h2>
+<p>A rule-only workflow is a useful control when symptoms and recovery are stable. AI assistance can summarize conflicting signals and retrieve a runbook when the pattern is unfamiliar. It introduces an extra failure mode, so the operator needs the original evidence and can decline the action.</p>
+<p>Run the documented Compose demo and record the linked alerts, suspected cause, approval event and recovery check. The documented smoke script exercises the API workflow. Compare the time to first useful hypothesis with and without the assistant across the same replay fixtures. Report false approvals and unresolved incidents alongside speed. The local demo uses a fixed identity and simulated recovery. Production use would require real connectors, identity controls and operational validation.</p>
+<h2>What the business should measure</h2>
+<p>Start with median time to a supported diagnosis and the fraction of critical datasets that miss their freshness target during incidents. A proposed fix has value only when the people relying on that data can use it again.</p>
+<p><a href="https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution">Explore the source repository and its validation instructions</a>.</p>
+</article>
+<aside aria-labelledby="related"><h2 id="related">Related engineering insights</h2><ul><li><a href="gcp-data-quality-governance.html">Data quality and lineage on GCP with VerdaTrace</a></li>
+<li><a href="data-quality-foundation-for-ai.html">Data quality controls for reliable enterprise AI</a></li>
+<li><a href="cloudera-hdfs-object-storage-migration-readiness.html">Cloudera CDP migration readiness from HDFS to object storage</a></li></ul></aside>
+</main>
+<footer><a href="https://github.com/MINAADELMARKOS">GitHub</a> · <a href="https://www.linkedin.com/in/mina-markos-343b8b171/">LinkedIn</a></footer>
+</body>
+</html>
