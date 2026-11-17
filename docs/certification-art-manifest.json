@@ -1,0 +1,86 @@
+[
+  {
+    "file": "generative-ai-leader-illustration.svg",
+    "issuer": "Google Cloud",
+    "title": "Generative AI Leader",
+    "themes": [
+      "AI fundamentals",
+      "Cloud AI",
+      "Output quality",
+      "Responsible AI"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "google-cloud-associate-cloud-engineer-custom-evidence.svg",
+    "issuer": "Google Cloud",
+    "title": "Associate Cloud Engineer",
+    "themes": [
+      "Cloud setup",
+      "Deployment",
+      "Operations",
+      "Access & security"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "google-business-intelligence-certificate.svg",
+    "issuer": "Google",
+    "title": "Business Intelligence",
+    "themes": [
+      "Data modeling",
+      "Analysis",
+      "Dashboards",
+      "Storytelling"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "cloudera-certified-data-engineer.svg",
+    "issuer": "Cloudera",
+    "title": "Data Engineer Professional",
+    "themes": [
+      "Distributed data",
+      "Pipelines",
+      "Transformation",
+      "Reliability"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "si-architect-certification.svg",
+    "issuer": "Issuer unconfirmed",
+    "title": "SI Architect Certification",
+    "themes": [
+      "System design",
+      "Integration",
+      "Scalability",
+      "Trade-offs"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "vodafone-data-analytics.svg",
+    "issuer": "Vodafone Business",
+    "title": "Data Analytics Professional",
+    "themes": [
+      "Business analysis",
+      "KPI monitoring",
+      "Reporting",
+      "Decision support"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  },
+  {
+    "file": "cloudera-data-analyst.svg",
+    "issuer": "Cloudera",
+    "title": "Data Analyst Professional",
+    "themes": [
+      "SQL analytics",
+      "Exploration",
+      "Aggregation",
+      "Insights"
+    ],
+    "evidence": "Supplied brief and portfolio description; official verification blocked"
+  }
+]
