@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="380" viewBox="0 0 420 380" role="img" aria-labelledby="title desc">
+  <title id="title">Generative AI Leader</title>
+  <desc id="desc">Custom typography illustration for a Google Cloud certification. Not an official badge.</desc>
+  <rect x="1" y="1" width="418" height="378" rx="28" fill="#f5f4ff" stroke="#ded9f5" stroke-width="2"/>
+  <path d="M210 45v54M183 72h54" stroke="#7655e1" stroke-width="8" stroke-linecap="round"/>
+  <text x="210" y="146" text-anchor="middle" fill="#05364d" font-family="Arial, sans-serif" font-size="23">GOOGLE CLOUD</text>
+  <text x="210" y="206" text-anchor="middle" fill="#05364d" font-family="Arial, sans-serif" font-size="34" font-weight="700">Generative AI</text>
+  <text x="210" y="250" text-anchor="middle" fill="#05364d" font-family="Arial, sans-serif" font-size="34" font-weight="700">Leader</text>
+  <text x="210" y="303" text-anchor="middle" fill="#6044b4" font-family="Arial, sans-serif" font-size="17">CUSTOM ILLUSTRATION</text>
+  <text x="210" y="332" text-anchor="middle" fill="#526176" font-family="Arial, sans-serif" font-size="15">Not an official badge</text>
+</svg>
