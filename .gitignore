@@ -5,3 +5,5 @@ spark-warehouse/
 artifacts/
 derby.log
 metastore_db/
+
+tools/node_modules/

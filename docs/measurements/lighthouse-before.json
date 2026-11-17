@@ -1,0 +1,4662 @@
+[
+  {
+    "path": "/",
+    "requestedUrl": "http://127.0.0.1:8003/",
+    "finalDisplayedUrl": "http://127.0.0.1:8003/",
+    "fetchTime": "2026-11-17T03:41:04.822Z",
+    "lighthouseVersion": "13.0.3",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "benchmarkIndex": 2501.5,
+      "credits": {
+        "axe-core": "4.11.4"
+      }
+    },
+    "configSettings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 20000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 66,
+      "accessibility": 83,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 3785.2383,
+        "display": "3.8\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 31656.984399999987,
+        "display": "31.7\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "speed-index": {
+        "value": 3785.2383,
+        "display": "3.8\u00a0s",
+        "unit": "millisecond"
+      },
+      "interactive": {
+        "value": 32916.98439999999,
+        "display": "32.9\u00a0s",
+        "unit": "millisecond"
+      }
+    },
+    "failed_audits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.27,
+        "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+        "display": "3.8\u00a0s",
+        "details": null
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0,
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+        "display": "31.7\u00a0s",
+        "details": null
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.84,
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "display": "3.8\u00a0s",
+        "details": null
+      },
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console",
+        "score": 0,
+        "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "sourceLocation",
+              "valueType": "source-location",
+              "label": "Source"
+            },
+            {
+              "key": "description",
+              "valueType": "code",
+              "label": "Description"
+            }
+          ],
+          "items": [
+            {
+              "source": "network",
+              "description": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "sourceLocation": {
+                "type": "source-location",
+                "url": "https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700",
+                "urlProvider": "network",
+                "line": 0,
+                "column": 0
+              }
+            },
+            {
+              "source": "network",
+              "description": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "sourceLocation": {
+                "type": "source-location",
+                "url": "https://maps.googleapis.com/maps/api/js?key=REDACTED_PUBLIC_MAP_KEY",
+                "urlProvider": "network",
+                "line": 0,
+                "column": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0,
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+        "display": "32.9\u00a0s",
+        "details": null
+      },
+      {
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`",
+        "score": 0.5,
+        "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/img/brands/docker.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-100-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4970,
+                  "bottom": 5026,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 56
+                },
+                "snippet": "<img src=\"img/brands/docker.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Elasticsearch-Logo-Color-V.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-98-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4842,
+                  "bottom": 4894,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 52
+                },
+                "snippet": "<img src=\"img/brands/Elasticsearch-Logo-Color-V.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/Picture22.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-92-IMG",
+                "path": "1,HTML,1,BODY,7,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.about_img > img.about-portrait",
+                "boundingRect": {
+                  "top": 834,
+                  "bottom": 1074,
+                  "left": 86,
+                  "right": 326,
+                  "width": 240,
+                  "height": 240
+                },
+                "snippet": "<img class=\"about-portrait\" src=\"img/Picture22.png\" alt=\"Mina Markos portrait\">",
+                "nodeLabel": "Mina Markos portrait"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/SuperMarket.jpg",
+              "node": {
+                "type": "node",
+                "lhId": "1-116-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 9472,
+                  "bottom": 9744,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 272
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/SuperMarket.jpg\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Supplychain.jpg",
+              "node": {
+                "type": "node",
+                "lhId": "1-119-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 10163,
+                  "bottom": 10435,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 272
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/Supplychain.jpg\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/main_official_image.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-90-IMG",
+                "path": "1,HTML,1,BODY,4,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.home_right_img > img.hero-portrait",
+                "boundingRect": {
+                  "top": 367,
+                  "bottom": 742,
+                  "left": 81,
+                  "right": 331,
+                  "width": 250,
+                  "height": 375
+                },
+                "snippet": "<img class=\"hero-portrait mobile-view\" src=\"img/main_official_image.png\" alt=\"Mina Markos official portrait\">",
+                "nodeLabel": "Mina Markos official portrait"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/VodaFone_Assistant.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-115-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 9114,
+                  "bottom": 9368,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 253
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/VodaFone_Assistant.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Banking-Fraud-Detection.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-114-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 8795,
+                  "bottom": 9009,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 214
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/Banking-Fraud-Detection.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Cloudera_Logo.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-102-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5115,
+                  "bottom": 5142,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 27
+                },
+                "snippet": "<img src=\"img/brands/Cloudera_Logo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/apachesparklogo.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-99-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4839,
+                  "bottom": 4898,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 59
+                },
+                "snippet": "<img src=\"img/brands/apachesparklogo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Databricks_Logo.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-101-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4970,
+                  "bottom": 5026,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 56
+                },
+                "snippet": "<img src=\"img/brands/Databricks_Logo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Airflow_Data_Pipeline_ETL.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-113-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 8465,
+                  "bottom": 8717,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 251
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/Airflow_Data_Pipeline_ETL.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/ETD.jpeg",
+              "node": {
+                "type": "node",
+                "lhId": "1-112-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 8234,
+                  "bottom": 8386,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 151
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/ETD.jpeg\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/AOM.jpeg",
+              "node": {
+                "type": "node",
+                "lhId": "1-111-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 8006,
+                  "bottom": 8156,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 150
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"img/portfolio/AOM.jpeg\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Python.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-106-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5341,
+                  "bottom": 5441,
+                  "left": 156,
+                  "right": 256,
+                  "width": 100,
+                  "height": 100
+                },
+                "snippet": "<img src=\"img/brands/Python.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/google-cloud.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-104-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5209,
+                  "bottom": 5309,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 100
+                },
+                "snippet": "<img src=\"img/brands/google-cloud.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/AWS.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-105-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5223,
+                  "bottom": 5294,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 71
+                },
+                "snippet": "<img src=\"img/brands/AWS.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/kafka.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-103-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5101,
+                  "bottom": 5156,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 55
+                },
+                "snippet": "<img src=\"img/brands/kafka.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/gg.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-89-IMG",
+                "path": "1,HTML,1,BODY,1,HEADER,0,DIV,0,NAV,0,DIV,1,A,0,IMG",
+                "selector": "nav.navbar > div.container > a.navbar-brand > img",
+                "boundingRect": {
+                  "top": 5,
+                  "bottom": 76,
+                  "left": 15,
+                  "right": 259,
+                  "width": 244,
+                  "height": 71
+                },
+                "snippet": "<img src=\"img/gg.png\" alt=\"\">",
+                "nodeLabel": "nav.navbar > div.container > a.navbar-brand > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/gg.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-128-IMG",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A,0,IMG",
+                "selector": "div.footer_top > div.footer_logo > a > img",
+                "boundingRect": {
+                  "top": 15534,
+                  "bottom": 15611,
+                  "left": 73,
+                  "right": 339,
+                  "width": 266,
+                  "height": 77
+                },
+                "snippet": "<img src=\"img/gg.png\" alt=\"\">",
+                "nodeLabel": "div.footer_top > div.footer_logo > a > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture27.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-109-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6879,
+                  "bottom": 7011,
+                  "left": 119,
+                  "right": 293,
+                  "width": 174,
+                  "height": 132
+                },
+                "snippet": "<img src=\"img/services/Picture27.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/google-cloud-associate-cloud-engineer-custom-evidence.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-122-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 12062,
+                  "bottom": 12212,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/google-cloud-associate-cloud-engineer-custom-evidence.svg\" alt=\"Associate Cloud Engineer Certification\">",
+                "nodeLabel": "Associate Cloud Engineer Certification"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/google-business-intelligence-certificate.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-123-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,2,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 12584,
+                  "bottom": 12734,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/google-business-intelligence-certificate.svg\" alt=\"Google Business Intelligence Certificate\">",
+                "nodeLabel": "Google Business Intelligence Certificate"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/cloudera-certified-data-engineer.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-124-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,3,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 13110,
+                  "bottom": 13260,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/cloudera-certified-data-engineer.svg\" alt=\"Cloudera Data Engineer Professional Certificate\">",
+                "nodeLabel": "Cloudera Data Engineer Professional Certificate"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/si-architect-certification.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-125-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,4,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 13636,
+                  "bottom": 13786,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/si-architect-certification.svg\" alt=\"SI Architect Certification\">",
+                "nodeLabel": "SI Architect Certification"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/vodafone-data-analytics.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-126-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,5,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 14134,
+                  "bottom": 14284,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/vodafone-data-analytics.svg\" alt=\"Data Analytics Professional - Vodafone Business\">",
+                "nodeLabel": "Data Analytics Professional - Vodafone Business"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/cloudera-data-analyst.svg",
+              "node": {
+                "type": "node",
+                "lhId": "1-127-IMG",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,6,ARTICLE,0,DIV,0,IMG",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_media > img",
+                "boundingRect": {
+                  "top": 14660,
+                  "bottom": 14810,
+                  "left": 116,
+                  "right": 296,
+                  "width": 180,
+                  "height": 150
+                },
+                "snippet": "<img src=\"img/testimonials/cloudera-data-analyst.svg\" alt=\"Cloudera Data Analyst Professional Certificate\">",
+                "nodeLabel": "Cloudera Data Analyst Professional Certificate"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture28.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-110-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,3,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 7314,
+                  "bottom": 7458,
+                  "left": 130,
+                  "right": 283,
+                  "width": 153,
+                  "height": 144
+                },
+                "snippet": "<img src=\"img/services/Picture28.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture25.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-107-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6121,
+                  "bottom": 6222,
+                  "left": 154,
+                  "right": 258,
+                  "width": 104,
+                  "height": 101
+                },
+                "snippet": "<img src=\"img/services/Picture25.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              }
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture26.png",
+              "node": {
+                "type": "node",
+                "lhId": "1-108-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6499,
+                  "bottom": 6576,
+                  "left": 170,
+                  "right": 243,
+                  "width": 73,
+                  "height": 77
+                },
+                "snippet": "<img src=\"img/services/Picture26.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              }
+            },
+            {
+              "url": "",
+              "node": {
+                "type": "node",
+                "lhId": "1-117-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 9862,
+                  "bottom": 9862,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 0
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"\" alt=\"VerdaTrace data platform preview\" loading=\"lazy\">",
+                "nodeLabel": "VerdaTrace data platform preview"
+              }
+            },
+            {
+              "url": "",
+              "node": {
+                "type": "node",
+                "lhId": "1-118-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 10019,
+                  "bottom": 10019,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 0
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"\" alt=\"DataGuard AI monitoring dashboard\" loading=\"lazy\">",
+                "nodeLabel": "DataGuard AI monitoring dashboard"
+              }
+            },
+            {
+              "url": "",
+              "node": {
+                "type": "node",
+                "lhId": "1-120-IMG",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,9,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > img.img-fluid",
+                "boundingRect": {
+                  "top": 10552,
+                  "bottom": 10552,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 0
+                },
+                "snippet": "<img class=\"img-fluid w-100\" src=\"\" alt=\"InvestiNator incident dashboard\" loading=\"lazy\">",
+                "nodeLabel": "InvestiNator incident dashboard"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "score": 0,
+        "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.11/color-contrast).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-P",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,2,P",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > p",
+                "boundingRect": {
+                  "top": 6301,
+                  "bottom": 6379,
+                  "left": 41,
+                  "right": 371,
+                  "width": 330,
+                  "height": 78
+                },
+                "snippet": "<p>",
+                "nodeLabel": "I turn complex business data into executive-ready dashboards, KPI frameworks, a\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777777, background color: #f9f9fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-1-DIV",
+                      "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,0,DIV,0,DIV",
+                      "selector": "div.container > div.row > div.col-lg-3 > div.feature_item",
+                      "boundingRect": {
+                        "top": 6076,
+                        "bottom": 6424,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 348
+                      },
+                      "snippet": "<div class=\"feature_item\">",
+                      "nodeLabel": "DECISION INTELLIGENCE & BI\n\nI turn complex business data into executive-ready d\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-P",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,2,P",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > p",
+                "boundingRect": {
+                  "top": 6655,
+                  "bottom": 6759,
+                  "left": 41,
+                  "right": 371,
+                  "width": 330,
+                  "height": 104
+                },
+                "snippet": "<p>",
+                "nodeLabel": "I build batch and streaming pipelines with Spark, Kafka, and governed cloud pla\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777777, background color: #f9f9fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-3-DIV",
+                      "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,1,DIV,0,DIV",
+                      "selector": "div.container > div.row > div.col-lg-3 > div.feature_item",
+                      "boundingRect": {
+                        "top": 6454,
+                        "bottom": 6804,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 350
+                      },
+                      "snippet": "<div class=\"feature_item\">",
+                      "nodeLabel": "REAL-TIME DATA & AI PIPELINES\n\nI build batch and streaming pipelines with Spark\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-4-P",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,2,P",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > p",
+                "boundingRect": {
+                  "top": 7090,
+                  "bottom": 7194,
+                  "left": 41,
+                  "right": 371,
+                  "width": 330,
+                  "height": 104
+                },
+                "snippet": "<p>",
+                "nodeLabel": "From ingestion to transformation, I optimize ETL and ELT workflows across Cloud\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777777, background color: #f9f9fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-5-DIV",
+                      "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,2,DIV,0,DIV",
+                      "selector": "div.container > div.row > div.col-lg-3 > div.feature_item",
+                      "boundingRect": {
+                        "top": 6834,
+                        "bottom": 7239,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 405
+                      },
+                      "snippet": "<div class=\"feature_item\">",
+                      "nodeLabel": "MODERN DATA ENGINEERING\n\nFrom ingestion to transformation, I optimize ETL and E\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-6-P",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,3,DIV,0,DIV,2,P",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > p",
+                "boundingRect": {
+                  "top": 7561,
+                  "bottom": 7691,
+                  "left": 41,
+                  "right": 371,
+                  "width": 330,
+                  "height": 130
+                },
+                "snippet": "<p>",
+                "nodeLabel": "I design governed data warehouses and lakehouse foundations that support teleco\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #777777, background color: #f9f9fd, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-7-DIV",
+                      "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,3,DIV,0,DIV",
+                      "selector": "div.container > div.row > div.col-lg-3 > div.feature_item",
+                      "boundingRect": {
+                        "top": 7269,
+                        "bottom": 7736,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 467
+                      },
+                      "snippet": "<div class=\"feature_item\">",
+                      "nodeLabel": "LAKEHOUSE & DATA PLATFORM ARCHITECTURE\n\nI design governed data warehouses and l\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-8-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 11660,
+                  "bottom": 11700,
+                  "left": 105,
+                  "right": 307,
+                  "width": 202,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "GOOGLE CLOUD \u00b7 CREDLY",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-9-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 11437,
+                        "bottom": 12003,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 566
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "GOOGLE CLOUD \u00b7 CREDLY\nGoogle Cloud Certified \u2014 Generative AI Leader\n\nEarned: No\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-10-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 11780,
+                  "bottom": 11804,
+                  "left": 124,
+                  "right": 288,
+                  "width": 163,
+                  "height": 24
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "Earned: November 2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-9-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 11437,
+                        "bottom": 12003,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 566
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "GOOGLE CLOUD \u00b7 CREDLY\nGoogle Cloud Certified \u2014 Generative AI Leader\n\nEarned: No\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-11-TIME",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE,1,DIV,2,P,1,TIME",
+                "selector": "article.certificate_card > div.certificate_content > p.certificate_desc > time",
+                "boundingRect": {
+                  "top": 11783,
+                  "bottom": 11800,
+                  "left": 181,
+                  "right": 288,
+                  "width": 107,
+                  "height": 17
+                },
+                "snippet": "<time datetime=\"2026-11-14\">",
+                "nodeLabel": "November 2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-9-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 11437,
+                        "bottom": 12003,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 566
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "GOOGLE CLOUD \u00b7 CREDLY\nGoogle Cloud Certified \u2014 Generative AI Leader\n\nEarned: No\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-12-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE,1,DIV,3,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 11816,
+                  "bottom": 11912,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 96
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A Google Cloud certification covering generative AI fundamentals, business appl\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-9-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,0,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 11437,
+                        "bottom": 12003,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 566
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "GOOGLE CLOUD \u00b7 CREDLY\nGoogle Cloud Certified \u2014 Generative AI Leader\n\nEarned: No\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-13-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,1,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 12246,
+                  "bottom": 12286,
+                  "left": 94,
+                  "right": 318,
+                  "width": 223,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "PROFESSIONAL CERTIFICATE",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-14-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,1,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 12023,
+                        "bottom": 12525,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 502
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nAssociate Cloud Engineer Certification\n\nA solid cloud \u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-15-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,1,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 12338,
+                  "bottom": 12434,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 96
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A solid cloud engineering milestone covering GCP, Kubernetes, IAM roles and pol\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-14-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,1,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 12023,
+                        "bottom": 12525,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 502
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nAssociate Cloud Engineer Certification\n\nA solid cloud \u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-16-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,2,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 12768,
+                  "bottom": 12808,
+                  "left": 94,
+                  "right": 318,
+                  "width": 223,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "PROFESSIONAL CERTIFICATE",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-17-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,2,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 12545,
+                        "bottom": 13051,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nGoogle Business Intelligence Certificate\n\nA business i\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-18-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,2,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 12888,
+                  "bottom": 12960,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 72
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A business intelligence credential focused on dashboarding, storytelling, and t\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-17-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,2,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 12545,
+                        "bottom": 13051,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nGoogle Business Intelligence Certificate\n\nA business i\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-19-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 13294,
+                  "bottom": 13334,
+                  "left": 94,
+                  "right": 318,
+                  "width": 223,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "PROFESSIONAL CERTIFICATE",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-20-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,3,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 13071,
+                        "bottom": 13577,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nCloudera Data Engineer Professional Certificate\n\nA str\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-21-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,3,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 13414,
+                  "bottom": 13486,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 72
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A strong validation of large-scale data engineering skills across Spark, Airflo\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-20-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,3,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 13071,
+                        "bottom": 13577,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nCloudera Data Engineer Professional Certificate\n\nA str\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-22-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,4,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 13820,
+                  "bottom": 13860,
+                  "left": 142,
+                  "right": 270,
+                  "width": 128,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "CERTIFICATION",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-23-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,4,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 13597,
+                        "bottom": 14075,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 478
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "CERTIFICATION\nSI Architect Certification\n\nAn architecture-focused certification\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-24-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,4,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 13912,
+                  "bottom": 13984,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 72
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "An architecture-focused certification highlighting scalable solution design, sy\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-23-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,4,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 13597,
+                        "bottom": 14075,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 478
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "CERTIFICATION\nSI Architect Certification\n\nAn architecture-focused certification\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-25-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,5,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 14318,
+                  "bottom": 14358,
+                  "left": 94,
+                  "right": 318,
+                  "width": 223,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "PROFESSIONAL CERTIFICATE",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-26-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,5,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 14095,
+                        "bottom": 14601,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nData Analytics Professional - Vodafone Business\n\nA rea\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-27-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,5,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 14438,
+                  "bottom": 14510,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 72
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A real-world analytics credential focused on producing insights, supporting dec\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-26-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,5,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 14095,
+                        "bottom": 14601,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nData Analytics Professional - Vodafone Business\n\nA rea\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-28-SPAN",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,6,ARTICLE,1,DIV,0,SPAN",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > span.certificate_meta",
+                "boundingRect": {
+                  "top": 14844,
+                  "bottom": 14884,
+                  "left": 94,
+                  "right": 318,
+                  "width": 223,
+                  "height": 40
+                },
+                "snippet": "<span class=\"certificate_meta\">",
+                "nodeLabel": "PROFESSIONAL CERTIFICATE",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #7655e1, background color: #f1eefc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-29-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,6,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 14621,
+                        "bottom": 15127,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nCloudera Data Analyst Professional Certificate\n\nA cert\u2026"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-30-P",
+                "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,6,ARTICLE,1,DIV,2,P",
+                "selector": "div.certificate_grid > article.certificate_card > div.certificate_content > p.certificate_desc",
+                "boundingRect": {
+                  "top": 14964,
+                  "bottom": 15036,
+                  "left": 35,
+                  "right": 377,
+                  "width": 342,
+                  "height": 72
+                },
+                "snippet": "<p class=\"certificate_desc\">",
+                "nodeLabel": "A certification focused on analyzing large datasets with SQL-based tools and tu\u2026",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.84 (foreground color: #7b838a, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-29-ARTICLE",
+                      "path": "1,HTML,1,BODY,23,DIV,0,DIV,1,DIV,6,ARTICLE",
+                      "selector": "div#Certificate > div.container > div.certificate_grid > article.certificate_card",
+                      "boundingRect": {
+                        "top": 14621,
+                        "bottom": 15127,
+                        "left": 16,
+                        "right": 396,
+                        "width": 380,
+                        "height": 506
+                      },
+                      "snippet": "<article class=\"certificate_card\">",
+                      "nodeLabel": "PROFESSIONAL CERTIFICATE\nCloudera Data Analyst Professional Certificate\n\nA cert\u2026"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "heading-order",
+        "title": "Heading elements are not in a sequentially-descending order",
+        "score": 0,
+        "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.11/heading-order).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-31-H4",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,1,H4",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > h4",
+                "boundingRect": {
+                  "top": 6257,
+                  "bottom": 6281,
+                  "left": 41,
+                  "right": 371,
+                  "width": 330,
+                  "height": 24
+                },
+                "snippet": "<h4>",
+                "nodeLabel": "DECISION INTELLIGENCE & BI",
+                "explanation": "Fix any of the following:\n  Heading order invalid"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-32-H4",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,H4",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.short_info > h4",
+                "boundingRect": {
+                  "top": 8176,
+                  "bottom": 8200,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 24
+                },
+                "snippet": "<h4>",
+                "nodeLabel": "AOM DASHBOARD",
+                "explanation": "Fix any of the following:\n  Heading order invalid"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-33-H4",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+                "selector": "div.col-lg-12 > div.footer_top > div.footer_logo > h4",
+                "boundingRect": {
+                  "top": 15646,
+                  "bottom": 15670,
+                  "left": 16,
+                  "right": 396,
+                  "width": 380,
+                  "height": 24
+                },
+                "snippet": "<h4>",
+                "nodeLabel": "FOLLOW ME",
+                "explanation": "Fix any of the following:\n  Heading order invalid"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ]
+          }
+        }
+      },
+      {
+        "id": "landmark-one-main",
+        "title": "Document does not have a main landmark.",
+        "score": 0,
+        "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-34-HTML",
+                "path": "1,HTML",
+                "selector": "html",
+                "boundingRect": {
+                  "top": 0,
+                  "bottom": 15861,
+                  "left": 0,
+                  "right": 412,
+                  "width": 412,
+                  "height": 15861
+                },
+                "snippet": "<html lang=\"en\">",
+                "nodeLabel": "html",
+                "explanation": "Fix all of the following:\n  Document does not have a main landmark"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ]
+          }
+        }
+      },
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "score": 0,
+        "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.11/link-name).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-37-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 8072,
+                  "bottom": 8089,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://drive.google.com/file/d/1wnV3S6R2ddeh3iVWAjj6yTJ2hP8Nlm-r/view\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-38-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 8301,
+                  "bottom": 8318,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://drive.google.com/file/d/1IdwtZz9UaavB50ELwNAUT-RvUXrMVzFf/view\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-39-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 8582,
+                  "bottom": 8599,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/Airflow-Data-Pipeline-ETL?tab=readme-ov-\u2026\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-40-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 8893,
+                  "bottom": 8910,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/Banking-Fraud-Detection\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-41-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 9232,
+                  "bottom": 9249,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://drive.google.com/file/d/19dcIMO3_qawCeVIQ94whdsO9C44DFXo4/view\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-42-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,5,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 9599,
+                  "bottom": 9616,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/SuperSampleStore_Analysis/blob/main/Supe\u2026\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-43-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,6,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 9853,
+                  "bottom": 9870,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-44-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,7,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 10010,
+                  "bottom": 10027,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/DataGuard-AI\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-45-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,8,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 10290,
+                  "bottom": 10307,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://drive.google.com/file/d/1W4NEKgjrKAl9FeQ3WC14H3rpfT9-ZTjn/view?t=3\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-46-A",
+                "path": "1,HTML,1,BODY,19,SECTION,0,DIV,2,DIV,0,DIV,9,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 10543,
+                  "bottom": 10560,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 17
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident\u2026\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-47-A",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+                "selector": "div.col-lg-12 > div.footer_top > div.footer_logo > a",
+                "boundingRect": {
+                  "top": 15564,
+                  "bottom": 15581,
+                  "left": 73,
+                  "right": 339,
+                  "width": 266,
+                  "height": 17
+                },
+                "snippet": "<a href=\"#\">",
+                "nodeLabel": "div.col-lg-12 > div.footer_top > div.footer_logo > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-48-A",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A",
+                "selector": "div.col-lg-12 > div.footer_top > div.footer_social > a",
+                "boundingRect": {
+                  "top": 15703,
+                  "bottom": 15720,
+                  "left": 106,
+                  "right": 168,
+                  "width": 61,
+                  "height": 17
+                },
+                "snippet": "<a href=\"https://www.linkedin.com/in/mina-markos-343b8b171/\" target=\"_blank\">",
+                "nodeLabel": "div.col-lg-12 > div.footer_top > div.footer_social > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-49-A",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,A",
+                "selector": "div.col-lg-12 > div.footer_top > div.footer_social > a",
+                "boundingRect": {
+                  "top": 15703,
+                  "bottom": 15720,
+                  "left": 237,
+                  "right": 306,
+                  "width": 69,
+                  "height": 17
+                },
+                "snippet": "<a href=\"https://www.behance.net/minamarkos6565\" target=\"_blank\">",
+                "nodeLabel": "div.col-lg-12 > div.footer_top > div.footer_social > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag244",
+              "wcag412",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.2.4.4",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-6.2.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "link-in-text-block",
+        "title": "Links rely on color to be distinguishable.",
+        "score": 0,
+        "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.11/link-in-text-block).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-35-A",
+                "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,1,DIV,0,P,5,A",
+                "selector": "div.container > div.row > p.col-lg-8 > a",
+                "boundingRect": {
+                  "top": 15759,
+                  "bottom": 15776,
+                  "left": 219,
+                  "right": 305,
+                  "width": 86,
+                  "height": 17
+                },
+                "snippet": "<a href=\"https://www.linkedin.com/in/mina-markos-343b8b171/\" target=\"_blank\">",
+                "nodeLabel": "Mina Markos",
+                "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.07:1 with the surrounding text. (Minimum contrast is 3:1, link text: #854fee, surrounding text: #777777)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-36-P",
+                      "path": "1,HTML,1,BODY,29,FOOTER,0,DIV,1,DIV,0,P",
+                      "selector": "footer.footer_area > div.container > div.row > p.col-lg-8",
+                      "boundingRect": {
+                        "top": 15755,
+                        "bottom": 15781,
+                        "left": 1,
+                        "right": 411,
+                        "width": 410,
+                        "height": 26
+                      },
+                      "snippet": "<p class=\"col-lg-8 col-sm-12 footer-text\">",
+                      "nodeLabel": "Made with  by Mina Markos"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2a",
+              "wcag141",
+              "TTv5",
+              "TT13.a",
+              "EN-301-549",
+              "EN-9.1.4.1",
+              "RGAAv4",
+              "RGAA-10.6.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "total-byte-weight",
+        "title": "Avoid enormous network payloads",
+        "score": 0.5,
+        "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
+        "display": "Total size was 9,003\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Banking-Fraud-Detection.png",
+              "totalBytes": 1805705
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/VodaFone_Assistant.png",
+              "totalBytes": 1292925
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/main_official_image.png",
+              "totalBytes": 1281455
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/Picture22.png",
+              "totalBytes": 1072243
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Airflow_Data_Pipeline_ETL.png",
+              "totalBytes": 1000284
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/SuperMarket.jpg",
+              "totalBytes": 547256
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Supplychain.jpg",
+              "totalBytes": 488418
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/bootstrap.css",
+              "totalBytes": 183670
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/body-bg.png",
+              "totalBytes": 142035
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/style.css",
+              "totalBytes": 101741
+            }
+          ],
+          "sortedBy": [
+            "totalBytes"
+          ]
+        }
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0,
+        "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+        "display": "Est savings of 75\u00a0KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/bootstrap.css",
+              "totalBytes": 183670,
+              "wastedBytes": 44131,
+              "wastedPercent": 24.027555986723424
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/style.css",
+              "totalBytes": 101741,
+              "wastedBytes": 32299,
+              "wastedPercent": 31.74629746336852
+            }
+          ],
+          "overallSavingsMs": 450,
+          "overallSavingsBytes": 76430,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 480,
+              "LCP": 450
+            }
+          }
+        }
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
+        "display": "Est savings of 5\u00a0KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/js/theme.js",
+              "totalBytes": 5583,
+              "wastedBytes": 2622,
+              "wastedPercent": 46.96399785061794
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/jquery.ajaxchimp.min.js",
+              "totalBytes": 4820,
+              "wastedBytes": 2451,
+              "wastedPercent": 50.850622406639005
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 5073,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+        "display": "Est savings of 275\u00a0KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/bootstrap.css",
+              "wastedBytes": 177252,
+              "wastedPercent": 96.60509807555006,
+              "totalBytes": 183481
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/style.css",
+              "wastedBytes": 76946,
+              "wastedPercent": 75.77004884197258,
+              "totalBytes": 101552
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/font-awesome.min.css",
+              "wastedBytes": 27116,
+              "wastedPercent": 98.72569722566081,
+              "totalBytes": 27466
+            }
+          ],
+          "overallSavingsMs": 1650,
+          "overallSavingsBytes": 281314,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 1350,
+              "LCP": 1650
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0,
+        "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+        "display": "Est savings of 150\u00a0KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "source",
+                "valueType": "code"
+              },
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceBytes"
+              },
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "subItemsHeading": {
+                "key": "sourceWastedBytes"
+              },
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/js/jquery-3.2.1.min.js",
+              "totalBytes": 86659,
+              "wastedBytes": 50218,
+              "wastedPercent": 57.948972409097735
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/bootstrap.min.js",
+              "totalBytes": 51041,
+              "wastedBytes": 37703,
+              "wastedPercent": 73.86806684822005
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.js",
+              "totalBytes": 42766,
+              "wastedBytes": 36751,
+              "wastedPercent": 85.93508862180236
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/gmaps.min.js",
+              "totalBytes": 31794,
+              "wastedBytes": 29355,
+              "wastedPercent": 92.3287412719381
+            }
+          ],
+          "overallSavingsMs": 900,
+          "overallSavingsBytes": 154027,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 900
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0,
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "display": "Est savings of 8,956\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Banking-Fraud-Detection.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1805705,
+              "wastedBytes": 1805705
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/VodaFone_Assistant.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1292925,
+              "wastedBytes": 1292925
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/main_official_image.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1281455,
+              "wastedBytes": 1281455
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/Picture22.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1072243,
+              "wastedBytes": 1072243
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Airflow_Data_Pipeline_ETL.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1000284,
+              "wastedBytes": 1000284
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/SuperMarket.jpg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 547256,
+              "wastedBytes": 547256
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/Supplychain.jpg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 488418,
+              "wastedBytes": 488418
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/bootstrap.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 183670,
+              "wastedBytes": 183670
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/body-bg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 142035,
+              "wastedBytes": 142035
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/style.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 101741,
+              "wastedBytes": 101741
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Cloudera_Logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 94442,
+              "wastedBytes": 94442
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/jquery-3.2.1.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 86854,
+              "wastedBytes": 86854
+            },
+            {
+              "url": "http://127.0.0.1:8003/fonts/fontawesome-webfont.woff2?v=4.5.0",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 72086,
+              "wastedBytes": 72086
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Elasticsearch-Logo-Color-V.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 69149,
+              "wastedBytes": 69149
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/epsilon-ai-mobile-logo-white2-1.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 67944,
+              "wastedBytes": 67944
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Python.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 64454,
+              "wastedBytes": 64454
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/apachesparklogo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 60118,
+              "wastedBytes": 60118
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/docker.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 57382,
+              "wastedBytes": 57382
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/bootstrap.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 51236,
+              "wastedBytes": 51236
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 42961,
+              "wastedBytes": 42961
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/AWS.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 36518,
+              "wastedBytes": 36518
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture28.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 36423,
+              "wastedBytes": 36423
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/isotope/isotope-min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 34890,
+              "wastedBytes": 34890
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/subscribe-bg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 33419,
+              "wastedBytes": 33419
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/gmaps.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 31989,
+              "wastedBytes": 31989
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/Databricks_Logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 29921,
+              "wastedBytes": 29921
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/ETD.jpeg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 28066,
+              "wastedBytes": 28066
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/font-awesome.min.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 27654,
+              "wastedBytes": 27654
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/portfolio/AOM.jpeg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 27510,
+              "wastedBytes": 27510
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/vodafone-logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 27081,
+              "wastedBytes": 27081
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture27.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 25981,
+              "wastedBytes": 25981
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/linericon/fonts/Linearicons-Free.woff2?w118d",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 21970,
+              "wastedBytes": 21970
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/MCS-Logo-White-Transparent.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 20433,
+              "wastedBytes": 20433
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/jquery.magnific-popup.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 20411,
+              "wastedBytes": 20411
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/popper.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 19430,
+              "wastedBytes": 19430
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/gg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 18171,
+              "wastedBytes": 18171
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/DSME_logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 16992,
+              "wastedBytes": 16992
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/stellar.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 15163,
+              "wastedBytes": 15163
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/google-cloud.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 15039,
+              "wastedBytes": 15039
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture26.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 14135,
+              "wastedBytes": 14135
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/services/Picture25.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 12238,
+              "wastedBytes": 12238
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/linericon/style.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 8531,
+              "wastedBytes": 8531
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/magnific-popup.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 7138,
+              "wastedBytes": 7138
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/google-cloud-associate-cloud-engineer-custom-evidence.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 6624,
+              "wastedBytes": 6624
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/speak.jpg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 6105,
+              "wastedBytes": 6105
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/theme.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 5777,
+              "wastedBytes": 5777
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/isotope/imagesloaded.pkgd.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 5601,
+              "wastedBytes": 5601
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/jquery.ajaxchimp.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 5014,
+              "wastedBytes": 5014
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/nice-select/css/nice-select.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 4194,
+              "wastedBytes": 4194
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/brands/kafka.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 3699,
+              "wastedBytes": 3699
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/nice-select/js/jquery.nice-select.min.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 3136,
+              "wastedBytes": 3136
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 3123,
+              "wastedBytes": 3123
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/si-architect-certification.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2575,
+              "wastedBytes": 2575
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/google-business-intelligence-certificate.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2488,
+              "wastedBytes": 2488
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/cloudera-certified-data-engineer.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2474,
+              "wastedBytes": 2474
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/cloudera-data-analyst.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2471,
+              "wastedBytes": 2471
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/vodafone-data-analytics.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2358,
+              "wastedBytes": 2358
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/mail-script.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1424,
+              "wastedBytes": 1424
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/testimonials/generative-ai-leader-illustration.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 1367,
+              "wastedBytes": 1367
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/home-blog-navigation.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 918,
+              "wastedBytes": 918
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 9170809
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "description": "Your first network request is the most important. [Reduce its latency](https://developer.chrome.com/docs/performance/insights/document-latency) by avoiding redirects, ensuring a fast server response, and enabling text compression.",
+        "display": "Est savings of 25\u00a0KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 5 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 5,
+            "uncompressedResponseBytes": 26050,
+            "wastedBytes": 26050
+          }
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0,
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "display": "Est savings of 2,842\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,4,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.home_right_img > img.hero-portrait",
+                "boundingRect": {
+                  "top": 367,
+                  "bottom": 742,
+                  "left": 81,
+                  "right": 331,
+                  "width": 250,
+                  "height": 375
+                },
+                "snippet": "<img class=\"hero-portrait mobile-view\" src=\"img/main_official_image.png\" alt=\"Mina Markos official portrait\">",
+                "nodeLabel": "Mina Markos official portrait"
+              },
+              "url": "http://127.0.0.1:8003/img/main_official_image.png",
+              "totalBytes": 1281264,
+              "wastedBytes": 1233412,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 1019120
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (1024x1536) for its displayed dimensions (438x656). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 1047383
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,7,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.about_img > img.about-portrait",
+                "boundingRect": {
+                  "top": 834,
+                  "bottom": 1074,
+                  "left": 86,
+                  "right": 326,
+                  "width": 240,
+                  "height": 240
+                },
+                "snippet": "<img class=\"about-portrait\" src=\"img/Picture22.png\" alt=\"Mina Markos portrait\">",
+                "nodeLabel": "Mina Markos portrait"
+              },
+              "url": "http://127.0.0.1:8003/img/Picture22.png",
+              "totalBytes": 1072052,
+              "wastedBytes": 1042652,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 457652
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (1920x1920) for its displayed dimensions (420x420). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 1020753
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-2-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5115,
+                  "bottom": 5142,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 27
+                },
+                "snippet": "<img src=\"img/brands/Cloudera_Logo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/Cloudera_Logo.png",
+              "totalBytes": 94253,
+              "wastedBytes": 93736,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (2363x647) for its displayed dimensions (175x48). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 93736
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-3-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4842,
+                  "bottom": 4894,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 52
+                },
+                "snippet": "<img src=\"img/brands/Elasticsearch-Logo-Color-V.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/Elasticsearch-Logo-Color-V.png",
+              "totalBytes": 68960,
+              "wastedBytes": 68680,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (2746x1415) for its displayed dimensions (175x90). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 68680
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-4-IMG",
+                "path": "1,HTML,1,BODY,10,SECTION,0,DIV,1,DIV,0,DIV,4,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image",
+                "boundingRect": {
+                  "top": 4278,
+                  "bottom": 4358,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/epsilon-ai-mobile-logo-white2-1.png\" style=\"margin-bottom: 15px;\" class=\"exp-image\" alt=\"Epsilon AI logo\">",
+                "nodeLabel": "Epsilon AI logo"
+              },
+              "url": "http://127.0.0.1:8003/img/epsilon-ai-mobile-logo-white2-1.png",
+              "totalBytes": 67755,
+              "wastedBytes": 67360,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (1657x1834) for its displayed dimensions (126x140). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 67360
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-5-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5341,
+                  "bottom": 5441,
+                  "left": 156,
+                  "right": 256,
+                  "width": 100,
+                  "height": 100
+                },
+                "snippet": "<img src=\"img/brands/Python.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/Python.png",
+              "totalBytes": 64265,
+              "wastedBytes": 61190,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (800x800) for its displayed dimensions (175x175). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 61190
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-6-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4839,
+                  "bottom": 4898,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 59
+                },
+                "snippet": "<img src=\"img/brands/apachesparklogo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/apachesparklogo.png",
+              "totalBytes": 59929,
+              "wastedBytes": 58651,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (1198x706) for its displayed dimensions (175x103). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 58651
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-7-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4970,
+                  "bottom": 5026,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 56
+                },
+                "snippet": "<img src=\"img/brands/docker.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/docker.png",
+              "totalBytes": 57193,
+              "wastedBytes": 57074,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (3840x2160) for its displayed dimensions (175x98). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 57074
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-8-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5223,
+                  "bottom": 5294,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 71
+                },
+                "snippet": "<img src=\"img/brands/AWS.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/AWS.png",
+              "totalBytes": 36329,
+              "wastedBytes": 32697,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 21461
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (354x252) for its displayed dimensions (175x125). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 27455
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-9-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,3,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 7314,
+                  "bottom": 7458,
+                  "left": 130,
+                  "right": 283,
+                  "width": 153,
+                  "height": 144
+                },
+                "snippet": "<img src=\"img/services/Picture28.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              },
+              "url": "http://127.0.0.1:8003/img/services/Picture28.png",
+              "totalBytes": 36234,
+              "wastedBytes": 32562,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 32562
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-10-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 4970,
+                  "bottom": 5026,
+                  "left": 238,
+                  "right": 338,
+                  "width": 100,
+                  "height": 56
+                },
+                "snippet": "<img src=\"img/brands/Databricks_Logo.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/Databricks_Logo.png",
+              "totalBytes": 29732,
+              "wastedBytes": 29009,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (1122x629) for its displayed dimensions (175x98). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 29009
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-11-IMG",
+                "path": "1,HTML,1,BODY,10,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image",
+                "boundingRect": {
+                  "top": 2708,
+                  "bottom": 2788,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/vodafone-logo.png\" class=\"exp-image\" alt=\"Vodafone logo\">",
+                "nodeLabel": "Vodafone logo"
+              },
+              "url": "http://127.0.0.1:8003/img/vodafone-logo.png",
+              "totalBytes": 26892,
+              "wastedBytes": 26800,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (2400x2400) for its displayed dimensions (140x140). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 26800
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-12-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6879,
+                  "bottom": 7011,
+                  "left": 119,
+                  "right": 293,
+                  "width": 174,
+                  "height": 132
+                },
+                "snippet": "<img src=\"img/services/Picture27.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              },
+              "url": "http://127.0.0.1:8003/img/services/Picture27.png",
+              "totalBytes": 25792,
+              "wastedBytes": 21964,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 21964
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-13-IMG",
+                "path": "1,HTML,1,BODY,10,SECTION,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image-mcs",
+                "boundingRect": {
+                  "top": 3270,
+                  "bottom": 3350,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/MCS-Logo-White-Transparent.png\" class=\"exp-image-mcs\" alt=\"MCS Analytics logo\">",
+                "nodeLabel": "MCS Analytics logo"
+              },
+              "url": "http://127.0.0.1:8003/img/MCS-Logo-White-Transparent.png",
+              "totalBytes": 20244,
+              "wastedBytes": 19962,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (890x469) for its displayed dimensions (105x55). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 19962
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-14-IMG",
+                "path": "1,HTML,1,BODY,10,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image",
+                "boundingRect": {
+                  "top": 1999,
+                  "bottom": 2079,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/DSME_logo.png\" class=\"exp-image exp-image-dsme\" alt=\"DataScience Middle East logo\">",
+                "nodeLabel": "DataScience Middle East logo"
+              },
+              "url": "http://127.0.0.1:8003/img/DSME_logo.png",
+              "totalBytes": 16803,
+              "wastedBytes": 15888,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (600x314) for its displayed dimensions (140x73). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 15888
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-15-IMG",
+                "path": "1,HTML,1,BODY,13,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img",
+                "boundingRect": {
+                  "top": 5209,
+                  "bottom": 5309,
+                  "left": 74,
+                  "right": 174,
+                  "width": 100,
+                  "height": 100
+                },
+                "snippet": "<img src=\"img/brands/google-cloud.png\" alt=\"\">",
+                "nodeLabel": "div.col-lg-4 > div.single-brand-item > div.d-table-cell > img"
+              },
+              "url": "http://127.0.0.1:8003/img/brands/google-cloud.png",
+              "totalBytes": 14850,
+              "wastedBytes": 13587,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (600x600) for its displayed dimensions (175x175). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 13587
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-16-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6499,
+                  "bottom": 6576,
+                  "left": 170,
+                  "right": 243,
+                  "width": 73,
+                  "height": 77
+                },
+                "snippet": "<img src=\"img/services/Picture26.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              },
+              "url": "http://127.0.0.1:8003/img/services/Picture26.png",
+              "totalBytes": 13946,
+              "wastedBytes": 13009,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 13009
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-17-IMG",
+                "path": "1,HTML,1,BODY,1,HEADER,0,DIV,0,NAV,0,DIV,1,A,0,IMG",
+                "selector": "nav.navbar > div.container > a.navbar-brand > img",
+                "boundingRect": {
+                  "top": 5,
+                  "bottom": 76,
+                  "left": 15,
+                  "right": 259,
+                  "width": 244,
+                  "height": 71
+                },
+                "snippet": "<img src=\"img/gg.png\" alt=\"\">",
+                "nodeLabel": "nav.navbar > div.container > a.navbar-brand > img"
+              },
+              "url": "http://127.0.0.1:8003/img/gg.png",
+              "totalBytes": 17982,
+              "wastedBytes": 11742,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 11742
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-18-IMG",
+                "path": "1,HTML,1,BODY,16,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-3 > div.feature_item > img",
+                "boundingRect": {
+                  "top": 6121,
+                  "bottom": 6222,
+                  "left": 154,
+                  "right": 258,
+                  "width": 104,
+                  "height": 101
+                },
+                "snippet": "<img src=\"img/services/Picture25.png\" alt=\"\">",
+                "nodeLabel": "div.row > div.col-lg-3 > div.feature_item > img"
+              },
+              "url": "http://127.0.0.1:8003/img/services/Picture25.png",
+              "totalBytes": 12049,
+              "wastedBytes": 10298,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 10298
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 2910273
+          }
+        }
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "score": 0,
+        "description": "[Optimize LCP](https://developer.chrome.com/docs/performance/insights/lcp-discovery) by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loading",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "lazy load not applied",
+                  "value": true
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,4,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+              "selector": "div.row > div.col-lg-5 > div.home_right_img > img.hero-portrait",
+              "boundingRect": {
+                "top": 367,
+                "bottom": 742,
+                "left": 81,
+                "right": 331,
+                "width": 250,
+                "height": 375
+              },
+              "snippet": "<img class=\"hero-portrait mobile-view\" src=\"img/main_official_image.png\" alt=\"Mina Markos official portrait\">",
+              "nodeLabel": "Mina Markos official portrait"
+            }
+          ]
+        }
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "score": 0,
+        "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+        "display": "Est savings of 27\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "subItemsHeading": {
+                "key": "location",
+                "valueType": "source-location"
+              },
+              "label": "URL"
+            },
+            {
+              "key": null,
+              "valueType": "code",
+              "subItemsHeading": {
+                "key": "signal"
+              },
+              "label": ""
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Wasted bytes"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/js/gmaps.min.js",
+              "wastedBytes": 27260,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "signal": "Array.prototype.indexOf",
+                    "location": {
+                      "type": "source-location",
+                      "url": "http://127.0.0.1:8003/js/gmaps.min.js",
+                      "urlProvider": "network",
+                      "line": 0,
+                      "column": 31397
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 27260
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "A5E80E1D8990BC5CC29C33CA049D274B": {
+                    "url": "http://127.0.0.1:8003/",
+                    "navStartToEndTime": 47,
+                    "transferSize": 39070,
+                    "isLongest": true,
+                    "children": {
+                      "11890.60": {
+                        "url": "http://127.0.0.1:8003/js/theme.js",
+                        "navStartToEndTime": 262,
+                        "transferSize": 5777,
+                        "isLongest": true,
+                        "children": {}
+                      },
+                      "11890.59": {
+                        "url": "http://127.0.0.1:8003/js/gmaps.min.js",
+                        "navStartToEndTime": 262,
+                        "transferSize": 31989,
+                        "children": {}
+                      },
+                      "11890.56": {
+                        "url": "http://127.0.0.1:8003/js/jquery.ajaxchimp.min.js",
+                        "navStartToEndTime": 262,
+                        "transferSize": 5014,
+                        "children": {}
+                      },
+                      "11890.55": {
+                        "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.js",
+                        "navStartToEndTime": 261,
+                        "transferSize": 42961,
+                        "children": {}
+                      },
+                      "11890.54": {
+                        "url": "http://127.0.0.1:8003/vendors/isotope/isotope-min.js",
+                        "navStartToEndTime": 261,
+                        "transferSize": 34890,
+                        "children": {}
+                      },
+                      "11890.57": {
+                        "url": "http://127.0.0.1:8003/js/mail-script.js",
+                        "navStartToEndTime": 261,
+                        "transferSize": 1424,
+                        "children": {}
+                      },
+                      "11890.49": {
+                        "url": "http://127.0.0.1:8003/js/bootstrap.min.js",
+                        "navStartToEndTime": 260,
+                        "transferSize": 51236,
+                        "children": {}
+                      },
+                      "11890.53": {
+                        "url": "http://127.0.0.1:8003/vendors/isotope/imagesloaded.pkgd.min.js",
+                        "navStartToEndTime": 260,
+                        "transferSize": 5601,
+                        "children": {}
+                      },
+                      "11890.50": {
+                        "url": "http://127.0.0.1:8003/js/stellar.js",
+                        "navStartToEndTime": 260,
+                        "transferSize": 15163,
+                        "children": {}
+                      },
+                      "11890.47": {
+                        "url": "http://127.0.0.1:8003/js/jquery-3.2.1.min.js",
+                        "navStartToEndTime": 250,
+                        "transferSize": 86854,
+                        "children": {}
+                      },
+                      "11890.52": {
+                        "url": "http://127.0.0.1:8003/vendors/nice-select/js/jquery.nice-select.min.js",
+                        "navStartToEndTime": 250,
+                        "transferSize": 3136,
+                        "children": {}
+                      },
+                      "11890.51": {
+                        "url": "http://127.0.0.1:8003/js/jquery.magnific-popup.min.js",
+                        "navStartToEndTime": 250,
+                        "transferSize": 20411,
+                        "children": {}
+                      },
+                      "11890.48": {
+                        "url": "http://127.0.0.1:8003/js/popper.js",
+                        "navStartToEndTime": 249,
+                        "transferSize": 19430,
+                        "children": {}
+                      },
+                      "11890.58": {
+                        "url": "https://maps.googleapis.com/maps/api/js?key=REDACTED_PUBLIC_MAP_KEY",
+                        "navStartToEndTime": 249,
+                        "transferSize": 0,
+                        "children": {}
+                      },
+                      "11890.4": {
+                        "url": "http://127.0.0.1:8003/css/font-awesome.min.css",
+                        "navStartToEndTime": 82,
+                        "transferSize": 27654,
+                        "children": {
+                          "11890.114": {
+                            "url": "http://127.0.0.1:8003/fonts/fontawesome-webfont.woff2?v=4.5.0",
+                            "navStartToEndTime": 248,
+                            "transferSize": 72086,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "11890.3": {
+                        "url": "http://127.0.0.1:8003/vendors/linericon/style.css",
+                        "navStartToEndTime": 65,
+                        "transferSize": 8531,
+                        "children": {
+                          "11890.111": {
+                            "url": "http://127.0.0.1:8003/vendors/linericon/fonts/Linearicons-Free.woff2?w118d",
+                            "navStartToEndTime": 248,
+                            "transferSize": 21970,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "11890.8": {
+                        "url": "http://127.0.0.1:8003/css/style.css",
+                        "navStartToEndTime": 73,
+                        "transferSize": 101741,
+                        "children": {
+                          "11890.110": {
+                            "url": "https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700",
+                            "navStartToEndTime": 107,
+                            "transferSize": 0,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "11890.9": {
+                        "url": "http://127.0.0.1:8003/css/home-blog-navigation.css",
+                        "navStartToEndTime": 85,
+                        "transferSize": 918,
+                        "children": {}
+                      },
+                      "11890.5": {
+                        "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.css",
+                        "navStartToEndTime": 67,
+                        "transferSize": 3123,
+                        "children": {}
+                      },
+                      "11890.6": {
+                        "url": "http://127.0.0.1:8003/css/magnific-popup.css",
+                        "navStartToEndTime": 67,
+                        "transferSize": 7138,
+                        "children": {}
+                      },
+                      "11890.7": {
+                        "url": "http://127.0.0.1:8003/vendors/nice-select/css/nice-select.css",
+                        "navStartToEndTime": 66,
+                        "transferSize": 4194,
+                        "children": {}
+                      },
+                      "11890.2": {
+                        "url": "http://127.0.0.1:8003/css/bootstrap.css",
+                        "navStartToEndTime": 64,
+                        "transferSize": 183670,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 262
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "display": "Est savings of 2,920\u00a0ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/home-blog-navigation.css",
+              "totalBytes": 918,
+              "wastedMs": 152
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/font-awesome.min.css",
+              "totalBytes": 27654,
+              "wastedMs": 902
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/style.css",
+              "totalBytes": 101741,
+              "wastedMs": 1952
+            },
+            {
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700",
+              "totalBytes": 0,
+              "wastedMs": 780
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/owl-carousel/owl.carousel.min.css",
+              "totalBytes": 3123,
+              "wastedMs": 302
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/magnific-popup.css",
+              "totalBytes": 7138,
+              "wastedMs": 452
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/linericon/style.css",
+              "totalBytes": 8531,
+              "wastedMs": 452
+            },
+            {
+              "url": "http://127.0.0.1:8003/vendors/nice-select/css/nice-select.css",
+              "totalBytes": 4194,
+              "wastedMs": 302
+            },
+            {
+              "url": "http://127.0.0.1:8003/css/bootstrap.css",
+              "totalBytes": 183670,
+              "wastedMs": 3002
+            }
+          ]
+        }
+      }
+    ],
+    "runWarnings": [],
+    "raw_report": "/workspace/tooling/seo-results/before-home.json"
+  },
+  {
+    "path": "blog.html",
+    "requestedUrl": "http://127.0.0.1:8003/blog.html",
+    "finalDisplayedUrl": "http://127.0.0.1:8003/blog.html",
+    "fetchTime": "2026-11-17T03:41:17.148Z",
+    "lighthouseVersion": "13.0.3",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "benchmarkIndex": 2517.5,
+      "credits": {
+        "axe-core": "4.11.4"
+      }
+    },
+    "configSettings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 20000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 902.0382,
+        "display": "0.9\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 1052.0382,
+        "display": "1.1\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "speed-index": {
+        "value": 902.0382,
+        "display": "0.9\u00a0s",
+        "unit": "millisecond"
+      },
+      "interactive": {
+        "value": 1052.0382,
+        "display": "1.1\u00a0s",
+        "unit": "millisecond"
+      }
+    },
+    "failed_audits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "display": "Est savings of 13\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/learning-hub.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 9836,
+              "wastedBytes": 9836
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/learning-hub.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 3286,
+              "wastedBytes": 3286
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 13122
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "description": "Your first network request is the most important. [Reduce its latency](https://developer.chrome.com/docs/performance/insights/document-latency) by avoiding redirects, ensuring a fast server response, and enabling text compression.",
+        "display": "Est savings of 19\u00a0KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 18948,
+            "wastedBytes": 18948
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "591B59A1A7A575BD277F449131709D1C": {
+                    "url": "http://127.0.0.1:8003/blog.html",
+                    "navStartToEndTime": 20,
+                    "transferSize": 28469,
+                    "isLongest": true,
+                    "children": {
+                      "12161.2": {
+                        "url": "http://127.0.0.1:8003/css/learning-hub.css",
+                        "navStartToEndTime": 32,
+                        "transferSize": 9836,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 32
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "display": "Est savings of 50\u00a0ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/learning-hub.css",
+              "totalBytes": 9836,
+              "wastedMs": 151
+            }
+          ]
+        }
+      }
+    ],
+    "runWarnings": [],
+    "raw_report": "/workspace/tooling/seo-results/before-blog.json"
+  },
+  {
+    "path": "insights/spark-performance.html",
+    "requestedUrl": "http://127.0.0.1:8003/insights/spark-performance.html",
+    "finalDisplayedUrl": "http://127.0.0.1:8003/insights/spark-performance.html",
+    "fetchTime": "2026-11-17T03:41:28.664Z",
+    "lighthouseVersion": "13.0.3",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "benchmarkIndex": 2545,
+      "credits": {
+        "axe-core": "4.11.4"
+      }
+    },
+    "configSettings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 20000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 902.4839,
+        "display": "0.9\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 1052.4839,
+        "display": "1.1\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "speed-index": {
+        "value": 902.4839,
+        "display": "0.9\u00a0s",
+        "unit": "millisecond"
+      },
+      "interactive": {
+        "value": 1052.4839000000002,
+        "display": "1.1\u00a0s",
+        "unit": "millisecond"
+      }
+    },
+    "failed_audits": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.11/label-content-name-mismatch).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-BUTTON",
+                "path": "1,HTML,1,BODY,2,MAIN,0,ARTICLE,11,DIV,0,DIV,1,BUTTON",
+                "selector": "article > div.code-sample > div.code-toolbar > button.copy-code",
+                "boundingRect": {
+                  "top": 4849,
+                  "bottom": 4881,
+                  "left": 297,
+                  "right": 375,
+                  "width": 78,
+                  "height": 33
+                },
+                "snippet": "<button type=\"button\" class=\"copy-code\" aria-label=\"Copy Install and run\">",
+                "nodeLabel": "Copy code",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-BUTTON",
+                "path": "1,HTML,1,BODY,2,MAIN,0,ARTICLE,12,DIV,0,DIV,1,BUTTON",
+                "selector": "article > div.code-sample > div.code-toolbar > button.copy-code",
+                "boundingRect": {
+                  "top": 5044,
+                  "bottom": 5077,
+                  "left": 297,
+                  "right": 375,
+                  "width": 78,
+                  "height": 33
+                },
+                "snippet": "<button type=\"button\" class=\"copy-code\" aria-label=\"Copy Complete PySpark source\">",
+                "nodeLabel": "Copy code",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-2-BUTTON",
+                "path": "1,HTML,1,BODY,2,MAIN,0,ARTICLE,13,DIV,0,DIV,1,BUTTON",
+                "selector": "article > div.code-sample > div.code-toolbar > button.copy-code",
+                "boundingRect": {
+                  "top": 6016,
+                  "bottom": 6049,
+                  "left": 297,
+                  "right": 375,
+                  "width": 78,
+                  "height": 33
+                },
+                "snippet": "<button type=\"button\" class=\"copy-code\" aria-label=\"Copy Expected result\">",
+                "nodeLabel": "Copy code",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5",
+              "experimental"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5,
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "display": "Est savings of 15\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/learning-hub.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 9836,
+              "wastedBytes": 9836
+            },
+            {
+              "url": "http://127.0.0.1:8003/js/learning-hub.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 3286,
+              "wastedBytes": 3286
+            },
+            {
+              "url": "http://127.0.0.1:8003/img/engineering/spark-execution.svg",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2473,
+              "wastedBytes": 2473
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 15595
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "description": "Your first network request is the most important. [Reduce its latency](https://developer.chrome.com/docs/performance/insights/document-latency) by avoiding redirects, ensuring a fast server response, and enabling text compression.",
+        "display": "Est savings of 12\u00a0KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 0 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 0,
+            "uncompressedResponseBytes": 12623,
+            "wastedBytes": 12623
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "BE06074792075C54B7F87BCA5116AD14": {
+                    "url": "http://127.0.0.1:8003/insights/spark-performance.html",
+                    "navStartToEndTime": 16,
+                    "transferSize": 19029,
+                    "isLongest": true,
+                    "children": {
+                      "12359.2": {
+                        "url": "http://127.0.0.1:8003/css/learning-hub.css",
+                        "navStartToEndTime": 25,
+                        "transferSize": 9836,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 25
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "display": "Est savings of 140\u00a0ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8003/css/learning-hub.css",
+              "totalBytes": 9836,
+              "wastedMs": 151
+            }
+          ]
+        }
+      }
+    ],
+    "runWarnings": [],
+    "raw_report": "/workspace/tooling/seo-results/before-insights-spark-performance.json"
+  }
+]

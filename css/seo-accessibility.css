@@ -1,0 +1,17 @@
+/* Focus, readable contrast, and semantic heading styles on the existing homepage. */
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#56616d}
+.home_banner_area .banner_content h1{font-family:inherit;line-height:1.15;font-size:clamp(2rem,4.1vw,3.7rem);letter-spacing:-.035em;text-transform:none!important}
+.home_banner_area .banner_content p,.feature_item p,.main_title p,.certificate_desc,.short_info p{color:#56616d}
+.feature_item h3,.short_info h3{font-size:20px;line-height:1.4;margin:20px 0 12px;text-transform:uppercase;color:#05364d}
+.timeline .content h3{font-size:22px;line-height:1.4;color:#05364d}.timeline .content .experience-date{font-weight:700;color:#3f4d5d}
+#tools h2{font-size:24px;margin:0 0 25px;color:#05364d}.footer-area h2{font-size:20px;text-transform:uppercase;color:#05364d}
+#main{display:block}.skip-home{position:absolute;top:-90px;left:16px;z-index:9999;background:white;padding:12px;color:#164586}.skip-home:focus{top:12px}
+a:focus-visible,button:focus-visible{outline:3px solid #7655e1;outline-offset:4px}
+.project-filter{border:0;background:transparent;color:#24374c;padding:10px 12px;font:inherit;text-transform:uppercase;cursor:pointer}.project-filter[aria-pressed=true]{color:#4344a5;text-decoration:underline;text-underline-offset:5px}
+.filters ul li{margin-right:6px!important}.project-links{font-size:14px;line-height:1.7}.project-links a{display:inline-block;margin-right:10px;text-decoration:underline}.project-contact{margin:20px 0 35px}
+.certificate_meta{letter-spacing:.06em}.certificate_desc{color:#56616d}
+html:not(.navigation-ready) #navbarSupportedContent{display:block}
+@media(max-width:991px){html:not(.navigation-ready) #navbarSupportedContent .menu_nav{display:flex;flex-wrap:wrap;gap:12px}.home_banner_area .banner_content h1{font-size:2.4rem}.home_banner_area .banner_content .d-flex{flex-wrap:wrap;gap:12px}.home_banner_area .banner_content .primary_btn{margin:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+.header_area .navbar-brand img,.footer_logo img,.single-brand-item img{height:auto}
+.certificate_meta{color:#6040bd}.footer-text a{text-decoration:underline}

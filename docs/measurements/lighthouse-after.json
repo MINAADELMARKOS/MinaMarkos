@@ -1,0 +1,823 @@
+[
+  {
+    "path": "/",
+    "requestedUrl": "http://127.0.0.1:8004/",
+    "finalDisplayedUrl": "http://127.0.0.1:8004/",
+    "fetchTime": "2026-11-17T04:13:54.880Z",
+    "lighthouseVersion": "13.0.3",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "benchmarkIndex": 2100.5,
+      "credits": {
+        "axe-core": "4.11.4"
+      }
+    },
+    "configSettings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 20000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 80,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2552.53875,
+        "display": "2.6\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 4577.53875,
+        "display": "4.6\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "speed-index": {
+        "value": 2552.53875,
+        "display": "2.6\u00a0s",
+        "unit": "millisecond"
+      },
+      "interactive": {
+        "value": 4630.03875,
+        "display": "4.6\u00a0s",
+        "unit": "millisecond"
+      }
+    },
+    "failed_audits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.65,
+        "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+        "display": "2.6\u00a0s",
+        "details": null
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.35,
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+        "display": "4.6\u00a0s",
+        "details": null
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.97,
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "display": "2.6\u00a0s",
+        "details": null
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.81,
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+        "display": "4.6\u00a0s",
+        "details": null
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.11/label-content-name-mismatch).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,4,FOOTER,0,DIV,1,DIV,0,P,5,A",
+                "selector": "div.container > div.row > p.col-lg-8 > a",
+                "boundingRect": {
+                  "top": 17473,
+                  "bottom": 17493,
+                  "left": 219,
+                  "right": 310,
+                  "width": 92,
+                  "height": 20
+                },
+                "snippet": "<a href=\"https://www.linkedin.com/in/mina-markos-343b8b171/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn profile\">",
+                "nodeLabel": "Mina Markos",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5",
+              "experimental"
+            ]
+          }
+        }
+      },
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "score": 0,
+        "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.11/link-name).",
+        "display": null,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-A",
+                "path": "1,HTML,1,BODY,3,MAIN,17,SECTION,0,DIV,4,DIV,0,DIV,8,DIV,0,DIV,0,DIV,2,A",
+                "selector": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "boundingRect": {
+                  "top": 11628,
+                  "bottom": 11648,
+                  "left": 396,
+                  "right": 396,
+                  "width": 0,
+                  "height": 20
+                },
+                "snippet": "<a target=\"_blank\" href=\"https://drive.google.com/file/d/1W4NEKgjrKAl9FeQ3WC14H3rpfT9-ZTjn/view?t=3\" rel=\"noopener noreferrer\">",
+                "nodeLabel": "div.col-lg-4 > div.portfolio_box > div.single_portfolio > a",
+                "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.name-role-value",
+              "wcag2a",
+              "wcag244",
+              "wcag412",
+              "section508",
+              "section508.22.a",
+              "TTv5",
+              "TT6.a",
+              "EN-301-549",
+              "EN-9.2.4.4",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-6.2.1"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0,
+        "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+        "display": "Est savings of 209\u00a0KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8004/css/homepage.min.css",
+              "wastedBytes": 213922,
+              "wastedPercent": 89.1887948034838,
+              "totalBytes": 239853
+            }
+          ],
+          "overallSavingsMs": 1050,
+          "overallSavingsBytes": 213922,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 1050,
+              "LCP": 1050
+            }
+          }
+        }
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0,
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "display": "Est savings of 617\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8004/css/homepage.min.css",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 240042,
+              "wastedBytes": 240042
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/body-bg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 142035,
+              "wastedBytes": 142035
+            },
+            {
+              "url": "http://127.0.0.1:8004/fonts/fontawesome-webfont.woff2?v=4.5.0",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 72086,
+              "wastedBytes": 72086
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/subscribe-bg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 33419,
+              "wastedBytes": 33419
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/optimized/mina-adel-markos-about-768.webp",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 32158,
+              "wastedBytes": 32158
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/vodafone-logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 27081,
+              "wastedBytes": 27081
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/optimized/mina-adel-markos-768.webp",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 25000,
+              "wastedBytes": 25000
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/MCS-Logo-White-Transparent.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 20433,
+              "wastedBytes": 20433
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/gg.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 18171,
+              "wastedBytes": 18171
+            },
+            {
+              "url": "http://127.0.0.1:8004/img/DSME_logo.png",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 16992,
+              "wastedBytes": 16992
+            },
+            {
+              "url": "http://127.0.0.1:8004/js/homepage.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2023,
+              "wastedBytes": 2023
+            },
+            {
+              "url": "http://127.0.0.1:8004/js/engagement.js",
+              "cacheLifetimeMs": 0,
+              "totalBytes": 2014,
+              "wastedBytes": 2014
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 631454
+          }
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "description": "Your first network request is the most important. [Reduce its latency](https://developer.chrome.com/docs/performance/insights/document-latency) by avoiding redirects, ensuring a fast server response, and enabling text compression.",
+        "display": "Est savings of 29\u00a0KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 1 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 1,
+            "uncompressedResponseBytes": 29440,
+            "wastedBytes": 29440
+          }
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "description": "A forced reflow occurs when JavaScript queries geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow) and possible mitigations.",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:8004/js/homepage.js",
+                    "urlProvider": "network",
+                    "line": 31,
+                    "column": 24
+                  },
+                  "reflowTime": 52.083
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "display": "Est savings of 111\u00a0KiB",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,8,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image",
+                "boundingRect": {
+                  "top": 2891,
+                  "bottom": 2971,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/vodafone-logo.png\" class=\"exp-image\" alt=\"Vodafone logo\" loading=\"lazy\" decoding=\"async\" width=\"2400\" height=\"2400\">",
+                "nodeLabel": "Vodafone logo"
+              },
+              "url": "http://127.0.0.1:8004/img/vodafone-logo.png",
+              "totalBytes": 26892,
+              "wastedBytes": 26800,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (2400x2400) for its displayed dimensions (140x140). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 26800
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-2-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,5,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.about_img > img.about-portrait",
+                "boundingRect": {
+                  "top": 894,
+                  "bottom": 1134,
+                  "left": 86,
+                  "right": 326,
+                  "width": 240,
+                  "height": 240
+                },
+                "snippet": "<img class=\"about-portrait\" src=\"img/optimized/mina-adel-markos-about-768.webp\" srcset=\"img/optimized/mina-adel-markos-about-384.webp 384w, img/optimized/mina-ade\u2026\" sizes=\"(max-width: 767px) 240px, 360px\" alt=\"Mina Markos portrait\" loading=\"lazy\" decoding=\"async\" width=\"768\" height=\"768\">",
+                "nodeLabel": "Mina Markos portrait"
+              },
+              "url": "http://127.0.0.1:8004/img/optimized/mina-adel-markos-about-768.webp",
+              "totalBytes": 31968,
+              "wastedBytes": 22407,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (768x768) for its displayed dimensions (420x420). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 22407
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-3-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,8,SECTION,0,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image-mcs",
+                "boundingRect": {
+                  "top": 3525,
+                  "bottom": 3605,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/MCS-Logo-White-Transparent.png\" class=\"exp-image-mcs\" alt=\"MCS Analytics logo\" loading=\"lazy\" decoding=\"async\" width=\"890\" height=\"469\">",
+                "nodeLabel": "MCS Analytics logo"
+              },
+              "url": "http://127.0.0.1:8004/img/MCS-Logo-White-Transparent.png",
+              "totalBytes": 20244,
+              "wastedBytes": 19962,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (890x469) for its displayed dimensions (105x55). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 19962
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-0-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,2,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                "selector": "div.row > div.col-lg-5 > div.home_right_img > img.hero-portrait",
+                "boundingRect": {
+                  "top": 427,
+                  "bottom": 802,
+                  "left": 81,
+                  "right": 331,
+                  "width": 250,
+                  "height": 375
+                },
+                "snippet": "<img class=\"hero-portrait mobile-view\" src=\"img/optimized/mina-adel-markos-768.webp\" srcset=\"img/optimized/mina-adel-markos-384.webp 384w, img/optimized/mina-adel-mark\u2026\" sizes=\"(max-width: 767px) 250px, (max-width: 991px) 360px, 440px\" fetchpriority=\"high\" alt=\"Mina Markos official portrait\" decoding=\"async\" width=\"768\" height=\"1152\">",
+                "nodeLabel": "Mina Markos official portrait"
+              },
+              "url": "http://127.0.0.1:8004/img/optimized/mina-adel-markos-768.webp",
+              "totalBytes": 24810,
+              "wastedBytes": 16759,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (768x1152) for its displayed dimensions (438x656). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 16759
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-4-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,8,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                "selector": "div.timeline > div.containerR > div.content > img.exp-image",
+                "boundingRect": {
+                  "top": 2111,
+                  "bottom": 2191,
+                  "left": 89,
+                  "right": 169,
+                  "width": 80,
+                  "height": 80
+                },
+                "snippet": "<img src=\"img/DSME_logo.png\" class=\"exp-image exp-image-dsme\" alt=\"DataScience Middle East logo\" loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"314\">",
+                "nodeLabel": "DataScience Middle East logo"
+              },
+              "url": "http://127.0.0.1:8004/img/DSME_logo.png",
+              "totalBytes": 16803,
+              "wastedBytes": 15888,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (600x314) for its displayed dimensions (140x73). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 15888
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-5-IMG",
+                "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,NAV,0,DIV,1,A,0,IMG",
+                "selector": "nav.navbar > div.container > a.navbar-brand > img",
+                "boundingRect": {
+                  "top": 5,
+                  "bottom": 76,
+                  "left": 15,
+                  "right": 259,
+                  "width": 244,
+                  "height": 71
+                },
+                "snippet": "<img src=\"img/gg.png\" alt=\"Mina Adel Markos portfolio\" decoding=\"async\" width=\"360\" height=\"104\">",
+                "nodeLabel": "Mina Adel Markos portfolio"
+              },
+              "url": "http://127.0.0.1:8004/img/gg.png",
+              "totalBytes": 17982,
+              "wastedBytes": 11742,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 11742
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 113558
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "display": null,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "88EEB7B407F05FF8074835CC14660ABA": {
+                    "url": "http://127.0.0.1:8004/",
+                    "navStartToEndTime": 29,
+                    "transferSize": 44129,
+                    "isLongest": true,
+                    "children": {
+                      "16827.2": {
+                        "url": "http://127.0.0.1:8004/css/homepage.min.css",
+                        "navStartToEndTime": 50,
+                        "transferSize": 240042,
+                        "isLongest": true,
+                        "children": {
+                          "16827.56": {
+                            "url": "http://127.0.0.1:8004/fonts/fontawesome-webfont.woff2?v=4.5.0",
+                            "navStartToEndTime": 127,
+                            "transferSize": 72086,
+                            "isLongest": true,
+                            "children": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 127
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "score": 0,
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "display": "Est savings of 1,580\u00a0ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:8004/css/homepage.min.css",
+              "totalBytes": 240042,
+              "wastedMs": 1201
+            }
+          ]
+        }
+      }
+    ],
+    "runWarnings": [],
+    "raw_report": "/workspace/tooling/seo-results/after-home.json"
+  }
+]

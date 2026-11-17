@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-seo-tools",
+  "private": true,
+  "description": "Build-time asset optimization and local SEO/accessibility checks; no website runtime dependency",
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "clean-css": "5.3.3",
+    "lighthouse": "13.0.3",
+    "playwright": "1.58.2",
+    "sharp": "0.34.5"
+  }
+}

@@ -33,11 +33,11 @@ for path,page in parsed.items():
     assert page.h1==1,(path,'H1 count',page.h1)
     assert len(page.ids)==len(set(page.ids)),(path,'duplicate IDs')
     assert page.canon==[base+str(path.relative_to(ROOT))],(path,'canonical')
-    assert page.metas.get('robots')=='index,follow'
+    assert page.metas.get('robots').startswith('index,follow')
     for key in ('description','og:title','og:description','og:url','og:image','twitter:card','twitter:description'):
         assert page.metas.get(key),(path,key)
     assert page.title not in titles,('duplicate title',path);titles.append(page.title)
-    assert any(x.get('@type') in ('Blog','BlogPosting') for x in page.ld),(path,'structured data')
+    assert any(n.get('@type') in ('Blog','BlogPosting') for x in page.ld for n in x.get('@graph',[x])),(path,'structured data')
     for ref in page.links:
         u=urlsplit(ref)
         if u.scheme or u.netloc:continue

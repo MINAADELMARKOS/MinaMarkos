@@ -1,0 +1,13 @@
+{
+  "base_url": "https://minaadelmarkos.github.io/MinaMarkos/",
+  "name": "Mina Adel Markos",
+  "alternate_names": ["Mina Markos", "MINAADELMARKOS"],
+  "job_title": "Senior Data Engineer",
+  "description": "Mina Adel Markos is a Senior Data Engineer specializing in enterprise data platforms, Apache Spark, Kafka, Google Cloud, data reliability, and AI architecture.",
+  "same_as": ["https://github.com/MINAADELMARKOS", "https://www.linkedin.com/in/mina-markos-343b8b171/"],
+  "image": "img/main_official_image.png",
+  "topics": ["Data Engineering", "Apache Spark", "Apache Kafka", "PySpark", "Cloudera CDP", "Google Cloud", "Data Platform Architecture", "AI Architecture", "Data Reliability"],
+  "homepage_title": "Mina Adel Markos | Senior Data Engineer & AI Architecture",
+  "blog_title": "Data Engineering, Apache Kafka & Spark Tutorials | Mina Markos",
+  "blog_description": "Learn Apache Kafka, Spark and PySpark with runnable Java and Python examples, plus Mina Adel Markos's articles on data platforms, reliability and AI architecture."
+}
