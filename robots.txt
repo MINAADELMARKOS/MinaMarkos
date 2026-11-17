@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://minaadelmarkos.github.io/MinaMarkos/sitemap.xml

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+<title id="title">Kafka data path and KRaft metadata plane</title><desc id="desc">Producer writes to the leader of one partition. The leader replicates to two followers. A consumer group reads from the leader. A separate three-controller KRaft quorum manages metadata. Replication factor three is illustrated; the local lab uses one.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#5354b3"/></marker></defs>
+<rect width="760" height="460" rx="16" fill="#f3f5fc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#172840">
+<text x="380" y="36" font-size="20" font-weight="700">Kafka: separate the two planes</text>
+<g fill="white" stroke="#b9c6df" stroke-width="2"><rect x="20" y="128" width="140" height="74" rx="9"/><rect x="250" y="128" width="210" height="74" rx="9"/><rect x="560" y="128" width="180" height="74" rx="9"/><rect x="185" y="256" width="180" height="65" rx="9"/><rect x="400" y="256" width="180" height="65" rx="9"/></g>
+<g font-size="17"><text x="90" y="160">Producer</text><text x="90" y="184" font-size="13">keyed record</text><text x="355" y="158">Partition 0 leader</text><text x="355" y="182" font-size="13">Broker A · ordered log</text><text x="650" y="159">Consumer group</text><text x="650" y="183" font-size="13">assigned reader</text><text x="275" y="283">Follower replica</text><text x="275" y="305" font-size="13">Broker B</text><text x="490" y="283">Follower replica</text><text x="490" y="305" font-size="13">Broker C</text></g>
+<g stroke="#5354b3" stroke-width="2" marker-end="url(#arrow)"><path d="M160 165H244"/><path d="M460 165H554"/><path d="M330 202L281 250"/><path d="M380 202L476 250"/></g>
+<text x="506" y="147" font-size="12">fetch</text><text x="364" y="237" font-size="12">replication</text>
+<path d="M25 351H735" stroke="#b9c6df" stroke-dasharray="5 5"/>
+<rect x="90" y="372" width="580" height="58" rx="9" fill="#e6e5fa" stroke="#b9b5e1"/>
+<text x="380" y="397" font-size="17">KRaft controller quorum: C1 ↔ C2 ↔ C3</text><text x="380" y="419" font-size="13">Metadata consensus · distinct from partition-data replication</text>
+<text x="380" y="72" font-size="13">Conceptual RF=3 placement; the runnable local lab uses RF=1.</text>
+</g></svg>

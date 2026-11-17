@@ -1,0 +1,13 @@
+/* Keep the longer Engineering Blog label on one desktop navigation row. */
+@media (min-width: 992px) {
+  .header_area .navbar .navbar-brand img { max-width: 260px; height: auto; }
+  .header_area .navbar .menu_nav { flex-wrap: nowrap; }
+  .header_area .navbar .nav .nav-item { margin-right: 22px; }
+  .header_area .navbar .nav .nav-item:last-child { margin-right: 0; }
+  .header_area .navbar .nav .nav-item .nav-link { white-space: nowrap; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header_area .navbar .navbar-brand img { max-width: 220px; }
+  .header_area .navbar .nav .nav-item { margin-right: 16px; }
+}
+.header_area a:focus-visible, #insights a:focus-visible { outline: 3px solid #7655e1; outline-offset: 4px; }

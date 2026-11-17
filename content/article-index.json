@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "kafka-business-problems",
+    "title": "Understanding Kafka Through Real Business Problems",
+    "summary": "Choose event streaming by the decision deadline, replay requirement, and cost of coupling—not by message volume alone.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka"
+    ],
+    "minutes": 3
+  },
+  {
+    "slug": "kafka-architecture",
+    "title": "Kafka Architecture Explained: Partitions, Replicas and KRaft",
+    "summary": "Follow a record from producer to partition leader to consumer, then separate data replication from metadata consensus.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka",
+      "Distributed Systems"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "kafka-java-producer-consumer",
+    "title": "Kafka Producer and Consumer Tutorial in Java",
+    "summary": "Run a bounded Java lab that creates a topic, sends keyed orders, checks partition routing, and verifies committed offsets.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka"
+    ],
+    "minutes": 7
+  },
+  {
+    "slug": "kafka-reliability",
+    "title": "Kafka Reliability and Message Delivery: Follow the Failure Window",
+    "summary": "Use crash timing to reason about at-most-once, at-least-once, idempotence, transactions, and dead-letter handling.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka",
+      "Distributed Systems"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "kafka-troubleshooting",
+    "title": "Kafka Production Troubleshooting: Diagnose Before Restarting",
+    "summary": "Connect lag, replica health, disk, network, and controller evidence to a safe next action.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka"
+    ],
+    "minutes": 5
+  },
+  {
+    "slug": "kafka-performance",
+    "title": "Kafka Performance Optimization Is a Capacity Trade-off",
+    "summary": "Balance throughput, tail latency, recovery headroom, storage, and cost instead of copying a universal configuration.",
+    "category": "Apache Kafka",
+    "tags": [
+      "Apache Kafka"
+    ],
+    "minutes": 3
+  },
+  {
+    "slug": "why-spark-exists",
+    "title": "Why Spark Exists: Distributed Processing With a Deadline",
+    "summary": "Decide when distributed computation earns its coordination cost, using billing, reconciliation, and feature engineering examples.",
+    "category": "Apache Spark & PySpark",
+    "tags": [
+      "Apache Spark & PySpark"
+    ],
+    "minutes": 5
+  },
+  {
+    "slug": "spark-architecture",
+    "title": "Spark Architecture: From a Lazy Plan to Jobs, Stages and Tasks",
+    "summary": "Locate a slow operation in the driver, scheduler, executors, or storage path before changing resources.",
+    "category": "Apache Spark & PySpark",
+    "tags": [
+      "Apache Spark & PySpark"
+    ],
+    "minutes": 5
+  },
+  {
+    "slug": "spark-internals",
+    "title": "Spark Internals: Why Shuffles and Partition Shape Dominate",
+    "summary": "Reason about narrow dependencies, redistribution, serialization, locality, and scheduling through the bytes each task must move.",
+    "category": "Distributed Systems",
+    "tags": [
+      "Distributed Systems"
+    ],
+    "minutes": 5
+  },
+  {
+    "slug": "spark-performance",
+    "title": "Spark Performance Optimization: Read the Physical Plan First",
+    "summary": "Validate pruning, pushdown, join strategy, AQE, caching, and file layout against a reproducible PySpark result.",
+    "category": "Apache Spark & PySpark",
+    "tags": [
+      "Apache Spark & PySpark"
+    ],
+    "minutes": 6
+  },
+  {
+    "slug": "spark-troubleshooting",
+    "title": "Spark Troubleshooting: Turn Symptoms Into Testable Hypotheses",
+    "summary": "A six-part investigation method for memory failures, shuffle delays, skew, GC, failed stages, contention, and small files.",
+    "category": "Apache Spark & PySpark",
+    "tags": [
+      "Apache Spark & PySpark"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "spark-cloudera-cloud",
+    "title": "Spark on Cloudera and Cloud Platforms: Match the Operating Model",
+    "summary": "Compare YARN, Kubernetes, and managed Spark by identity, storage, isolation, lifecycle, and recovery responsibilities.",
+    "category": "Cloud Architecture",
+    "tags": [
+      "Cloud Architecture",
+      "Apache Spark & PySpark"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "data-quality-foundation-for-ai",
+    "title": "Why Data Engineering Is the Foundation of Enterprise AI",
+    "summary": "Treat freshness, permission, lineage, and reconciliation as parts of the AI product’s correctness contract.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives",
+      "AI Engineering",
+      "Data Engineering"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "pipeline-business-failure",
+    "title": "Why a Successful Pipeline Can Still Be a Business Failure",
+    "summary": "A green scheduler measures execution. A useful dataset must also meet a decision deadline, definition, and reconciliation contract.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives"
+    ],
+    "minutes": 3
+  },
+  {
+    "slug": "the-cost-of-untrusted-data",
+    "title": "The Real Cost of Poor Data Quality",
+    "summary": "Build a defensible cost model from reconciliation work, decision delay, incident response, and customer correction.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives",
+      "Engineering Leadership"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "architecture-cost-risk",
+    "title": "Why Architecture Decisions Must Include Cost and Risk",
+    "summary": "Compare designs using total operating cost, failure exposure, reversibility, and evidence that would change the decision.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives",
+      "Engineering Leadership"
+    ],
+    "minutes": 3
+  },
+  {
+    "slug": "ai-dataops-investigation-copilot",
+    "title": "AI Agents for Distributed Systems Troubleshooting",
+    "summary": "Keep diagnosis evidence-linked, tools bounded, and remediation subject to explicit policy and recovery checks.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives",
+      "AI Engineering",
+      "Distributed Systems"
+    ],
+    "minutes": 4
+  },
+  {
+    "slug": "reliability-business-capability",
+    "title": "Engineering Reliability as a Business Capability",
+    "summary": "Use service objectives, recovery drills, ownership, and error-budget decisions to make dependable operations an explicit investment.",
+    "category": "Engineering Perspectives",
+    "tags": [
+      "Engineering Perspectives",
+      "Engineering Leadership"
+    ],
+    "minutes": 3
+  },
+  {
+    "slug": "gcp-data-quality-governance",
+    "title": "Data quality and lineage on GCP with VerdaTrace",
+    "summary": "A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.",
+    "category": "Cloud Architecture",
+    "tags": [
+      "Cloud Architecture"
+    ],
+    "minutes": 2
+  },
+  {
+    "slug": "cloudera-hdfs-object-storage-migration-readiness",
+    "title": "Cloudera CDP migration readiness from HDFS to object storage",
+    "summary": "A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.",
+    "category": "Data Engineering",
+    "tags": [
+      "Data Engineering"
+    ],
+    "minutes": 2
+  },
+  {
+    "slug": "from-ai-demo-to-production",
+    "title": "A useful AI demo is not yet a production AI system",
+    "summary": "A pragmatic checklist for moving an enterprise AI prototype toward reliable, governed and measurable production value.",
+    "category": "AI Engineering",
+    "tags": [
+      "AI Engineering"
+    ],
+    "minutes": 2
+  }
+]

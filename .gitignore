@@ -1,0 +1,7 @@
+examples/kafka/target/
+__pycache__/
+.venv/
+spark-warehouse/
+artifacts/
+derby.log
+metastore_db/

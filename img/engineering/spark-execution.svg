@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-labelledby="title desc">
+<title id="title">Spark lab physical execution boundaries</title><desc id="desc">The driver plans the query. Partitioned Parquet is pruned and filtered; a tiny dimension is broadcast to join tasks. A shuffle redistributes partial aggregates by team, and final aggregation returns totals. The cluster manager supplies executors.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10" fill="#5354b3"/></marker></defs>
+<rect width="760" height="470" rx="16" fill="#f3f5fc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#172840">
+<text x="380" y="35" font-size="20" font-weight="700">Spark: follow the plan across boundaries</text>
+<rect x="150" y="56" width="460" height="48" rx="8" fill="#e6e5fa" stroke="#b9b5e1"/>
+<text x="380" y="86" font-size="16">Driver plans and schedules · cluster manager supplies executors</text>
+<g fill="white" stroke="#b9c6df" stroke-width="2"><rect x="40" y="142" width="380" height="65" rx="9"/><rect x="490" y="142" width="230" height="65" rx="9"/><rect x="130" y="258" width="500" height="60" rx="9"/><rect x="130" y="373" width="500" height="60" rx="9"/></g>
+<text x="230" y="168" font-size="17">Parquet scan → filter → select</text><text x="230" y="193" font-size="13">Pruned day, columns, and eligible predicates</text>
+<text x="605" y="169" font-size="17">Tiny team dimension</text><text x="605" y="193" font-size="13">Broadcast to join tasks</text>
+<text x="380" y="284" font-size="17">BroadcastHashJoin → partial aggregate</text><text x="380" y="306" font-size="13">Parallel tasks over input partitions</text>
+<text x="380" y="399" font-size="17">Final aggregate by team → collect bounded result</text><text x="380" y="421" font-size="13">Finance=200 · Networks=120</text>
+<g stroke="#5354b3" stroke-width="2" marker-end="url(#arrow)"><path d="M230 207L270 252"/><path d="M605 207L490 252"/><path d="M380 318V367"/></g>
+<text x="505" y="348" font-size="14" fill="#4344a5">Exchange: shuffle by team</text>
+<text x="380" y="456" font-size="12">Original teaching diagram. AQE can adjust the final physical plan.</text>
+</g></svg>
