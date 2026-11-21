@@ -1,8 +1,9 @@
 const {chromium}=require('playwright');const assert=require('node:assert/strict');const fs=require('fs');const path=require('path');const cp=require('child_process');
 const root=path.resolve(__dirname,'..');const base=process.env.HUB_BASE_URL||'http://127.0.0.1:8010/';
-const old=cp.execFileSync('git',['show','5ae0eed:index.html'],{cwd:root,encoding:'utf8'});const current=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const old=cp.execFileSync('git',['show','72e88b1:index.html'],{cwd:root,encoding:'utf8'});const current=fs.readFileSync(path.join(root,'index.html'),'utf8');
 function outside(s){return s.replace(/<(?:div|section) class="testimonial_area section_gap_bottom" id="Certificate"[\s\S]*?(?=<!--================ End Testimonial Area)/,'CERTIFICATE_SECTION\n');}
-assert.equal(outside(current),outside(old),'Unrelated homepage markup must remain byte-for-byte unchanged');
+const certification=s=>s.match(/<section class="testimonial_area section_gap_bottom" id="Certificate"[\s\S]*?<\/section>/)[0];
+assert.equal(certification(current),certification(old),'Homepage redesign must preserve the certification section');
 const records=s=>[...s.matchAll(/<article class="certificate_card">([\s\S]*?)<\/article>/g)].map(m=>({title:m[1].match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1],url:m[1].match(/href="([^"]+)"/)[1],description:[...m[1].matchAll(/<p class="certificate_desc">([\s\S]*?)<\/p>/g)].map(x=>x[1])}));
 const sort=r=>r.sort((a,b)=>a.title.localeCompare(b.title));assert.deepEqual(sort(records(current)),sort(records(old)));
 assert(!current.includes('Databricks Certified Data Engineer Associate'));

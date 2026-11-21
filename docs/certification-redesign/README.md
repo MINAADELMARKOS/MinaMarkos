@@ -36,7 +36,7 @@ The Google text label is not presented as an authentic Google wordmark. It is a 
 - Consistent 120px white logo panels, 84px logo bounds, and `object-fit: contain` preserve logo proportions.
 - Explicit issuer labels, unchanged titles/descriptions and existing verified-date information, consistent Verify Credential buttons, and secure external-link attributes.
 - Visible keyboard outlines override the legacy theme's `outline: none !important`; focus outlines are immediate rather than animated.
-- All selectors are scoped to `#Certificate`. No homepage markup outside this section changed (byte-for-byte regression assertion).
+- All selectors are scoped to `#Certificate`. The certification-only commit left homepage markup outside this section unchanged. The subsequent homepage redesign preserves this entire certification section byte-for-byte; its regression test now checks that boundary.
 - `css/style.css` is the source; `css/homepage.min.css` is the served result. Run `node tools/build_home_assets.cjs --css-only` to regenerate CSS without rebuilding portraits, image inventories or blog pages.
 - Historical SVG files and generator are retained. Their former integration tests now point to the current logo-card test; the archived SVG XML check remains available.
 

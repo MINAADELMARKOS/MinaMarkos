@@ -1,7 +1,6 @@
 /* Dependency-free homepage navigation and project filtering. */
 (() => {
   'use strict';
-  const header=document.querySelector('.header_area');
   const toggle=document.querySelector('.navbar-toggler');
   const menu=document.querySelector('#navbarSupportedContent');
   if(toggle&&menu){
@@ -12,6 +11,8 @@
       const open=toggle.getAttribute('aria-expanded')!=='true';
       menu.classList.toggle('show',open);toggle.setAttribute('aria-expanded',String(open));
     });
+    matchMedia('(min-width: 992px)').addEventListener('change',close);
+    toggle.addEventListener('keydown',event=>{if(event.key==='Escape')close();});
     menu.addEventListener('click',event=>{if(event.target.closest('a'))close();});
     menu.addEventListener('keydown',event=>{if(event.key==='Escape'){close();toggle.focus();}});
   }
@@ -27,9 +28,5 @@
       const status=document.querySelector('#project-filter-status');
       if(status)status.textContent=`${cards.filter(c=>!c.hidden).length} projects shown`;
     });
-  }
-  if(header){
-    const offset=header.offsetHeight+50;
-    addEventListener('scroll',()=>header.classList.toggle('navbar_fixed',scrollY>=offset),{passive:true});
   }
 })();
