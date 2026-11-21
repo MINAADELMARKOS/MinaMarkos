@@ -1,5 +1,7 @@
 # Homepage positioning redesign
 
+The subsequent project/CV review updates the project section and replaces the former Drive download with the supplied local PDF. See `../project-review/VALIDATION.md` for current evidence.
+
 ## Audit and design decisions
 
 The old homepage gave visitors a name and role, but no clear value proposition or project action in the hero. Large banner decoration competed with the introduction; portrait markup was duplicated; the long career timeline preceded project evidence. Mobile branding consumed 80% of the navigation width and forced the toggle onto another row. Legacy scroll handlers changed fixed-header behavior unnecessarily.

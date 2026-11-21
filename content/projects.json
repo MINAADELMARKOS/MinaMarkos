@@ -1,0 +1,510 @@
+[
+  {
+    "slug": "investinator",
+    "name": "InvestiNator — DataOps Incident Investigation",
+    "category": "AI & Intelligent Systems",
+    "status": "Local demo; production release blocked",
+    "stack": "Python · FastAPI · Next.js · PostgreSQL · Kafka · OpenAI (optional)",
+    "problem": "Platform incidents scatter evidence across services, slowing the path from a symptom to an auditable recovery decision.",
+    "solution": "Correlate telemetry and incident context, investigate with read-only tools, require approval, and verify recovery against evidence.",
+    "repo": "Investinator-Enterprise-DataOps-Incident-Resolution",
+    "image": "img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png",
+    "flow": [
+      "Local Kafka producer / consumer + simulated ReplayLab fault signals",
+      "FastAPI telemetry → threshold rules → topology correlation",
+      "PostgreSQL incident, evidence, approval and audit state → Next.js operator UI",
+      "Read-only tools → optional configured OpenAI Responses; model output cannot authorize writes",
+      "Policy / approval → allowlisted simulated recovery → metric verification"
+    ],
+    "context": "Data platform operators need to distinguish upstream causes from downstream symptoms. The public Pages UI uses synthetic scenarios, while the local Compose stack provides the API-backed workflow. Neither is a deployed enterprise monitoring service.",
+    "challenges": "Correlated alerts do not prove causality. Telemetry provenance, event time, tenant boundaries and explicit uncertainty must survive the investigation. A real local Kafka workload must not be confused with the injected disk-pressure scenario.",
+    "decisions": "The architecture documents separate evidence retrieval from model reasoning and action policy. PostgreSQL makes incident and approval state persistent; FastAPI exposes the workflow and Next.js presents it. These are observable implementation choices, not evidence of an exhaustive vendor comparison. A rule-only workflow is a useful alternative baseline for stable incidents.",
+    "implementation": "The reviewed main branch includes the Python/FastAPI default backend, SQLAlchemy/Alembic persistence, local Kafka workload, replay scenarios, read-only investigation tools and optional OpenAI integration. A Java foundation exists, but the README flags later operator/security work on feature/java-ai-audit as unmerged; do not present that branch roadmap as the main deployment. Public chat is offline by default and can use a separately configured gateway.",
+    "security": "The documented action executor is limited to a simulated allowlisted recovery. Demo identity is not production OIDC/RBAC. Redaction and evidence-ID validation are implemented boundaries; they do not establish production tenant isolation or a security certification. Public preview has no production connectors or infrastructure write authority.",
+    "value": "Expected value: reduce evidence-gathering friction and make incident decisions reviewable. No measured reduction in incident investigation time, outage loss or operational cost is claimed. Offline workflow tests measure demo behavior, not enterprise RCA accuracy.",
+    "future": "Validate production identity and isolation; evaluate connector freshness and failure handling; benchmark supported-diagnosis time against a human/rule baseline; review the separate Java branch and release gates before any production cutover.",
+    "evidence": [
+      "docs/architecture.md",
+      "docs/security.md",
+      "docs/ai-design.md",
+      "tests/test_workflow.py",
+      "tests/test_platform.py",
+      "scripts/smoke_demo.py",
+      "apps/showcase/src/App.tsx",
+      "src/incident_copilot/api.py"
+    ],
+    "scores": [
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      5
+    ],
+    "demo": "https://minaadelmarkos.github.io/Investinator-Enterprise-DataOps-Incident-Resolution/",
+    "rank": 1,
+    "weighted_score": 45,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution",
+      "insights/ai-dataops-investigation-copilot.html"
+    ],
+    "commit": "06d036da27704a00559503bbd28fc3ad6b28347a",
+    "repo_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution"
+  },
+  {
+    "slug": "verdatrace",
+    "name": "VerdaTrace — Governed Cloud Data Platform",
+    "category": "Enterprise Data Platforms",
+    "status": "Implemented reference platform; cloud deployment not verified",
+    "stack": "Python · Pub/Sub · GKE · BigQuery · GCS · Terraform",
+    "problem": "Heterogeneous datasets are difficult to use safely when quality, ownership, provenance and suitability are disconnected.",
+    "solution": "Ingest and profile data through a shared pipeline that publishes normalized results, quality findings, lineage and explainable visualization recommendations.",
+    "repo": "VerdaTrace-Data-Platform-",
+    "image": "img/portfolio/VerdaTrace_Data Platform_Portoflio.png",
+    "flow": [
+      "Registered local / attributed sample datasets → bounded ingestion",
+      "Quality checks → catalog / semantics → analysis → task-suitability evaluation",
+      "Normalized results + lineage / governance → generated frontend portal payload",
+      "Cloud worker path: Pub/Sub → GKE Python worker → BigQuery curated tables + controlled GCS archive",
+      "Cross-cutting IAM / Workload Identity / secret redaction / audit / monitoring"
+    ],
+    "context": "Analysts and platform teams need to know whether data is appropriate for a task, not merely whether a file loaded. The repository includes a real attributed weather sample and explicitly synthetic mobility/quality fixtures. Its cloud infrastructure definition is distinct from local processing and static visualization.",
+    "challenges": "Parsing multiple formats introduces resource and path risks. Dataset semantics can be uncertain; a recommendation should preserve source evidence and warnings. Large external raster/OSM inputs and cloud execution have dependencies beyond the included local fixtures.",
+    "decisions": "The shared normalized-result contract separates analysis from presentation, allowing the portal to consume pipeline outputs rather than disconnected numbers. The versioned registry makes onboarding explicit. Terraform and Kubernetes describe the cloud path; they do not prove a successful cloud apply. A simpler single-format pipeline could cost less where multimodal extensibility is unnecessary.",
+    "implementation": "Verdatrace modules implement ingestion, registry validation, quality, cataloging, analytics, evaluation, lineage and visualization decisions. scripts/build_demo.py builds frontend/data/platform_demo.json. main.tf, deployment.yaml and data_pipeline.py define the Pub/Sub worker and GCP resources. Some candidate datasets are disabled retrieval plans, not committed operational datasets.",
+    "security": "Code and configuration include allowed path roots, allowlisted HTTPS retrieval, role checks, redaction, scoped IAM, workload identity and raw-storage public-access prevention. These controls require deployment validation. Optional raster workers and external data packs remain separate execution boundaries.",
+    "value": "Expected value: make quality and provenance visible before analytics consumes data and reduce repeated dataset assessment work. The case study claims no cloud cost savings, quality uplift percentage or production throughput. Local fixture tests are correctness evidence only.",
+    "future": "Exercise the cloud deployment in an authorized test project, validate IAM and retention behavior, test representative larger datasets, and benchmark query/use-case readiness before claiming scale or savings.",
+    "evidence": [
+      "verdatrace/registered.py",
+      "verdatrace/quality.py",
+      "verdatrace/security.py",
+      "data_pipeline.py",
+      "main.tf",
+      "deployment.yaml",
+      "tests/test_registered_pipeline.py",
+      "docs/architecture.md",
+      "docs/validation.md",
+      "frontend/data/platform_demo.json"
+    ],
+    "scores": [
+      5,
+      5,
+      5,
+      1,
+      4,
+      5,
+      5
+    ],
+    "demo": null,
+    "rank": 2,
+    "weighted_score": 45,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-",
+      "insights/gcp-data-quality-governance.html"
+    ],
+    "commit": "69a94cf0f9baee525bbd57a51f6fa44644382b58",
+    "repo_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-"
+  },
+  {
+    "slug": "dataguard",
+    "name": "DataGuard-AI — Telecom Reliability Monitoring",
+    "category": "Data Engineering",
+    "status": "Seeded monitoring MVP; not production SaaS",
+    "stack": "Python · HTTP API · JavaScript · Rule-based monitoring",
+    "problem": "Missing feeds, late batches and revenue variance can leave telecom teams acting on incomplete information.",
+    "solution": "Classify feed and ETL health, generate owned alerts, and show transparent estimated revenue exposure beside operational evidence.",
+    "repo": "DataGuard-AI",
+    "image": "img/portfolio/DataGuard-AI.png",
+    "flow": [
+      "Seed feed, job and revenue records + fixed scenario clock",
+      "Rule-based classification / runtime thresholds / historical revenue baseline",
+      "Alerts + estimated impact in process memory",
+      "Python ThreadingHTTPServer JSON routes → static dashboard",
+      "Owners and recommended next checks accompany alerts; no implemented ML/LLM layer"
+    ],
+    "context": "The target users are telecom data engineering and revenue-assurance teams. A clear alert owner and expected file arrival time make an issue actionable. The reviewed MVP demonstrates this interaction with seeded data, not a live billing feed.",
+    "challenges": "An estimate of exposure is not booked revenue loss. Late and missing feeds require different reasoning, and incident duplication can inflate totals. Static scenario time makes the demo deterministic but cannot serve as continuous production monitoring.",
+    "decisions": "The actual API uses Python standard-library ThreadingHTTPServer and dataclasses, not FastAPI despite the CV technology label. monitoring.py contains explicit rules rather than an AI model. This keeps the demo inspectable. A durable API framework, scheduler and database are future options, not implemented architecture.",
+    "implementation": "api.py creates seeded feed/job/metric lists at import, maps GET endpoints, serializes dashboard objects and serves web/. monitoring.py evaluates arrival deadlines, runtime deviations and revenue baselines. The impact calculation prorates and caps an average daily revenue input; alert IDs are generated in memory.",
+    "security": "No authenticated multi-tenant production service, durable alert lifecycle, live ingestion connector or resilient scheduler is established by the reviewed code. Treat the API as a local MVP. A production design needs identity, persistence, deduplication, audit, retention and freshness checks.",
+    "value": "Expected value: prioritize feed investigation and make assumptions about exposure visible. All revenue-at-risk values shown by the MVP are scenario-based estimates, not measured revenue saved. No reduced leakage or availability KPI is asserted.",
+    "future": "Add durable event/alert storage, replace the fixed seed clock with controlled ingestion, validate impact estimates with revenue owners, and evaluate authentication and duplicate-alert behavior before any SaaS claim.",
+    "evidence": [
+      "src/dataguard_ai/api.py",
+      "src/dataguard_ai/monitoring.py",
+      "src/dataguard_ai/seed.py",
+      "tests/test_monitoring.py",
+      "docs/product-plan.md"
+    ],
+    "scores": [
+      5,
+      3,
+      3,
+      0,
+      4,
+      4,
+      3
+    ],
+    "demo": null,
+    "rank": 3,
+    "weighted_score": 34,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/DataGuard-AI",
+      "insights/data-quality-foundation-for-ai.html"
+    ],
+    "commit": "d76cbf63295fa69b6a0bc3333a57dc3187c9fbdc",
+    "repo_url": "https://github.com/MINAADELMARKOS/DataGuard-AI"
+  },
+  {
+    "slug": "banking-fraud",
+    "name": "Banking Fraud Detection Pipeline",
+    "category": "Data Engineering",
+    "status": "Educational integration prototype; runtime gaps",
+    "stack": "Kafka · Spark Streaming · HDFS · HBase · NiFi · Power BI",
+    "problem": "Explore how suspicious transaction signals can move from streaming ingestion to analyst-facing outputs.",
+    "solution": "A repository combines synthetic ATM events, streaming model-inference code, storage artifacts and dashboard evidence.",
+    "repo": "Banking-Fraud-Detection",
+    "image": "img/portfolio/Banking-Fraud-Detection.png",
+    "flow": [
+      "Synthetic ATM producer → Kafka (legacy ZooKeeper deployment documented)",
+      "Spark Streaming / model references → HDFS bronze / silver",
+      "Documented NiFi transfer → HBase → Power BI artifacts",
+      "Connector configs, model files and complete runtime need validation"
+    ],
+    "context": "This is an educational fraud-pipeline architecture, not a certified banking decision system. Synthetic transaction generation supports exploration without implying real customer deployment.",
+    "challenges": "The streaming script references spark and configuration classes without defining them in that file. Its legacy pyspark.streaming.kafka API and model paths require a compatible runtime and artifacts. Container files and screenshots alone cannot prove end-to-end execution.",
+    "decisions": "The repository uses Kafka for event transport and separate storage/serving layers. The trade-off is a large operational surface for a learning project. A smaller stream-to-table baseline would be an alternative to evaluate, not an alternative known to have been evaluated by the author.",
+    "implementation": "Kafka producer files, a streaming script, a silver notebook, HBase DDL, NiFi screenshots and a Power BI file are present. README architecture and actual configuration must be reconciled before running; no successful integrated run is claimed.",
+    "security": "Validate model/data lineage, replay correctness, offset handling, least-privilege access and false-positive cost before using any fraud output operationally. The README uses a legacy ZooKeeper design; this is not presented as a new KRaft deployment.",
+    "value": "Expected educational value: understand the ingestion-to-serving chain. Fraud detection accuracy, latency, throughput and avoided losses are unmeasured in this review.",
+    "future": "Create reproducible dependencies and model fixtures, resolve runtime/configuration gaps, add integration tests and evaluate model error costs on an appropriately governed dataset.",
+    "evidence": [
+      "readme.md",
+      "Kafka/kafka_source.py",
+      "spark/streaming/streaming.py",
+      "docker/docker-compose.yml",
+      "hbase/DDL.sh",
+      "powerbi/Fraud_Detection.pbix"
+    ],
+    "scores": [
+      4,
+      4,
+      4,
+      3,
+      3,
+      2,
+      2
+    ],
+    "demo": null,
+    "rank": 4,
+    "weighted_score": 32,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/Banking-Fraud-Detection"
+    ],
+    "commit": "ee0c5ac6954c5e4d9451f5280e4343c18fe24e7c",
+    "repo_url": "https://github.com/MINAADELMARKOS/Banking-Fraud-Detection"
+  },
+  {
+    "slug": "airflow-etl",
+    "name": "Airflow Employee Dimension ETL",
+    "category": "Data Engineering",
+    "status": "Code-backed learning pipeline; external services not run",
+    "stack": "Airflow · PostgreSQL · S3 · Python · Snowflake",
+    "problem": "Keep changing employee attributes available for historical reporting rather than overwriting prior values.",
+    "solution": "An hourly DAG extracts HR/finance data to S3, identifies changes and branches into Snowflake dimension updates and inserts.",
+    "repo": "Airflow-Data-Pipeline-ETL",
+    "image": "img/portfolio/Airflow_Data_Pipeline_ETL.png",
+    "flow": [
+      "PostgreSQL HR / finance → SqlToS3Operator → S3 CSV extracts",
+      "Python change detection → Airflow branching / XCom",
+      "Snowflake update / insert tasks → historical employee dimension"
+    ],
+    "context": "Historical dimensions help analysts interpret a result using the attributes that applied at the relevant time. The repository demonstrates the orchestration pattern with named external connections.",
+    "challenges": "SCD Type 2 requires consistent effective dates, unique current rows and safe reruns. Branching reduces empty-operation failures but does not establish transactional correctness under retries. Provider versions and credentials are external prerequisites.",
+    "decisions": "The code uses Airflow tasks to make extraction, change detection and load dependencies explicit, with S3 as a staging boundary. For a smaller workflow, a database-native scheduled job might be simpler. The repository does not record an evaluated alternatives study.",
+    "implementation": "Dags/ETL_DAG.py uses PostgreSQL/S3 connection IDs, a Python change-detection helper and Snowflake operators. Includes contains SQL and transformation functions. Output screenshots are present. README retains template setup instructions and upstream image attribution; present as a learning project, not sole invention of the pattern.",
+    "security": "Connection configuration, secrets, retry-safe writes and least-privilege data access must be validated against real services. No live PostgreSQL/S3/Snowflake test was executed here.",
+    "value": "Expected value: consistent historical reporting and inspectable workflow dependencies. No reduction in processing time or operational cost is claimed.",
+    "future": "Pin supported Airflow/provider versions, replace template setup instructions, add deterministic SCD fixtures and test reruns/partial failures before a production claim.",
+    "evidence": [
+      "Dags/ETL_DAG.py",
+      "Includes/emp_dim_insert_update.py",
+      "Includes/queries.py",
+      "README.md",
+      "Output/1.png"
+    ],
+    "scores": [
+      4,
+      3,
+      4,
+      0,
+      3,
+      3,
+      2
+    ],
+    "demo": null,
+    "rank": 5,
+    "weighted_score": 30,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/Airflow-Data-Pipeline-ETL?tab=readme-ov-file"
+    ],
+    "commit": "350b3988df426fbf1f52d2c9d9ab27cd20eae5d6",
+    "repo_url": "https://github.com/MINAADELMARKOS/Airflow-Data-Pipeline-ETL"
+  },
+  {
+    "slug": "databricks-sales",
+    "name": "Databricks Customer Sales Analysis",
+    "category": "Business Intelligence",
+    "status": "Synthetic SQL analytics demonstration",
+    "stack": "Databricks SQL · CSV · Customer analytics",
+    "problem": "Explore customer value, geographic revenue concentration and purchase recency in a controlled sales dataset.",
+    "solution": "SQL cohorts, country totals, recency flags and a dashboard turn synthetic customer records into inspectable analytical outputs.",
+    "repo": "DataBricks_Customer_Sales_Analysis",
+    "image": "img/portfolio/Databricks_Customer_Sales.png",
+    "flow": [
+      "100 synthetic customer records (repository documentation)",
+      "Databricks SQL cohort / revenue / recency queries",
+      "Dashboard screenshot → analytical interpretation"
+    ],
+    "context": "The dataset is synthetic and cannot demonstrate actual customer retention or revenue improvement. Recency flags are indicators, not validated churn predictions.",
+    "challenges": "Analytical definitions and date cutoffs must be explicit. A segment threshold that works in a fixture does not establish a business intervention policy.",
+    "decisions": "SQL keeps grouping and ranking logic inspectable; a CSV fixture bounds the exercise. No production ingestion or real-time serving architecture is established.",
+    "implementation": "The repository includes customer_sales_summary_small.csv, SQL Queries and Customer_Sales_Dashboard.png. Workspace execution and dashboard publication were not rerun in this task.",
+    "security": "The synthetic dataset avoids using real customer information. Production adaptation would need access controls, data contracts and validation of revenue definitions.",
+    "value": "Demonstrated artifact scope is customer segmentation and revenue/recency analysis, not improved customer lifetime value. No financial uplift is reported.",
+    "future": "Add query-level assertions, versioned date cutoffs, source-to-total reconciliation and reproducible workspace instructions.",
+    "evidence": [
+      "README.md",
+      "SQL Queries",
+      "customer_sales_summary_small.csv",
+      "Customer_Sales_Dashboard.png"
+    ],
+    "scores": [
+      3,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3
+    ],
+    "demo": null,
+    "rank": 6,
+    "weighted_score": 24,
+    "original_links": [],
+    "commit": "9f9d9fb1f708bd717e72bab926164e6853d4ca37",
+    "repo_url": "https://github.com/MINAADELMARKOS/DataBricks_Customer_Sales_Analysis"
+  },
+  {
+    "slug": "vodafone-assistant",
+    "name": "Vodafone LLM-Powered SQL Analytics Assistant",
+    "category": "AI & Intelligent Systems",
+    "status": "Applied AI PoC; CV-reported implementation",
+    "stack": "Python · LangChain · Ollama · Streamlit · SQL",
+    "problem": "Help business users explore data with natural-language questions.",
+    "solution": "The supplied CV describes a text-to-SQL proof of concept with prompt controls and database context.",
+    "repo": null,
+    "image": "img/portfolio/VodaFone_Assistant.png",
+    "flow": [
+      "Source / ingestion / processing details not established",
+      "Available presentation artifact → reviewer",
+      "No production monitoring, governance or deployment inferred"
+    ],
+    "context": "The available evidence is limited to the repository or linked document and the portfolio screenshot. Business context beyond that is not established.",
+    "challenges": "A screenshot does not reveal data freshness, metric definitions, access controls or the system that produced it. Avoid reverse-engineering an implementation claim from visual output.",
+    "decisions": "No documented alternatives comparison is available. Any future architecture decision should begin with the business question, data contract and operating requirements.",
+    "implementation": "The supplied CV describes a text-to-SQL proof of concept with prompt controls and database context. The original supporting link is retained below. External document contents were not remotely validated in this review.",
+    "security": "Authentication, source permissions, validation rules and operational monitoring are not established by the available artifact.",
+    "value": "No measured project benefit is independently verified. The CV reports an approximate 60% reduction in BI dependency for the SQL-assistant PoC; it is an author-reported estimate without an evaluation record here and is not presented as measured project impact.",
+    "future": "Add a reproducible source package, dataset provenance, metric definitions and tests before making implementation or impact claims.",
+    "evidence": [],
+    "scores": [
+      4,
+      2,
+      2,
+      4,
+      3,
+      1,
+      1
+    ],
+    "demo": null,
+    "rank": 7,
+    "weighted_score": 24,
+    "original_links": [
+      "https://drive.google.com/file/d/19dcIMO3_qawCeVIQ94whdsO9C44DFXo4/view"
+    ],
+    "commit": null,
+    "repo_url": null
+  },
+  {
+    "slug": "superstore",
+    "name": "SuperMarket Dashboard / Superstore Analysis",
+    "category": "Business Intelligence",
+    "status": "Educational notebook and dashboard artifacts",
+    "stack": "Python · Notebook · Power BI",
+    "problem": "Explore sales and profit patterns in sample retail data.",
+    "solution": "An exploratory notebook and dashboard documents analyze sample-store categories and regions.",
+    "repo": "SuperSampleStore_Analysis",
+    "image": "img/portfolio/SuperMarket.jpg",
+    "flow": [
+      "Source / ingestion / processing details not established",
+      "Available presentation artifact → reviewer",
+      "No production monitoring, governance or deployment inferred"
+    ],
+    "context": "The available evidence is limited to the repository or linked document and the portfolio screenshot. Business context beyond that is not established.",
+    "challenges": "A screenshot does not reveal data freshness, metric definitions, access controls or the system that produced it. Avoid reverse-engineering an implementation claim from visual output.",
+    "decisions": "No documented alternatives comparison is available. Any future architecture decision should begin with the business question, data contract and operating requirements.",
+    "implementation": "An exploratory notebook and dashboard documents analyze sample-store categories and regions. The original supporting link is retained below. External document contents were not remotely validated in this review.",
+    "security": "Authentication, source permissions, validation rules and operational monitoring are not established by the available artifact.",
+    "value": "No measured operational or financial outcome is established; screenshots are presentation evidence only.",
+    "future": "Add a reproducible source package, dataset provenance, metric definitions and tests before making implementation or impact claims.",
+    "evidence": [
+      "README.md",
+      "SuperStore_notebook.ipynb",
+      "Dashboard Part1.pdf",
+      "DashBoard Part2.pdf"
+    ],
+    "scores": [
+      2,
+      1,
+      2,
+      0,
+      2,
+      3,
+      2
+    ],
+    "demo": null,
+    "rank": 8,
+    "weighted_score": 19,
+    "original_links": [
+      "https://github.com/MINAADELMARKOS/SuperSampleStore_Analysis/blob/main/SuperStore_notebook.ipynb"
+    ],
+    "commit": "1cbd61a0e0e443df7c72debeb411fefa2217143f",
+    "repo_url": "https://github.com/MINAADELMARKOS/SuperSampleStore_Analysis"
+  },
+  {
+    "slug": "execution-time",
+    "name": "Execution Time Dashboard",
+    "category": "Business Intelligence",
+    "status": "Screenshot/document artifact; implementation unverified",
+    "stack": "Not established from accessible source",
+    "problem": "Review execution-time information in a dashboard.",
+    "solution": "The existing portfolio provides a screenshot and Drive document, without an accessible implementation repository.",
+    "repo": null,
+    "image": "img/portfolio/ETD.jpeg",
+    "flow": [
+      "Source / ingestion / processing details not established",
+      "Available presentation artifact → reviewer",
+      "No production monitoring, governance or deployment inferred"
+    ],
+    "context": "The available evidence is limited to the repository or linked document and the portfolio screenshot. Business context beyond that is not established.",
+    "challenges": "A screenshot does not reveal data freshness, metric definitions, access controls or the system that produced it. Avoid reverse-engineering an implementation claim from visual output.",
+    "decisions": "No documented alternatives comparison is available. Any future architecture decision should begin with the business question, data contract and operating requirements.",
+    "implementation": "The existing portfolio provides a screenshot and Drive document, without an accessible implementation repository. The original supporting link is retained below. External document contents were not remotely validated in this review.",
+    "security": "Authentication, source permissions, validation rules and operational monitoring are not established by the available artifact.",
+    "value": "No measured operational or financial outcome is established; screenshots are presentation evidence only.",
+    "future": "Add a reproducible source package, dataset provenance, metric definitions and tests before making implementation or impact claims.",
+    "evidence": [],
+    "scores": [
+      2,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1
+    ],
+    "demo": null,
+    "rank": 9,
+    "weighted_score": 12,
+    "original_links": [
+      "https://drive.google.com/file/d/1IdwtZz9UaavB50ELwNAUT-RvUXrMVzFf/view"
+    ],
+    "commit": null,
+    "repo_url": null
+  },
+  {
+    "slug": "supply-chain",
+    "name": "Supply Chain Dashboard",
+    "category": "Business Intelligence",
+    "status": "Screenshot/document artifact; implementation unverified",
+    "stack": "Not established from accessible source",
+    "problem": "Present an operational supply-chain dashboard; its requirements are not documented.",
+    "solution": "An operational dashboard presentation; its source pipelines and metric definitions are not documented.",
+    "repo": null,
+    "image": "img/portfolio/Supplychain.jpg",
+    "flow": [
+      "Source / ingestion / processing details not established",
+      "Available presentation artifact → reviewer",
+      "No production monitoring, governance or deployment inferred"
+    ],
+    "context": "The available evidence is limited to the repository or linked document and the portfolio screenshot. Business context beyond that is not established.",
+    "challenges": "A screenshot does not reveal data freshness, metric definitions, access controls or the system that produced it. Avoid reverse-engineering an implementation claim from visual output.",
+    "decisions": "No documented alternatives comparison is available. Any future architecture decision should begin with the business question, data contract and operating requirements.",
+    "implementation": "An operational dashboard presentation; its source pipelines and metric definitions are not documented. The original supporting link is retained below. External document contents were not remotely validated in this review.",
+    "security": "Authentication, source permissions, validation rules and operational monitoring are not established by the available artifact.",
+    "value": "No measured operational or financial outcome is established; screenshots are presentation evidence only.",
+    "future": "Add a reproducible source package, dataset provenance, metric definitions and tests before making implementation or impact claims.",
+    "evidence": [],
+    "scores": [
+      2,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1
+    ],
+    "demo": null,
+    "rank": 10,
+    "weighted_score": 12,
+    "original_links": [
+      "https://drive.google.com/file/d/1W4NEKgjrKAl9FeQ3WC14H3rpfT9-ZTjn/view?t=3"
+    ],
+    "commit": null,
+    "repo_url": null
+  },
+  {
+    "slug": "aom",
+    "name": "AOM Dashboard",
+    "category": "Business Intelligence",
+    "status": "Screenshot/document artifact; implementation unverified",
+    "stack": "Not established from accessible source",
+    "problem": "Business problem is not documented in the accessible source.",
+    "solution": "A dashboard presentation artifact; the available source does not document its implementation or data model.",
+    "repo": null,
+    "image": "img/portfolio/AOM.jpeg",
+    "flow": [
+      "Source / ingestion / processing details not established",
+      "Available presentation artifact → reviewer",
+      "No production monitoring, governance or deployment inferred"
+    ],
+    "context": "The available evidence is limited to the repository or linked document and the portfolio screenshot. Business context beyond that is not established.",
+    "challenges": "A screenshot does not reveal data freshness, metric definitions, access controls or the system that produced it. Avoid reverse-engineering an implementation claim from visual output.",
+    "decisions": "No documented alternatives comparison is available. Any future architecture decision should begin with the business question, data contract and operating requirements.",
+    "implementation": "A dashboard presentation artifact; the available source does not document its implementation or data model. The original supporting link is retained below. External document contents were not remotely validated in this review.",
+    "security": "Authentication, source permissions, validation rules and operational monitoring are not established by the available artifact.",
+    "value": "No measured operational or financial outcome is established; screenshots are presentation evidence only.",
+    "future": "Add a reproducible source package, dataset provenance, metric definitions and tests before making implementation or impact claims.",
+    "evidence": [],
+    "scores": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "demo": null,
+    "rank": 11,
+    "weighted_score": 9,
+    "original_links": [
+      "https://drive.google.com/file/d/1wnV3S6R2ddeh3iVWAjj6yTJ2hP8Nlm-r/view"
+    ],
+    "commit": null,
+    "repo_url": null
+  }
+]

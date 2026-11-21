@@ -32,7 +32,7 @@ class Document(HTMLParser):
             self.json=False
 
 def crawl():
-    paths=[ROOT/'index.html',ROOT/'blog.html',*sorted((ROOT/'insights').glob('*.html'))]
+    paths=[ROOT/'index.html',ROOT/'blog.html',*sorted((ROOT/'insights').glob('*.html')),*sorted((ROOT/'projects').glob('*.html'))]
     paths += [p for p in [ROOT/'cv.html',ROOT/'elements.html',ROOT/'single-blog.html'] if p.exists()]
     docs={p:Document(p) for p in paths};rows=[];broken=[]
     for path,d in docs.items():

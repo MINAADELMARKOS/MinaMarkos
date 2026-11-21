@@ -10,7 +10,7 @@ const root=path.resolve(__dirname,'..');
   for(const width of [384,768])await sharp(path.join(root,input)).resize({width,withoutEnlargement:true}).webp({quality:82,effort:6}).toFile(path.join(root,`img/optimized/${name}-${width}.webp`));
  }
  // Keep original stylesheets and legacy templates intact; build a dedicated homepage bundle.
- const files=['css/bootstrap.css','css/font-awesome.min.css','css/style.css','css/home-blog-navigation.css','css/seo-accessibility.css','css/homepage-executive.css'];
+ const files=['css/bootstrap.css','css/font-awesome.min.css','css/style.css','css/home-blog-navigation.css','css/seo-accessibility.css','css/homepage-executive.css','css/project-portfolio.css'];
  const styles=files.map(file=>fs.readFileSync(path.join(root,file),'utf8').replace(/@import\s+url\([^;]+\);/g,'')).join('\n');
  const result=new CleanCSS({level:1,rebase:false}).minify(styles);
  if(result.errors.length)throw new Error(result.errors.join('\n'));
