@@ -110,5 +110,9 @@
   "img/brands/Python.png": {
     "width": 800,
     "height": 800
+  },
+  "img/main_official_image.png": {
+    "width": 1024,
+    "height": 1536
   }
 }

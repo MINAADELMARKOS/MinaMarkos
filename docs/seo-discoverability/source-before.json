@@ -1,0 +1,2898 @@
+{
+  "scope": "Local source inspection, not Google/Bing index status",
+  "base_url": "https://minaadelmarkos.github.io/MinaMarkos/",
+  "pages": [
+    {
+      "path": "index.html",
+      "indexable_in_source": true,
+      "title": "Mina Adel Markos | Senior Data Engineer & AI Architecture",
+      "description": "Mina Adel Markos is a Senior Data Engineer specializing in enterprise data platforms, Apache Spark, Kafka, Google Cloud, data reliability, and AI architecture.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Mina Adel Markos"
+        },
+        {
+          "level": 2,
+          "text": "Engineering expertise"
+        },
+        {
+          "level": 3,
+          "text": "Enterprise Data Engineering"
+        },
+        {
+          "level": 3,
+          "text": "Distributed Systems"
+        },
+        {
+          "level": 3,
+          "text": "Data Platform Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Cloud & Databricks"
+        },
+        {
+          "level": 3,
+          "text": "Data Reliability & Governance"
+        },
+        {
+          "level": 3,
+          "text": "AI-Ready Data Infrastructure"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Value"
+        },
+        {
+          "level": 3,
+          "text": "Improve operational reliability"
+        },
+        {
+          "level": 3,
+          "text": "Reduce engineering complexity"
+        },
+        {
+          "level": 3,
+          "text": "Enable faster decisions"
+        },
+        {
+          "level": 3,
+          "text": "Modernize data platforms"
+        },
+        {
+          "level": 3,
+          "text": "Support trusted AI solutions"
+        },
+        {
+          "level": 2,
+          "text": "Engineering projects, explained."
+        },
+        {
+          "level": 3,
+          "text": "InvestiNator — DataOps Incident Investigation"
+        },
+        {
+          "level": 3,
+          "text": "VerdaTrace — Governed Cloud Data Platform"
+        },
+        {
+          "level": 3,
+          "text": "DataGuard-AI — Telecom Reliability Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Banking Fraud Detection Pipeline"
+        },
+        {
+          "level": 3,
+          "text": "Airflow Employee Dimension ETL"
+        },
+        {
+          "level": 3,
+          "text": "Databricks Customer Sales Analysis"
+        },
+        {
+          "level": 3,
+          "text": "Vodafone LLM-Powered SQL Analytics Assistant"
+        },
+        {
+          "level": 3,
+          "text": "SuperMarket Dashboard / Superstore Analysis"
+        },
+        {
+          "level": 3,
+          "text": "Execution Time Dashboard"
+        },
+        {
+          "level": 3,
+          "text": "Supply Chain Dashboard"
+        },
+        {
+          "level": 3,
+          "text": "AOM Dashboard"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Insights"
+        },
+        {
+          "level": 2,
+          "text": "Enterprise Data Engineering for Analytics and AI"
+        },
+        {
+          "level": 2,
+          "text": "Experience"
+        },
+        {
+          "level": 3,
+          "text": "DataScience Middle East | Full time, Remote, UAE"
+        },
+        {
+          "level": 3,
+          "text": "VODAFONE | Full time, Hybrid, Egypt"
+        },
+        {
+          "level": 3,
+          "text": "MCS Analytics| Full time, Remote, Canada"
+        },
+        {
+          "level": 3,
+          "text": "Sparks Foundation | Internship, India"
+        },
+        {
+          "level": 3,
+          "text": "Epsilon Ai| Internship, Egypt"
+        },
+        {
+          "level": 2,
+          "text": "Data Engineering Platforms and Tools"
+        },
+        {
+          "level": 2,
+          "text": "Badges and Certifications"
+        },
+        {
+          "level": 3,
+          "text": "Google Cloud Certified — Generative AI Leader"
+        },
+        {
+          "level": 3,
+          "text": "Cloudera Data Engineer Professional Certificate"
+        },
+        {
+          "level": 3,
+          "text": "SI Architect Certification"
+        },
+        {
+          "level": 3,
+          "text": "Associate Cloud Engineer Certification"
+        },
+        {
+          "level": 3,
+          "text": "Cloudera Data Analyst Professional Certificate"
+        },
+        {
+          "level": 3,
+          "text": "Google Business Intelligence Certificate"
+        },
+        {
+          "level": 3,
+          "text": "Data Analytics Professional - Vodafone Business"
+        },
+        {
+          "level": 2,
+          "text": "Discuss Data Engineering and AI Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Follow Mina"
+        }
+      ],
+      "image_count": 34,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 11,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "ProfilePage"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "blog.html",
+      "indexable_in_source": true,
+      "title": "Data Engineering, Apache Kafka & Spark Tutorials | Mina Markos",
+      "description": "Learn Apache Kafka, Spark and PySpark with runnable Java and Python examples, plus Mina Adel Markos's articles on data platforms, reliability and AI architecture.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/blog.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Understand the system.Make the trade-off."
+        },
+        {
+          "level": 2,
+          "text": "Start with a system. Follow it into production."
+        },
+        {
+          "level": 3,
+          "text": "Apache Kafka"
+        },
+        {
+          "level": 3,
+          "text": "Apache Spark & PySpark"
+        },
+        {
+          "level": 2,
+          "text": "Read by the problem you’re solving."
+        },
+        {
+          "level": 3,
+          "text": "Understanding Kafka Through Real Business Problems"
+        },
+        {
+          "level": 3,
+          "text": "Kafka Architecture Explained: Partitions, Replicas and KRaft"
+        },
+        {
+          "level": 3,
+          "text": "Kafka Producer and Consumer Tutorial in Java"
+        },
+        {
+          "level": 3,
+          "text": "Kafka Reliability and Message Delivery: Follow the Failure Window"
+        },
+        {
+          "level": 3,
+          "text": "Kafka Production Troubleshooting: Diagnose Before Restarting"
+        },
+        {
+          "level": 3,
+          "text": "Kafka Performance Optimization Is a Capacity Trade-off"
+        },
+        {
+          "level": 3,
+          "text": "Why Spark Exists: Distributed Processing With a Deadline"
+        },
+        {
+          "level": 3,
+          "text": "Spark Architecture: From a Lazy Plan to Jobs, Stages and Tasks"
+        },
+        {
+          "level": 3,
+          "text": "Spark Internals: Why Shuffles and Partition Shape Dominate"
+        },
+        {
+          "level": 3,
+          "text": "Spark Performance Optimization: Read the Physical Plan First"
+        },
+        {
+          "level": 3,
+          "text": "Spark Troubleshooting: Turn Symptoms Into Testable Hypotheses"
+        },
+        {
+          "level": 3,
+          "text": "Spark on Cloudera and Cloud Platforms: Match the Operating Model"
+        },
+        {
+          "level": 3,
+          "text": "Why Data Engineering Is the Foundation of Enterprise AI"
+        },
+        {
+          "level": 3,
+          "text": "Why a Successful Pipeline Can Still Be a Business Failure"
+        },
+        {
+          "level": 3,
+          "text": "The Real Cost of Poor Data Quality"
+        },
+        {
+          "level": 3,
+          "text": "Why Architecture Decisions Must Include Cost and Risk"
+        },
+        {
+          "level": 3,
+          "text": "AI Agents for Distributed Systems Troubleshooting"
+        },
+        {
+          "level": 3,
+          "text": "Engineering Reliability as a Business Capability"
+        },
+        {
+          "level": 3,
+          "text": "Data quality and lineage on GCP with VerdaTrace"
+        },
+        {
+          "level": 3,
+          "text": "Cloudera CDP migration readiness from HDFS to object storage"
+        },
+        {
+          "level": 3,
+          "text": "A useful AI demo is not yet a production AI system"
+        },
+        {
+          "level": 2,
+          "text": "Browse the full topic index"
+        },
+        {
+          "level": 3,
+          "text": "Apache Kafka"
+        },
+        {
+          "level": 3,
+          "text": "Apache Spark & PySpark"
+        },
+        {
+          "level": 3,
+          "text": "Distributed Systems"
+        },
+        {
+          "level": 3,
+          "text": "Data Engineering"
+        },
+        {
+          "level": 3,
+          "text": "Cloud Architecture"
+        },
+        {
+          "level": 3,
+          "text": "AI Engineering"
+        },
+        {
+          "level": 3,
+          "text": "Engineering Leadership"
+        },
+        {
+          "level": 3,
+          "text": "Engineering Perspectives"
+        },
+        {
+          "level": 2,
+          "text": "How these notes are validated"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/ai-dataops-investigation-copilot.html",
+      "indexable_in_source": true,
+      "title": "AI Agents for Distributed Systems Troubleshooting | Mina Markos",
+      "description": "Keep diagnosis evidence-linked, tools bounded, and remediation subject to explicit policy and recovery checks.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "AI Agents for Distributed Systems Troubleshooting"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The useful unit is a supported hypothesis"
+        },
+        {
+          "level": 2,
+          "text": "Separate read access from change authority"
+        },
+        {
+          "level": 2,
+          "text": "Evaluate the assistant as an incident system"
+        },
+        {
+          "level": 2,
+          "text": "Keep business recovery in the loop"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "What should a DataOps investigation copilot do?"
+        },
+        {
+          "level": 2,
+          "text": "From a Kafka signal to an incident decision"
+        },
+        {
+          "level": 2,
+          "text": "Trade-off and validation"
+        },
+        {
+          "level": 2,
+          "text": "What the business should measure"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/architecture-cost-risk.html",
+      "indexable_in_source": true,
+      "title": "Why Architecture Decisions Must Include Cost and Risk | Mina Markos",
+      "description": "Compare designs using total operating cost, failure exposure, reversibility, and evidence that would change the decision.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/architecture-cost-risk.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Why Architecture Decisions Must Include Cost and Risk"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "A design is a set of obligations"
+        },
+        {
+          "level": 2,
+          "text": "Compare total cost under more than one scenario"
+        },
+        {
+          "level": 2,
+          "text": "Risk is probability, consequence, and control"
+        },
+        {
+          "level": 2,
+          "text": "Make the decision reversible where possible"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "indexable_in_source": true,
+      "title": "Cloudera CDP migration readiness from HDFS to object storage | Mina Markos",
+      "description": "A decision checklist for data inventory, Hive ACID, small files, cutover, and business acceptance.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Cloudera CDP migration readiness from HDFS to object storage"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "What should you verify before an HDFS migration?"
+        },
+        {
+          "level": 2,
+          "text": "Choose copy or rewrite by table class"
+        },
+        {
+          "level": 2,
+          "text": "Measure whether the cutover is viable"
+        },
+        {
+          "level": 2,
+          "text": "Explain the decision in business terms"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/data-quality-foundation-for-ai.html",
+      "indexable_in_source": true,
+      "title": "Why Data Engineering Is the Foundation of Enterprise AI | Mina Markos",
+      "description": "Treat freshness, permission, lineage, and reconciliation as parts of the AI product’s correctness contract.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/data-quality-foundation-for-ai.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Why Data Engineering Is the Foundation of Enterprise AI"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The model cannot repair the source contract"
+        },
+        {
+          "level": 2,
+          "text": "Make data readiness measurable"
+        },
+        {
+          "level": 2,
+          "text": "Connect investment to an actual decision"
+        },
+        {
+          "level": 2,
+          "text": "An operating model that survives change"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "Why does enterprise AI depend on data quality?"
+        },
+        {
+          "level": 2,
+          "text": "Put controls at ingestion and retrieval"
+        },
+        {
+          "level": 2,
+          "text": "Validate a business failure case"
+        },
+        {
+          "level": 2,
+          "text": "Decide what to release"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/from-ai-demo-to-production.html",
+      "indexable_in_source": true,
+      "title": "A useful AI demo is not yet a production AI system | Mina Markos",
+      "description": "A pragmatic checklist for moving an enterprise AI prototype toward reliable, governed and measurable production value.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/from-ai-demo-to-production.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "A useful AI demo is not yet a production AI system"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "Define the business decision"
+        },
+        {
+          "level": 2,
+          "text": "Build a trustworthy data boundary"
+        },
+        {
+          "level": 2,
+          "text": "Evaluate failures—not just successful examples"
+        },
+        {
+          "level": 2,
+          "text": "Ship outcomes, not model screenshots"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/gcp-data-quality-governance.html",
+      "indexable_in_source": true,
+      "title": "Data quality and lineage on GCP with VerdaTrace | Mina Markos",
+      "description": "A GCP reference platform that connects Pub/Sub, Python, BigQuery and Cloud Storage with source provenance and testable quality rules.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Data quality and lineage on GCP with VerdaTrace"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "What makes a dataset safe to use?"
+        },
+        {
+          "level": 2,
+          "text": "Architecture and decision"
+        },
+        {
+          "level": 2,
+          "text": "Validation with actual and synthetic data"
+        },
+        {
+          "level": 2,
+          "text": "Limitations and business use"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-architecture.html",
+      "indexable_in_source": true,
+      "title": "Kafka Architecture Explained: Partitions, Replicas and KRaft | Mina Markos",
+      "description": "Follow a record from producer to partition leader to consumer, then separate data replication from metadata consensus.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-architecture.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kafka Architecture Explained: Partitions, Replicas and KRaft"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The data path: topics, partitions, brokers"
+        },
+        {
+          "level": 2,
+          "text": "Replication and acknowledgement are a joint policy"
+        },
+        {
+          "level": 2,
+          "text": "Consumers, groups, and committed positions"
+        },
+        {
+          "level": 2,
+          "text": "Retention and compaction are different promises"
+        },
+        {
+          "level": 2,
+          "text": "KRaft is the metadata plane"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-business-problems.html",
+      "indexable_in_source": true,
+      "title": "Understanding Kafka Through Real Business Problems | Mina Markos",
+      "description": "Choose event streaming by the decision deadline, replay requirement, and cost of coupling—not by message volume alone.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-business-problems.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Understanding Kafka Through Real Business Problems"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Begin with the time between an event and a decision"
+        },
+        {
+          "level": 2,
+          "text": "Scheduled batch versus an event log"
+        },
+        {
+          "level": 2,
+          "text": "What Kafka supplies—and what remains your job"
+        },
+        {
+          "level": 2,
+          "text": "A practical adoption decision"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-java-producer-consumer.html",
+      "indexable_in_source": true,
+      "title": "Kafka Producer and Consumer Tutorial in Java | Mina Markos",
+      "description": "Run a bounded Java lab that creates a topic, sends keyed orders, checks partition routing, and verifies committed offsets.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-java-producer-consumer.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kafka Producer and Consumer Tutorial in Java"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Prerequisites and scope"
+        },
+        {
+          "level": 2,
+          "text": "Start a local KRaft broker and build"
+        },
+        {
+          "level": 2,
+          "text": "Read the producer policy"
+        },
+        {
+          "level": 2,
+          "text": "Read the consumer policy"
+        },
+        {
+          "level": 2,
+          "text": "Expected results and failure diagnosis"
+        },
+        {
+          "level": 2,
+          "text": "Run the Java lab"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-performance.html",
+      "indexable_in_source": true,
+      "title": "Kafka Performance Optimization Is a Capacity Trade-off | Mina Markos",
+      "description": "Balance throughput, tail latency, recovery headroom, storage, and cost instead of copying a universal configuration.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-performance.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kafka Performance Optimization Is a Capacity Trade-off"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Set the workload and latency budget"
+        },
+        {
+          "level": 2,
+          "text": "Partition count and consumer parallelism"
+        },
+        {
+          "level": 2,
+          "text": "Batching, compression, and latency"
+        },
+        {
+          "level": 2,
+          "text": "Storage and replication arithmetic"
+        },
+        {
+          "level": 2,
+          "text": "An experiment with a decision rule"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-reliability.html",
+      "indexable_in_source": true,
+      "title": "Kafka Reliability and Message Delivery: Follow the Failure Window | Mina Markos",
+      "description": "Use crash timing to reason about at-most-once, at-least-once, idempotence, transactions, and dead-letter handling.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-reliability.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kafka Reliability and Message Delivery: Follow the Failure Window"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The commit boundary defines replay"
+        },
+        {
+          "level": 2,
+          "text": "Idempotence is not a business uniqueness rule"
+        },
+        {
+          "level": 2,
+          "text": "Exactly-once has a bounded scope"
+        },
+        {
+          "level": 2,
+          "text": "Retries, poison records, and dead-letter topics"
+        },
+        {
+          "level": 2,
+          "text": "A failure test worth running"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/kafka-troubleshooting.html",
+      "indexable_in_source": true,
+      "title": "Kafka Production Troubleshooting: Diagnose Before Restarting | Mina Markos",
+      "description": "Connect lag, replica health, disk, network, and controller evidence to a safe next action.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-troubleshooting.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kafka Production Troubleshooting: Diagnose Before Restarting"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Start with impact and a time window"
+        },
+        {
+          "level": 2,
+          "text": "Lag and slow consumers"
+        },
+        {
+          "level": 2,
+          "text": "Broker failure and under-replicated partitions"
+        },
+        {
+          "level": 2,
+          "text": "Disk pressure, network faults, and rebalance storms"
+        },
+        {
+          "level": 2,
+          "text": "Controller and metadata issues"
+        },
+        {
+          "level": 2,
+          "text": "Verify recovery against the original symptom"
+        },
+        {
+          "level": 2,
+          "text": "Read-only diagnostic commands"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/pipeline-business-failure.html",
+      "indexable_in_source": true,
+      "title": "Why a Successful Pipeline Can Still Be a Business Failure | Mina Markos",
+      "description": "A green scheduler measures execution. A useful dataset must also meet a decision deadline, definition, and reconciliation contract.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/pipeline-business-failure.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Why a Successful Pipeline Can Still Be a Business Failure"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "A completed job is an intermediate outcome"
+        },
+        {
+          "level": 2,
+          "text": "Define success at the publication boundary"
+        },
+        {
+          "level": 2,
+          "text": "Measure deadline and decision impact"
+        },
+        {
+          "level": 2,
+          "text": "Change the review conversation"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/reliability-business-capability.html",
+      "indexable_in_source": true,
+      "title": "Engineering Reliability as a Business Capability | Mina Markos",
+      "description": "Use service objectives, recovery drills, ownership, and error-budget decisions to make dependable operations an explicit investment.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/reliability-business-capability.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Engineering Reliability as a Business Capability"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Reliability is the ability to keep a promise"
+        },
+        {
+          "level": 2,
+          "text": "Turn objectives into operating choices"
+        },
+        {
+          "level": 2,
+          "text": "Recovery is a practiced capability"
+        },
+        {
+          "level": 2,
+          "text": "Make the investment case with outcomes"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/spark-architecture.html",
+      "indexable_in_source": true,
+      "title": "Spark Architecture: From a Lazy Plan to Jobs, Stages and Tasks | Mina Markos",
+      "description": "Locate a slow operation in the driver, scheduler, executors, or storage path before changing resources.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-architecture.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spark Architecture: From a Lazy Plan to Jobs, Stages and Tasks"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Driver, executors, and the cluster manager"
+        },
+        {
+          "level": 2,
+          "text": "Transformations defer work; actions request results"
+        },
+        {
+          "level": 2,
+          "text": "Jobs, stages, and tasks"
+        },
+        {
+          "level": 2,
+          "text": "Follow the local lab through the UI and plan"
+        },
+        {
+          "level": 2,
+          "text": "Run the PySpark lab"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/spark-cloudera-cloud.html",
+      "indexable_in_source": true,
+      "title": "Spark on Cloudera and Cloud Platforms: Match the Operating Model | Mina Markos",
+      "description": "Compare YARN, Kubernetes, and managed Spark by identity, storage, isolation, lifecycle, and recovery responsibilities.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-cloudera-cloud.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spark on Cloudera and Cloud Platforms: Match the Operating Model"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The execution model persists; ownership changes"
+        },
+        {
+          "level": 2,
+          "text": "Cloudera and YARN"
+        },
+        {
+          "level": 2,
+          "text": "Kubernetes"
+        },
+        {
+          "level": 2,
+          "text": "Managed cloud services and object storage"
+        },
+        {
+          "level": 2,
+          "text": "A migration acceptance contract"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/spark-internals.html",
+      "indexable_in_source": true,
+      "title": "Spark Internals: Why Shuffles and Partition Shape Dominate | Mina Markos",
+      "description": "Reason about narrow dependencies, redistribution, serialization, locality, and scheduling through the bytes each task must move.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-internals.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spark Internals: Why Shuffles and Partition Shape Dominate"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Partitioning is a distribution of work"
+        },
+        {
+          "level": 2,
+          "text": "Narrow and wide dependencies"
+        },
+        {
+          "level": 2,
+          "text": "Serialization and locality"
+        },
+        {
+          "level": 2,
+          "text": "Scheduling, skew, and the long tail"
+        },
+        {
+          "level": 2,
+          "text": "A disciplined experiment"
+        },
+        {
+          "level": 2,
+          "text": "Run the PySpark lab"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/spark-performance.html",
+      "indexable_in_source": true,
+      "title": "Spark Performance Optimization: Read the Physical Plan First | Mina Markos",
+      "description": "Validate pruning, pushdown, join strategy, AQE, caching, and file layout against a reproducible PySpark result.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-performance.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spark Performance Optimization: Read the Physical Plan First"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "A runnable baseline"
+        },
+        {
+          "level": 2,
+          "text": "Three different ways to read less"
+        },
+        {
+          "level": 2,
+          "text": "Broadcast joins and AQE"
+        },
+        {
+          "level": 2,
+          "text": "Caching, memory, and file sizing"
+        },
+        {
+          "level": 2,
+          "text": "Choose a change by its evidence"
+        },
+        {
+          "level": 2,
+          "text": "Run the PySpark lab"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/spark-troubleshooting.html",
+      "indexable_in_source": true,
+      "title": "Spark Troubleshooting: Turn Symptoms Into Testable Hypotheses | Mina Markos",
+      "description": "A six-part investigation method for memory failures, shuffle delays, skew, GC, failed stages, contention, and small files.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-troubleshooting.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spark Troubleshooting: Turn Symptoms Into Testable Hypotheses"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executor out-of-memory"
+        },
+        {
+          "level": 2,
+          "text": "Driver out-of-memory"
+        },
+        {
+          "level": 2,
+          "text": "Slow shuffle and data skew"
+        },
+        {
+          "level": 2,
+          "text": "Garbage collection and failed stages"
+        },
+        {
+          "level": 2,
+          "text": "Resource contention and small files"
+        },
+        {
+          "level": 2,
+          "text": "A repeatable investigation record"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/the-cost-of-untrusted-data.html",
+      "indexable_in_source": true,
+      "title": "The Real Cost of Poor Data Quality | Mina Markos",
+      "description": "Build a defensible cost model from reconciliation work, decision delay, incident response, and customer correction.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/the-cost-of-untrusted-data.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Real Cost of Poor Data Quality"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Begin with observable work"
+        },
+        {
+          "level": 2,
+          "text": "A transparent illustrative model"
+        },
+        {
+          "level": 2,
+          "text": "Prioritize by consequence and recurrence"
+        },
+        {
+          "level": 2,
+          "text": "Prove improvement without double counting"
+        },
+        {
+          "level": 2,
+          "text": "Earlier project and operating notes"
+        },
+        {
+          "level": 2,
+          "text": "Start with the decision, not the dashboard"
+        },
+        {
+          "level": 2,
+          "text": "Measure the cost of distrust"
+        },
+        {
+          "level": 2,
+          "text": "Design the operating model"
+        },
+        {
+          "level": 2,
+          "text": "Prove value through outcomes"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "insights/why-spark-exists.html",
+      "indexable_in_source": true,
+      "title": "Why Spark Exists: Distributed Processing With a Deadline | Mina Markos",
+      "description": "Decide when distributed computation earns its coordination cost, using billing, reconciliation, and feature engineering examples.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/why-spark-exists.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Why Spark Exists: Distributed Processing With a Deadline"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "The problem is more than file size"
+        },
+        {
+          "level": 2,
+          "text": "What Spark changed"
+        },
+        {
+          "level": 2,
+          "text": "A useful partition of responsibility"
+        },
+        {
+          "level": 2,
+          "text": "Use the local lab as a model, not a scale claim"
+        },
+        {
+          "level": 2,
+          "text": "Run the PySpark lab"
+        },
+        {
+          "level": 2,
+          "text": "Source, versions, and further reading"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the engineering decision"
+        },
+        {
+          "level": 2,
+          "text": "Continue learning"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/airflow-etl.html",
+      "indexable_in_source": true,
+      "title": "Airflow Employee Dimension ETL | Engineering Case Study | Mina Markos",
+      "description": "Keep changing employee attributes available for historical reporting rather than overwriting prior values.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/airflow-etl.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Airflow Employee Dimension ETL"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/aom.html",
+      "indexable_in_source": true,
+      "title": "AOM Dashboard | Engineering Case Study | Mina Markos",
+      "description": "Business problem is not documented in the accessible source.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/aom.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "AOM Dashboard"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/banking-fraud.html",
+      "indexable_in_source": true,
+      "title": "Banking Fraud Detection Pipeline | Engineering Case Study | Mina Markos",
+      "description": "Explore how suspicious transaction signals can move from streaming ingestion to analyst-facing outputs.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/banking-fraud.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Banking Fraud Detection Pipeline"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/databricks-sales.html",
+      "indexable_in_source": true,
+      "title": "Databricks Customer Sales Analysis | Engineering Case Study | Mina Markos",
+      "description": "Explore customer value, geographic revenue concentration and purchase recency in a controlled sales dataset.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/databricks-sales.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Databricks Customer Sales Analysis"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/dataguard.html",
+      "indexable_in_source": true,
+      "title": "DataGuard-AI — Telecom Reliability Monitoring | Engineering Case Study | Mina Markos",
+      "description": "Missing feeds, late batches and revenue variance can leave telecom teams acting on incomplete information.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/dataguard.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "DataGuard-AI — Telecom Reliability Monitoring"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/execution-time.html",
+      "indexable_in_source": true,
+      "title": "Execution Time Dashboard | Engineering Case Study | Mina Markos",
+      "description": "Review execution-time information in a dashboard.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/execution-time.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Execution Time Dashboard"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/investinator.html",
+      "indexable_in_source": true,
+      "title": "InvestiNator — DataOps Incident Investigation | Engineering Case Study | Mina Markos",
+      "description": "Platform incidents scatter evidence across services, slowing the path from a symptom to an auditable recovery decision.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/investinator.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "InvestiNator — DataOps Incident Investigation"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/superstore.html",
+      "indexable_in_source": true,
+      "title": "SuperMarket Dashboard / Superstore Analysis | Engineering Case Study | Mina Markos",
+      "description": "Explore sales and profit patterns in sample retail data.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/superstore.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "SuperMarket Dashboard / Superstore Analysis"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/supply-chain.html",
+      "indexable_in_source": true,
+      "title": "Supply Chain Dashboard | Engineering Case Study | Mina Markos",
+      "description": "Present an operational supply-chain dashboard; its requirements are not documented.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/supply-chain.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Supply Chain Dashboard"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/verdatrace.html",
+      "indexable_in_source": true,
+      "title": "VerdaTrace — Governed Cloud Data Platform | Engineering Case Study | Mina Markos",
+      "description": "Heterogeneous datasets are difficult to use safely when quality, ownership, provenance and suitability are disconnected.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/verdatrace.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "VerdaTrace — Governed Cloud Data Platform"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "projects/vodafone-assistant.html",
+      "indexable_in_source": true,
+      "title": "Vodafone LLM-Powered SQL Analytics Assistant | Engineering Case Study | Mina Markos",
+      "description": "Help business users explore data with natural-language questions.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/vodafone-assistant.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Vodafone LLM-Powered SQL Analytics Assistant"
+        },
+        {
+          "level": 2,
+          "text": "On this page"
+        },
+        {
+          "level": 2,
+          "text": "Executive Summary"
+        },
+        {
+          "level": 2,
+          "text": "Business Context"
+        },
+        {
+          "level": 2,
+          "text": "Technical Architecture"
+        },
+        {
+          "level": 2,
+          "text": "Engineering Challenges"
+        },
+        {
+          "level": 2,
+          "text": "Architecture Decisions"
+        },
+        {
+          "level": 2,
+          "text": "Implementation"
+        },
+        {
+          "level": 2,
+          "text": "Reliability and Security"
+        },
+        {
+          "level": 2,
+          "text": "Business Value"
+        },
+        {
+          "level": 2,
+          "text": "Evidence and validation boundary"
+        },
+        {
+          "level": 2,
+          "text": "Future Improvements"
+        },
+        {
+          "level": 2,
+          "text": "Continue the review"
+        }
+      ],
+      "image_count": 1,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 0,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "cv.html",
+      "indexable_in_source": true,
+      "title": "Mina Adel Markos CV | Senior Data Engineer & Data Platforms",
+      "description": "Review Mina Adel Markos’s experience in enterprise data engineering, Cloudera CDP, Spark, Kafka, analytics and AI-ready architecture, and contact him about roles.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/cv.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Mina Adel Markos"
+        },
+        {
+          "level": 2,
+          "text": "Professional summary"
+        },
+        {
+          "level": 2,
+          "text": "Experience"
+        },
+        {
+          "level": 3,
+          "text": "Senior Data Engineer — DataScience Middle East"
+        },
+        {
+          "level": 3,
+          "text": "Data Intelligence Engineer — Vodafone Egypt"
+        },
+        {
+          "level": 3,
+          "text": "Business Intelligence Analyst — MCS Analytics"
+        },
+        {
+          "level": 2,
+          "text": "Engineering focus"
+        },
+        {
+          "level": 2,
+          "text": "Technical training and mentoring"
+        },
+        {
+          "level": 2,
+          "text": "Education"
+        },
+        {
+          "level": 2,
+          "text": "Public work and credentials"
+        },
+        {
+          "level": 2,
+          "text": "Contact"
+        }
+      ],
+      "image_count": 0,
+      "empty_alt_count": 0,
+      "images_without_dimensions": 0,
+      "script_count": 2,
+      "schema_types": [
+        "Person",
+        "WebSite",
+        "ProfilePage",
+        "BreadcrumbList"
+      ],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "elements.html",
+      "indexable_in_source": false,
+      "title": "Legacy UI Components | Mina Adel Markos",
+      "description": "Archived template preview. Visit Mina Adel Markos’s official portfolio and Engineering Blog for current professional content.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/elements.html"
+      ],
+      "h1_count": 1,
+      "headings": [
+        {
+          "level": 2,
+          "text": "Elements"
+        },
+        {
+          "level": 3,
+          "text": "Text Sample"
+        },
+        {
+          "level": 3,
+          "text": "Sample Buttons"
+        },
+        {
+          "level": 3,
+          "text": "Left Aligned"
+        },
+        {
+          "level": 3,
+          "text": "Right Aligned"
+        },
+        {
+          "level": 3,
+          "text": "Definition"
+        },
+        {
+          "level": 4,
+          "text": "Definition 01"
+        },
+        {
+          "level": 4,
+          "text": "Definition 02"
+        },
+        {
+          "level": 4,
+          "text": "Definition 03"
+        },
+        {
+          "level": 3,
+          "text": "Block Quotes"
+        },
+        {
+          "level": 3,
+          "text": "Table"
+        },
+        {
+          "level": 3,
+          "text": "Image Gallery"
+        },
+        {
+          "level": 3,
+          "text": "Typography"
+        },
+        {
+          "level": 1,
+          "text": "This is header 01"
+        },
+        {
+          "level": 2,
+          "text": "This is header 02"
+        },
+        {
+          "level": 3,
+          "text": "This is header 03"
+        },
+        {
+          "level": 4,
+          "text": "This is header 04"
+        },
+        {
+          "level": 5,
+          "text": "This is header 01"
+        },
+        {
+          "level": 6,
+          "text": "This is header 01"
+        },
+        {
+          "level": 3,
+          "text": "Unordered List"
+        },
+        {
+          "level": 3,
+          "text": "Ordered List"
+        },
+        {
+          "level": 3,
+          "text": "Form Element"
+        },
+        {
+          "level": 3,
+          "text": "Switches"
+        },
+        {
+          "level": 3,
+          "text": "Selectboxes"
+        },
+        {
+          "level": 3,
+          "text": "Checkboxes"
+        },
+        {
+          "level": 3,
+          "text": "Radios"
+        },
+        {
+          "level": 4,
+          "text": "Follow Me"
+        }
+      ],
+      "image_count": 12,
+      "empty_alt_count": 4,
+      "images_without_dimensions": 12,
+      "script_count": 12,
+      "schema_types": [],
+      "schema_parse_errors": []
+    },
+    {
+      "path": "single-blog.html",
+      "indexable_in_source": false,
+      "title": "Legacy Blog Template | Mina Adel Markos",
+      "description": "Archived template preview. Visit Mina Adel Markos’s official portfolio and Engineering Blog for current professional content.",
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/single-blog.html"
+      ],
+      "h1_count": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "Blog Details"
+        },
+        {
+          "level": 2,
+          "text": "Astronomy Binoculars A Great Alternative"
+        },
+        {
+          "level": 4,
+          "text": "Space The Final Frontier"
+        },
+        {
+          "level": 4,
+          "text": "Telescopes 101"
+        },
+        {
+          "level": 4,
+          "text": "05 Comments"
+        },
+        {
+          "level": 5,
+          "text": "Emilly Blunt"
+        },
+        {
+          "level": 5,
+          "text": "Elsie Cunningham"
+        },
+        {
+          "level": 5,
+          "text": "Annie Stephens"
+        },
+        {
+          "level": 5,
+          "text": "Maria Luna"
+        },
+        {
+          "level": 5,
+          "text": "Ina Hayes"
+        },
+        {
+          "level": 4,
+          "text": "Leave a Reply"
+        },
+        {
+          "level": 4,
+          "text": "Charlie Barber"
+        },
+        {
+          "level": 3,
+          "text": "Popular Posts"
+        },
+        {
+          "level": 3,
+          "text": "Space The Final Frontier"
+        },
+        {
+          "level": 3,
+          "text": "The Amazing Hubble"
+        },
+        {
+          "level": 3,
+          "text": "Astronomy Or Astrology"
+        },
+        {
+          "level": 3,
+          "text": "Asteroids telescope"
+        },
+        {
+          "level": 4,
+          "text": "Post Catgories"
+        },
+        {
+          "level": 4,
+          "text": "Newsletter"
+        },
+        {
+          "level": 4,
+          "text": "Tag Clouds"
+        },
+        {
+          "level": 4,
+          "text": "Follow Me"
+        }
+      ],
+      "image_count": 18,
+      "empty_alt_count": 14,
+      "images_without_dimensions": 18,
+      "script_count": 12,
+      "schema_types": [],
+      "schema_parse_errors": []
+    }
+  ],
+  "broken_local_references": [],
+  "verification_token_sha256": "a39b54fc608ed8ee5e05ea84de8239b44547d562b53d928f3e806280d7a39bdf",
+  "verification_token_present": true
+}

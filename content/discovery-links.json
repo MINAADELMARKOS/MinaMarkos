@@ -1,0 +1,18 @@
+{
+  "investinator": [
+    {"slug": "ai-dataops-investigation-copilot", "label": "Designing a DataOps investigation copilot"},
+    {"slug": "kafka-troubleshooting", "label": "Troubleshooting Kafka with operational evidence"}
+  ],
+  "verdatrace": [
+    {"slug": "gcp-data-quality-governance", "label": "Data quality and governance on Google Cloud"},
+    {"slug": "spark-cloudera-cloud", "label": "Spark across Cloudera and cloud platforms"}
+  ],
+  "dataguard": [
+    {"slug": "data-quality-foundation-for-ai", "label": "Why trusted data is a foundation for AI"},
+    {"slug": "the-cost-of-untrusted-data", "label": "The business cost of untrusted data"}
+  ],
+  "banking-fraud": [
+    {"slug": "kafka-architecture", "label": "Kafka architecture and failure boundaries"},
+    {"slug": "spark-architecture", "label": "Spark architecture and execution boundaries"}
+  ]
+}

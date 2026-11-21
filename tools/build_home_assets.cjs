@@ -13,10 +13,12 @@ const root=path.resolve(__dirname,'..');
  const files=['css/bootstrap.css','css/font-awesome.min.css','css/style.css','css/home-blog-navigation.css','css/seo-accessibility.css','css/homepage-executive.css','css/project-portfolio.css','css/design-system.css'];
  let styles=files.map(file=>fs.readFileSync(path.join(root,file),'utf8').replace(/@import\s+url\([^;]+\);/g,'')).join('\n');
  styles=styles.replace(/@font-face\s*{/g,'@font-face{font-display:swap;');
- const purged=await new PurgeCSS().purge({content:[path.join(root,'index.html'),path.join(root,'js/homepage.js')],css:[{raw:styles}],safelist:{standard:['show','active','navigation-ready','portfolio-ui','portfolio-home'],greedy:[/^category-/]}});
+ const purged=await new PurgeCSS().purge({content:[path.join(root,'index.html'),path.join(root,'js/homepage.js')],css:[{raw:styles}],safelist:{standard:['js','show','active','navigation-ready','portfolio-ui','portfolio-home'],greedy:[/^category-/]}});
  styles=purged[0].css;
+ if(!styles.includes('html.js'))throw new Error('CSS purge removed the early mobile-navigation guard');
  const result=new CleanCSS({level:1,rebase:false}).minify(styles);
- if(result.errors.length)throw new Error(result.errors.join('\n'));
+ if(result.errors.length||result.warnings.length)throw new Error([...result.errors,...result.warnings].join('\n'));
+ if(!result.styles.includes('html.js'))throw new Error('Minification removed the early mobile-navigation guard');
  fs.writeFileSync(path.join(root,'css/homepage.min.css'),'/* Built by tools/build_home_assets.cjs; source styles retained. */\n'+result.styles+'\n');
  const cssBytes=fs.readFileSync(path.join(root,'css/homepage.min.css'));
  const hash=crypto.createHash('sha256').update(cssBytes).digest('hex').slice(0,12);
@@ -36,6 +38,8 @@ const root=path.resolve(__dirname,'..');
  for(const match of html.matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/g)){
   const relative=match[1];const m=await sharp(path.join(root,relative)).metadata();sizes[relative]={width:m.width,height:m.height};
  }
+ const identity=JSON.parse(fs.readFileSync(path.join(root,'content/site_identity.json'),'utf8'));
+ const portrait=await sharp(path.join(root,identity.image)).metadata();sizes[identity.image]={width:portrait.width,height:portrait.height};
  fs.writeFileSync(path.join(root,'content/image-dimensions.json'),JSON.stringify(sizes,null,2)+'\n');
  console.log('Built responsive WebP portraits, minified homepage CSS, and source image dimensions.');
 })().catch(e=>{console.error(e);process.exit(1)});

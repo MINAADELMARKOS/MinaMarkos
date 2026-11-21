@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "width": 375,
+      "pages": 35,
+      "noJavaScript": true,
+      "noHorizontalOverflow": true,
+      "semanticContentVisible": true
+    },
+    {
+      "width": 768,
+      "pages": 35,
+      "noJavaScript": true,
+      "noHorizontalOverflow": true,
+      "semanticContentVisible": true
+    },
+    {
+      "width": 1024,
+      "pages": 35,
+      "noJavaScript": true,
+      "noHorizontalOverflow": true,
+      "semanticContentVisible": true
+    },
+    {
+      "width": 1440,
+      "pages": 35,
+      "noJavaScript": true,
+      "noHorizontalOverflow": true,
+      "semanticContentVisible": true
+    },
+    {
+      "page": "/",
+      "automatedAccessibilityViolations": [],
+      "passedRules": 26
+    },
+    {
+      "page": "blog.html",
+      "automatedAccessibilityViolations": [],
+      "passedRules": 27
+    },
+    {
+      "page": "projects/investinator.html",
+      "automatedAccessibilityViolations": [],
+      "passedRules": 19
+    },
+    {
+      "page": "insights/kafka-troubleshooting.html",
+      "automatedAccessibilityViolations": [],
+      "passedRules": 25
+    }
+  ],
+  "errors": [],
+  "keyboardCaseAndAuthorLinks": true,
+  "stableNavigationBeforeController": true
+}

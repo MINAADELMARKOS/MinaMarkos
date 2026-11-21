@@ -11,7 +11,7 @@
 @media(max-width:991px){.portfolio-home.navigation-ready .navbar-toggler,html.navigation-ready .portfolio-home .navbar-toggler{display:block}.portfolio-home .header_area .navbar-collapse.show{max-height:calc(100dvh - var(--ui-header-height));overflow-y:auto;overscroll-behavior:contain}.portfolio-home .header_area .navbar .nav .nav-item{margin:0}.portfolio-home .header_area .nav-link{min-height:44px}.portfolio-home .header_area .navbar-brand.logo_h img{width:170px!important}}
 @media(max-width:767px){:root{--ui-header-height:96px}.portfolio-home main>section{padding-top:var(--ui-space-7);padding-bottom:var(--ui-space-7)}.portfolio-home .timeline .content{padding:20px}.portfolio-home .containerR{padding-right:0}.portfolio-home #tools .client-info{margin-top:var(--ui-space-5)}.portfolio-home #tools .client-info .d-flex{gap:12px;flex-wrap:wrap}.portfolio-home .header_area .navbar-brand.logo_h img{width:160px!important}}
 @media(prefers-reduced-motion:reduce){.portfolio-ui *,.portfolio-ui *::before,.portfolio-ui *::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-:root{--ui-on-dark:#f5f3ff}.portfolio-ui .hub-footer a{color:var(--ui-on-dark)}
+:root{--ui-on-dark:#f5f3ff;}.portfolio-ui .hub-footer a{color:var(--ui-on-dark)}
 /* Establish the JS navigation layout before first paint; no-JS users retain all links. */
 @media(max-width:991px){html.js .portfolio-home #navbarSupportedContent:not(.show){display:none}html.js .portfolio-home .navbar-toggler{display:block}}
 .portfolio-home #contact .primary_btn{background:var(--ui-surface);color:var(--ui-link);border-color:var(--ui-surface)}.portfolio-home #contact .primary_btn:hover{background:#f0ebff;color:var(--ui-link)}

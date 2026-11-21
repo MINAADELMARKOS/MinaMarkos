@@ -1,9 +1,10 @@
 """Canonical identity and connected Schema.org metadata shared by all site builders."""
 import html,json
+from urllib.parse import quote
 from pathlib import Path
 IDENTITY=json.loads((Path(__file__).resolve().parents[1]/'content/site_identity.json').read_text())
 BASE=IDENTITY['base_url'];PERSON=BASE+'#mina-markos';WEBSITE=BASE+'#website';BLOG=BASE+'blog.html#blog'
-def graph(title,description,path,kind,category=None,published=None,modified=None):
+def graph(title,description,path,kind,category=None,published=None,modified=None,project=None):
     url=BASE+path
     nodes=[{'@type':'Person','@id':PERSON,'name':IDENTITY['name'],'alternateName':IDENTITY['alternate_names'],'jobTitle':IDENTITY['job_title'],'description':IDENTITY['description'],'url':BASE,'image':BASE+IDENTITY['image'],'sameAs':IDENTITY['same_as'],'knowsAbout':IDENTITY['topics']},
            {'@type':'WebSite','@id':WEBSITE,'url':BASE,'name':'Mina Adel Markos — Data Engineering & AI Architecture','publisher':{'@id':PERSON},'inLanguage':'en'}]
@@ -13,6 +14,13 @@ def graph(title,description,path,kind,category=None,published=None,modified=None
     if kind=='BlogPosting':
         node.update(headline=title,author={'@id':PERSON},publisher={'@id':PERSON},mainEntityOfPage=url,image=BASE+IDENTITY['image'],articleSection=category,datePublished=published,dateModified=modified or published)
         nodes.append({'@type':'Blog','@id':BLOG,'url':BASE+'blog.html','name':IDENTITY['blog_title'],'author':{'@id':PERSON},'isPartOf':{'@id':WEBSITE}})
+    if project:
+        work_id=url+'#case-study'
+        node['mainEntity']={'@id':work_id}
+        work={'@type':'CreativeWork','@id':work_id,'name':project['name']+' — engineering case study','genre':'Engineering case study','abstract':project['solution'],'author':{'@id':PERSON},'inLanguage':'en','mainEntityOfPage':{'@id':node['@id']},'image':BASE+quote(project['image'],safe='/'),'about':{'@type':'Thing','name':project['name'],'description':project['status']},'keywords':project['category']}
+        if project.get('repo_url') and project.get('commit'):
+            work['citation']=project['repo_url']+'/tree/'+project['commit']
+        nodes.append(work)
     nodes.append(node)
     if path:
         crumbs=[('Portfolio',BASE)]
@@ -21,8 +29,13 @@ def graph(title,description,path,kind,category=None,published=None,modified=None
         nodes.append({'@type':'BreadcrumbList','@id':url+'#breadcrumbs','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':link}for i,(name,link)in enumerate(crumbs)]})
     return {'@context':'https://schema.org','@graph':nodes}
 
-def metadata(title,description,path,kind='WebPage',category=None,published=None,modified=None):
-    e=html.escape;url=BASE+path;image=BASE+IDENTITY['image']
+def metadata(title,description,path,kind='WebPage',category=None,published=None,modified=None,project=None):
+    e=html.escape;url=BASE+path
+    image_path=project['image'] if project else IDENTITY['image']
+    image=BASE+quote(image_path,safe='/')
+    image_alt=project['name']+' — existing project screenshot' if project else 'Mina Adel Markos, Senior Data Engineer'
+    dimensions=json.loads((Path(__file__).resolve().parents[1]/'content/image-dimensions.json').read_text()).get(image_path)
+    image_size=(f'<meta property="og:image:width" content="{dimensions["width"]}"><meta property="og:image:height" content="{dimensions["height"]}">\n' if dimensions else '')
     result=f'''<title>{e(title)}</title>
 <meta name="description" content="{e(description,quote=True)}">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -30,8 +43,8 @@ def metadata(title,description,path,kind='WebPage',category=None,published=None,
 <meta property="og:type" content="{'article' if kind=='BlogPosting' else 'profile' if kind=='ProfilePage' else 'website'}">
 <meta property="og:site_name" content="Mina Adel Markos">
 <meta property="og:title" content="{e(title,quote=True)}"><meta property="og:description" content="{e(description,quote=True)}"><meta property="og:url" content="{url}">
-<meta property="og:image" content="{image}"><meta property="og:image:alt" content="Mina Adel Markos, Senior Data Engineer">
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="{e(title,quote=True)}"><meta name="twitter:description" content="{e(description,quote=True)}"><meta name="twitter:image" content="{image}"><meta name="twitter:image:alt" content="Mina Adel Markos, Senior Data Engineer">
+<meta property="og:image" content="{image}"><meta property="og:image:alt" content="{e(image_alt,quote=True)}">
+{image_size}<meta name="twitter:card" content="{'summary_large_image' if project else 'summary'}"><meta name="twitter:title" content="{e(title,quote=True)}"><meta name="twitter:description" content="{e(description,quote=True)}"><meta name="twitter:image" content="{image}"><meta name="twitter:image:alt" content="{e(image_alt,quote=True)}">
 '''
     if kind=='BlogPosting':result+=f'<meta property="article:published_time" content="{published}"><meta property="article:modified_time" content="{modified or published}">\n'
-    return result+'<script type="application/ld+json">'+json.dumps(graph(title,description,path,kind,category,published,modified),ensure_ascii=False).replace('</','<\\/')+'</script>\n'
+    return result+'<script type="application/ld+json">'+json.dumps(graph(title,description,path,kind,category,published,modified,project),ensure_ascii=False).replace('</','<\\/')+'</script>\n'

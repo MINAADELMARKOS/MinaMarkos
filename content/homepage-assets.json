@@ -1,9 +1,9 @@
 {
-  "stylesheet": "css/homepage.18a2057a275a.min.css",
+  "stylesheet": "css/homepage.f73c1cc2bde4.min.css",
   "javascript": "js/homepage.1cc2a958bddf.js",
   "javascript_sha256": "1cc2a958bddf6936d83e56b745df2b87113a760596d391217672b4a628adab6c",
-  "sha256": "18a2057a275afa2549952a2a18d702d622871494404fa895d6478ec14cc9f85c",
-  "bytes": 46292,
+  "sha256": "f73c1cc2bde429ab8caf8d798dc762cbc7a5426d723f330b4bec3f359337f344",
+  "bytes": 46562,
   "sources": [
     "css/bootstrap.css",
     "css/font-awesome.min.css",
