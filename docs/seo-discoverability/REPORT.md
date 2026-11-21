@@ -58,4 +58,4 @@ node tools/check_discoverability.cjs
 python3 tools/verify_public_discoverability.py --compare --output /tmp/portfolio-public-deployment.json
 ```
 
-Public site: https://minaadelmarkos.github.io/MinaMarkos/ . Publication requires a successful Pages build and exact-source public HTTP verification, not only a commit. See the deployment record added after validation. Search account tasks and unmeasured KPIs are detailed in [MEASUREMENT_PLAN.md](MEASUREMENT_PLAN.md).
+Public site: https://minaadelmarkos.github.io/MinaMarkos/ . Publication requires a successful Pages build and exact-source public HTTP verification, not only a commit. See [the verified deployment record](DEPLOYMENT.md) and `public-after.json`. Search account tasks and unmeasured KPIs are detailed in [MEASUREMENT_PLAN.md](MEASUREMENT_PLAN.md).

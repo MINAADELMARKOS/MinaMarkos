@@ -1,0 +1,1110 @@
+{
+  "scope": "Public HTTPS responses; not search index or ranking data",
+  "exact_source_comparison_required": true,
+  "resource_count": 82,
+  "failures": 0,
+  "responses": [
+    {
+      "path": "assets/cv/Mina_Adel_Markos_Senior_Data_Engineer.pdf",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/assets/cv/Mina_Adel_Markos_Senior_Data_Engineer.pdf",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/assets/cv/Mina_Adel_Markos_Senior_Data_Engineer.pdf",
+      "content_type": "application/pdf",
+      "sha256": "7d129ee877afa0ba6328c514b97aa8a09f443f4001b05f56cf02c77d9eea9f8b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "blog.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/blog.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/blog.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5e884ad3f15f060ef9f05b07d6df752628ced42e2ebf1c1b896cac2e53e152bd",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/blog.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Data Engineering, Apache Kafka & Spark Tutorials | Mina Markos"
+    },
+    {
+      "path": "css/design-system.css",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/css/design-system.css",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/css/design-system.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "023259e28e7b46c6d669c4ea1a7631bbde451e1ed536cacbe2e56e5e4866d00b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "css/homepage.f73c1cc2bde4.min.css",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/css/homepage.f73c1cc2bde4.min.css",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/css/homepage.f73c1cc2bde4.min.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "f73c1cc2bde429ab8caf8d798dc762cbc7a5426d723f330b4bec3f359337f344",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "css/learning-hub.css",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/css/learning-hub.css",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/css/learning-hub.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "ff5c523a7fc98f4d2366edf64e1d5942134bd3cc4af03f960bd6cf59c3dc8ab4",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "css/professional-profile.css",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/css/professional-profile.css",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/css/professional-profile.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "83b9e7f59f0774205d289d801917eb6d264769820e6f12533b5ddfb0423f2b32",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "css/project-portfolio.css",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/css/project-portfolio.css",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/css/project-portfolio.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256": "5bd9b82119ac1c0b6a9b462b7b8028369244ebe3c22656f3e83e75bd1b93e31e",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "cv.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/cv.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/cv.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f5039df7a29a79eed5507f87bc3c60edadc83e8348b738f8c82f4403e7b446bb",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/cv.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Mina Adel Markos CV | Senior Data Engineer & Data Platforms"
+    },
+    {
+      "path": "elements.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/elements.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/elements.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "dbbef42be672eb9b69b12917e4d1d28e891c8a799d03d74f6cf6f0eefdd7a00a",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/elements.html"
+      ],
+      "robots": "noindex,follow",
+      "title": "Legacy UI Components | Mina Adel Markos"
+    },
+    {
+      "path": "img/DSME_logo.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/DSME_logo.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/DSME_logo.png",
+      "content_type": "image/png",
+      "sha256": "6e4abe46ac64ae50e9ba819e9c113609f846e60f59721b245bae4f3dbc82f77a",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/MCS-Logo-White-Transparent.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/MCS-Logo-White-Transparent.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/MCS-Logo-White-Transparent.png",
+      "content_type": "image/png",
+      "sha256": "25f3f424cad5ee3ecd045f726ac526615c37269acfee764aceda60a58cf8efbc",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/AWS.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/AWS.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/AWS.png",
+      "content_type": "image/png",
+      "sha256": "0054c91626f9421ca0c1a5908d0ada8a50e7625336b9e3b2eed12796f67ad761",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/Cloudera_Logo.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Cloudera_Logo.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Cloudera_Logo.png",
+      "content_type": "image/png",
+      "sha256": "3714d8100b0cde4ccec4c05c9a1e0d7848ca0aca374e0547bdf4edd41d03c223",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/Databricks_Logo.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Databricks_Logo.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Databricks_Logo.png",
+      "content_type": "image/png",
+      "sha256": "6f9e30112190f01715a8a36ffc2c5be9ec8de1efeb2f35866ce6f45d21f7d944",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/Elasticsearch-Logo-Color-V.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Elasticsearch-Logo-Color-V.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Elasticsearch-Logo-Color-V.png",
+      "content_type": "image/png",
+      "sha256": "0799f0dae30b0b1c7c648d8ac4a5963d3242156cb5ad9009f4d2a27792132008",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/Python.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Python.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/Python.png",
+      "content_type": "image/png",
+      "sha256": "740de1575c1c1c2633e423905ff6e0a8580517d9c9c461eea8cf51819cb7afa6",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/apachesparklogo.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/apachesparklogo.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/apachesparklogo.png",
+      "content_type": "image/png",
+      "sha256": "bdeafe410b380039fc231f48db6b5d8ffc4671702f2a1bf588e2c90325d65ab4",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/docker.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/docker.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/docker.png",
+      "content_type": "image/png",
+      "sha256": "7b455f015cc6ae03010e2931853ca41df4b7b098efd00084552070b80cc27cee",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/google-cloud.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/google-cloud.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/google-cloud.png",
+      "content_type": "image/png",
+      "sha256": "0cc1a63918507760e998dde5a202554d1d2a8d3ac7a699c61ccb4c75d8410709",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/brands/kafka.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/kafka.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/brands/kafka.png",
+      "content_type": "image/png",
+      "sha256": "cced58f3944035b801ff51c8fea7aec97fff2ce8aeb95d1876cee7c7f705b6d6",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/engineering/kafka-planes.svg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/engineering/kafka-planes.svg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/engineering/kafka-planes.svg",
+      "content_type": "image/svg+xml",
+      "sha256": "a3708116e2aee662e5734e8f277a4f81e77405abebfe09567d1fc98d27bf0765",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/engineering/spark-execution.svg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/engineering/spark-execution.svg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/engineering/spark-execution.svg",
+      "content_type": "image/svg+xml",
+      "sha256": "628fd5bc944cafcaf8601dff10bc7f6050bad2d790f6f4fc5544276bd5f91cb3",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/epsilon-ai-mobile-logo-white2-1.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/epsilon-ai-mobile-logo-white2-1.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/epsilon-ai-mobile-logo-white2-1.png",
+      "content_type": "image/png",
+      "sha256": "be22da1553a4e62d71d0411cdb2744e401ca73fb2fc1451788d0eedc48620d6a",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/fav-icon.jpg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/fav-icon.jpg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/fav-icon.jpg",
+      "content_type": "image/jpeg",
+      "sha256": "924cf1b27571a26aa87b40e2937daad2c96d1cc3ea832f22e72e991e83fa404d",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/gg.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/gg.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/gg.png",
+      "content_type": "image/png",
+      "sha256": "b54f2b453f36ba6d8f4ae6fddbadba6104635041fddf92c6676594838f7f57f0",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/main_official_image.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/main_official_image.png",
+      "content_type": "image/png",
+      "sha256": "8944dec5be60f152772a49220a5ddedaeb06cf1f23ff8f8a5d7b2abcf1ce9297",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/optimized/mina-adel-markos-768.webp",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/optimized/mina-adel-markos-768.webp",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/optimized/mina-adel-markos-768.webp",
+      "content_type": "image/webp",
+      "sha256": "95edbc0412d0879f2eb774e933ff0d3f71c5055614c3c87506b32dd39cf1728c",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/optimized/mina-adel-markos-about-768.webp",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/optimized/mina-adel-markos-about-768.webp",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/optimized/mina-adel-markos-about-768.webp",
+      "content_type": "image/webp",
+      "sha256": "db3c168b107ace4d539c1b0e6c7319cc1ba3a10979828c559554a16ff74dfe4b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/AOM.jpeg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/AOM.jpeg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/AOM.jpeg",
+      "content_type": "image/jpeg",
+      "sha256": "674ba1dd4d683cf3960c049612c4040ab6fc5d4c546e739e22970cb2ede1a876",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/Airflow_Data_Pipeline_ETL.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Airflow_Data_Pipeline_ETL.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Airflow_Data_Pipeline_ETL.png",
+      "content_type": "image/png",
+      "sha256": "61c479a8b633440f9a2af4fd3350812b566a5da22b10170d4d0dbeb1f98c32d2",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/Banking-Fraud-Detection.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Banking-Fraud-Detection.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Banking-Fraud-Detection.png",
+      "content_type": "image/png",
+      "sha256": "82cb37286be189b192a66e2f8de2af1e64c6bf427161c840c79f366c514b906e",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/DataGuard-AI.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/DataGuard-AI.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/DataGuard-AI.png",
+      "content_type": "image/png",
+      "sha256": "675dd0f5146ef1a7818215e79bb79e7452e4730b60db122589711ef2ecf79d5e",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/Databricks_Customer_Sales.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Databricks_Customer_Sales.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Databricks_Customer_Sales.png",
+      "content_type": "image/png",
+      "sha256": "5750c36c6e9e17ca6cb263d6f815de4aceb26da598bc29e5a2030a38149667a4",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/ETD.jpeg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/ETD.jpeg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/ETD.jpeg",
+      "content_type": "image/jpeg",
+      "sha256": "44b4f8707b8b192bc7445e9eb941fd0fbcc61ffaa802e07d6a5da1274866521f",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png",
+      "content_type": "image/png",
+      "sha256": "4dfaf189eae3a30371790416767eed60c9ac9436abc6748f4d920dfd01777022",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/SuperMarket.jpg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/SuperMarket.jpg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/SuperMarket.jpg",
+      "content_type": "image/jpeg",
+      "sha256": "31c36a21126ae51bda36bc2c792c7a004e6e7678528d0f7f168bb05a574ccc1b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/Supplychain.jpg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Supplychain.jpg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/Supplychain.jpg",
+      "content_type": "image/jpeg",
+      "sha256": "7ce39642bd6dae6aa28cb1491c981cd69c0f904d843092cc080abc5ffe22ae00",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/VerdaTrace_Data Platform_Portoflio.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/VerdaTrace_Data%20Platform_Portoflio.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/VerdaTrace_Data%20Platform_Portoflio.png",
+      "content_type": "image/png",
+      "sha256": "51a9887edeabb57ed7aa1bc77df127ec659542644f252097faa05de012ffc235",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/portfolio/VodaFone_Assistant.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/VodaFone_Assistant.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/portfolio/VodaFone_Assistant.png",
+      "content_type": "image/png",
+      "sha256": "b29318b95127fc1758a958a339fe62ba93d54c0cb93ae5f6f62d106683ecd0dc",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/speak.jpg",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/speak.jpg",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/speak.jpg",
+      "content_type": "image/jpeg",
+      "sha256": "fa628b82b9dabd970a2e63e43f95c863aa7fec5187f733feeb369660c3011007",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "img/vodafone-logo.png",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/img/vodafone-logo.png",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/img/vodafone-logo.png",
+      "content_type": "image/png",
+      "sha256": "daa029810c2b1b568cf4e27ac2bc71b97d5f63f5cee6d838e70b294c91197e4f",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "index.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6725cccba509e78ee5a6440e5a52b372c077845d17c0c0e12e49152722dec221",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Mina Adel Markos | Senior Data Engineer & AI Architecture"
+    },
+    {
+      "path": "insights/ai-dataops-investigation-copilot.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9c10394a780e33c4050ba09ee58932771df3a89207a3589e86a1de249d9605c6",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/ai-dataops-investigation-copilot.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "AI Agents for Distributed Systems Troubleshooting | Mina Markos"
+    },
+    {
+      "path": "insights/architecture-cost-risk.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/architecture-cost-risk.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/architecture-cost-risk.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9b3f911e2f17272591a6f685941a45755f109e31c0058a8e90037adc97000d44",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/architecture-cost-risk.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Why Architecture Decisions Must Include Cost and Risk | Mina Markos"
+    },
+    {
+      "path": "insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9d64c83ec94364b172cdb6462cbd93baaf2703b1333edfb67bc2de26d13e82f9",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/cloudera-hdfs-object-storage-migration-readiness.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Cloudera CDP migration readiness from HDFS to object storage | Mina Markos"
+    },
+    {
+      "path": "insights/data-quality-foundation-for-ai.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/data-quality-foundation-for-ai.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/data-quality-foundation-for-ai.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "9dcf8d45f8397637c99c44e6b1c98c98836910902d83e8027e041ef0988d172a",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/data-quality-foundation-for-ai.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Why Data Engineering Is the Foundation of Enterprise AI | Mina Markos"
+    },
+    {
+      "path": "insights/from-ai-demo-to-production.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/from-ai-demo-to-production.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/from-ai-demo-to-production.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "bcbf1208e65cfca476fbf2b6a86b394c2b20bfb1d12c303c04131cf7cc0d4bfc",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/from-ai-demo-to-production.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "A useful AI demo is not yet a production AI system | Mina Markos"
+    },
+    {
+      "path": "insights/gcp-data-quality-governance.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "98fac77929b15febeed6a73a3974baad7611550bdb8bc46f38e8032daa6a238d",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/gcp-data-quality-governance.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Data quality and lineage on GCP with VerdaTrace | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-architecture.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-architecture.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-architecture.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f191893b1d5ef1c272e8fc1e52dc4ecbe3453b323a7c41ae3daa8f9de4d65e39",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-architecture.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Kafka Architecture Explained: Partitions, Replicas and KRaft | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-business-problems.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-business-problems.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-business-problems.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "225f4d6a3667067f847dcf9622c5ed69faa95d36d6ce8f88066ae8a02baec3fe",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-business-problems.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Understanding Kafka Through Real Business Problems | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-java-producer-consumer.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-java-producer-consumer.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-java-producer-consumer.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b3e1c45db8f0511c63b4f4540a047408a42940108630a8f92dfa653c881d8ac9",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-java-producer-consumer.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Kafka Producer and Consumer Tutorial in Java | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-performance.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-performance.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-performance.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c63cf4dc9a4ad5664ef20a4a4540cf5c37bd8cef119afffb28addea34647eec3",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-performance.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Kafka Performance Optimization Is a Capacity Trade-off | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-reliability.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-reliability.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-reliability.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "80e2ab88f9cba56045fd277005ca18d78d50b0a38713f59b2ac2ecc2587a8b49",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-reliability.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Kafka Reliability and Message Delivery: Follow the Failure Window | Mina Markos"
+    },
+    {
+      "path": "insights/kafka-troubleshooting.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-troubleshooting.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-troubleshooting.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "17108b47dbd433e36650bc65898dcfb5fa39612b8caf5ce7fc246fbecc670b27",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/kafka-troubleshooting.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Kafka Production Troubleshooting: Diagnose Before Restarting | Mina Markos"
+    },
+    {
+      "path": "insights/pipeline-business-failure.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/pipeline-business-failure.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/pipeline-business-failure.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b4297f17cd0fe7c01979adb5fd24313e3b1cc6e265066888cf66e6f760d8f723",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/pipeline-business-failure.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Why a Successful Pipeline Can Still Be a Business Failure | Mina Markos"
+    },
+    {
+      "path": "insights/reliability-business-capability.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/reliability-business-capability.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/reliability-business-capability.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5db448fda9604af0491538d500b874e06837004baf5cff0c6906098366c4e31f",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/reliability-business-capability.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Engineering Reliability as a Business Capability | Mina Markos"
+    },
+    {
+      "path": "insights/spark-architecture.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-architecture.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-architecture.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8d074435e056453b430e8b5dddfaf722a31a9490a0ce23c60af858393139d3ed",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-architecture.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Spark Architecture: From a Lazy Plan to Jobs, Stages and Tasks | Mina Markos"
+    },
+    {
+      "path": "insights/spark-cloudera-cloud.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-cloudera-cloud.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-cloudera-cloud.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "bc5e6b33de884e3b1b05f7943cdb60c21f70da0880f149dd6afe37a30ef95c39",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-cloudera-cloud.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Spark on Cloudera and Cloud Platforms: Match the Operating Model | Mina Markos"
+    },
+    {
+      "path": "insights/spark-internals.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-internals.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-internals.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "fe8f022b0649b5b66cc048d99001ff4acd6d57ff6939ea696f64c17ec4089c5a",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-internals.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Spark Internals: Why Shuffles and Partition Shape Dominate | Mina Markos"
+    },
+    {
+      "path": "insights/spark-performance.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-performance.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-performance.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "d14436cef28cc8532048b3d7fbb92daf86f0cb83b677dbaaec233665c29343a0",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-performance.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Spark Performance Optimization: Read the Physical Plan First | Mina Markos"
+    },
+    {
+      "path": "insights/spark-troubleshooting.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-troubleshooting.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-troubleshooting.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "de306be3d3c4ecae9d23a5870045687873de51c5d2ef76e6817550a73cea6405",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/spark-troubleshooting.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Spark Troubleshooting: Turn Symptoms Into Testable Hypotheses | Mina Markos"
+    },
+    {
+      "path": "insights/the-cost-of-untrusted-data.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/the-cost-of-untrusted-data.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/the-cost-of-untrusted-data.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7b84f40478a4841374e29b34d3488ea4666439df3348a1d481a1c4be0b61fc8c",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/the-cost-of-untrusted-data.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "The Real Cost of Poor Data Quality | Mina Markos"
+    },
+    {
+      "path": "insights/why-spark-exists.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/insights/why-spark-exists.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/insights/why-spark-exists.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "b5e9ec3219f697a2b62219b47698774b07fa2ecce7499ee51c60744ee250ed7d",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/insights/why-spark-exists.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Why Spark Exists: Distributed Processing With a Deadline | Mina Markos"
+    },
+    {
+      "path": "js/engagement.js",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/js/engagement.js",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/js/engagement.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "sha256": "0c8878f4d3d3730d7244ea87a449d0447ea552bda580bd77b2411e9d228e0472",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "js/homepage.1cc2a958bddf.js",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/js/homepage.1cc2a958bddf.js",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/js/homepage.1cc2a958bddf.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "sha256": "1cc2a958bddf6936d83e56b745df2b87113a760596d391217672b4a628adab6c",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "js/learning-hub.js",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/js/learning-hub.js",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/js/learning-hub.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "sha256": "e40cc0b9574b34c2b31d195743b74991984f4700e960fc6e7b9473ea034bfe44",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "js/professional-profile.js",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/js/professional-profile.js",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/js/professional-profile.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "sha256": "313bf2dd40fef91876a4d71bfc4a9d73676b9e29cb816d45d8493e3bdc311e62",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "projects/airflow-etl.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/airflow-etl.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/airflow-etl.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "51997bc760960d8278ff85fded03d4066c8e497ae96a46c626b32dc885a46d62",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/airflow-etl.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Airflow Employee Dimension ETL | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/aom.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/aom.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/aom.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "74437173cba4c71a3e37dd5480c4d54fb09d248dbffe494ce4324dc3bd9bec3b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/aom.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "AOM Dashboard | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/banking-fraud.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/banking-fraud.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/banking-fraud.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8e5f7b2d5a43f0d4db67da8ec435b737455a66685c9f2ae4e2c03c557016ef50",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/banking-fraud.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Banking Fraud Detection Pipeline | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/databricks-sales.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/databricks-sales.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/databricks-sales.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3e15326010efda13be3db7a76101c8208791ca43499197894baba4e8377e10b4",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/databricks-sales.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Databricks Customer Sales Analysis | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/dataguard.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/dataguard.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/dataguard.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5a77d1df3b1e5ecef640fa3ce143a3d1d26ebd788358e3decd9cd10823f7d9b2",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/dataguard.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "DataGuard-AI \u2014 Telecom Reliability Monitoring | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/execution-time.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/execution-time.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/execution-time.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "777cda2d2f699de0e8b20a9e00f9e7372dbd1edf8c4bbbf3b26ed9b3127122d2",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/execution-time.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Execution Time Dashboard | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/investinator.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/investinator.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/investinator.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "4aa6412e453ae148fc153931c4dedfca53cb1276e7072b349f2531dbcff5e188",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/investinator.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "InvestiNator \u2014 DataOps Incident Investigation | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/superstore.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/superstore.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/superstore.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "ba7dbdfcb7f3ffd306053aac9bd78caa7914b85922667ef2148697cd915dd033",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/superstore.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "SuperMarket Dashboard / Superstore Analysis | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/supply-chain.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/supply-chain.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/supply-chain.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "de2cc29fa1474597e78e4efbdd77ae20b934896a531d9bed152f1c7209c611e9",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/supply-chain.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Supply Chain Dashboard | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/verdatrace.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/verdatrace.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/verdatrace.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6adede42756e1d6ddf327327c263dd3e8acfa5f59178b4699814191d7f08de75",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/verdatrace.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "VerdaTrace \u2014 Governed Cloud Data Platform | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "projects/vodafone-assistant.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/projects/vodafone-assistant.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/projects/vodafone-assistant.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "afd3480dfca03ad1ff90787c4a5eeee83ead0921ec0fbe742a28013f4d4c933b",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/projects/vodafone-assistant.html"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Vodafone LLM-Powered SQL Analytics Assistant | Engineering Case Study | Mina Markos"
+    },
+    {
+      "path": "robots.txt",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/robots.txt",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/robots.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "sha256": "7b8933b53901be90cb1a81aa51fd8e8977ba9d8f81e676a5f8cf26469a23ba87",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "single-blog.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/single-blog.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/single-blog.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "3eca618efa3e572a91ae72a2772fd518ec7d9efaa496bde49222e729cda8ea20",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/single-blog.html"
+      ],
+      "robots": "noindex,follow",
+      "title": "Legacy Blog Template | Mina Adel Markos"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/sitemap.xml",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/sitemap.xml",
+      "content_type": "application/xml",
+      "sha256": "a6a52ede71632a85135c94d33dc6aba5e6f78180f5179455414ea3e0bea850d2",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true
+    },
+    {
+      "path": "index.html",
+      "url": "https://minaadelmarkos.github.io/MinaMarkos/index.html",
+      "status": 200,
+      "effective_url": "https://minaadelmarkos.github.io/MinaMarkos/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6725cccba509e78ee5a6440e5a52b372c077845d17c0c0e12e49152722dec221",
+      "curl_exit": 0,
+      "x_robots_tag": [],
+      "matches_source": true,
+      "canonical": [
+        "https://minaadelmarkos.github.io/MinaMarkos/"
+      ],
+      "robots": "index,follow,max-image-preview:large",
+      "title": "Mina Adel Markos | Senior Data Engineer & AI Architecture"
+    },
+    {
+      "path": null,
+      "url": "https://minaadelmarkos.github.io/robots.txt",
+      "status": 404,
+      "effective_url": "https://minaadelmarkos.github.io/robots.txt",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3",
+      "curl_exit": 0,
+      "x_robots_tag": []
+    }
+  ]
+}
