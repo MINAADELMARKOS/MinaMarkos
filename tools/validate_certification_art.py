@@ -16,7 +16,4 @@ for item in manifest:
    assert not ('href'in k and not v.startswith('#'))
    for ref in re.findall(r'url\(#([^)]*)\)',v):assert ref in ids
  assert p.stat().st_size<15000
-s=(R/'index.html').read_text();cards=re.findall('<article class="certificate_card">(.*?)</article>',s,re.S)
-records=[dict(title=re.search('<h3[^>]*>(.*?)</h3>',c,re.S)[1],descriptions=re.findall('<p class="certificate_desc">(.*?)</p>',c,re.S),credential=re.search('href="([^"]+)"',c)[1],art=re.search('src="([^"]+)"',c)[1])for c in cards]
-assert records==json.loads((R/'docs/certification-records.json').read_text())
-print('PASS: seven XML documents, accessible IDs, local references, no external resources/scripts, small assets, preserved records')
+print('PASS: seven archived SVG assets remain valid; current card integration is covered by check_certificate_logos.cjs')

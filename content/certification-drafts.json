@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Databricks Certified Data Engineer Associate",
+    "issuer": "Databricks",
+    "description": "Validates foundational data engineering skills on the Databricks Data Intelligence Platform, including Apache Spark, Delta Lake, ETL pipelines, data ingestion, transformations, and production workflows.",
+    "logo": "img/brands/Databricks_Logo.png",
+    "status": "unpublished-awaiting-verified-credential",
+    "required": "Verified earned credential URL; do not invent a date or credential ID."
+  }
+]

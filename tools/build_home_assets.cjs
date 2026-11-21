@@ -2,7 +2,8 @@
 const fs=require('node:fs');const path=require('node:path');const sharp=require('sharp');const CleanCSS=require('clean-css');
 const root=path.resolve(__dirname,'..');
 (async()=>{
- const originals=['img/main_official_image.png','img/Picture22.png'];
+ const cssOnly=process.argv.includes('--css-only');
+ const originals=cssOnly?[]:['img/main_official_image.png','img/Picture22.png'];
  fs.mkdirSync(path.join(root,'img/optimized'),{recursive:true});
  for(const input of originals){
   const name=input.includes('main_official')?'mina-adel-markos':'mina-adel-markos-about';
@@ -14,6 +15,7 @@ const root=path.resolve(__dirname,'..');
  const result=new CleanCSS({level:1,rebase:false}).minify(styles);
  if(result.errors.length)throw new Error(result.errors.join('\n'));
  fs.writeFileSync(path.join(root,'css/homepage.min.css'),'/* Built by tools/build_home_assets.cjs; source styles retained. */\n'+result.styles+'\n');
+ if(cssOnly){console.log('Rebuilt homepage CSS only.');return;}
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');const sizes={};
  for(const match of html.matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/g)){
   const relative=match[1];const m=await sharp(path.join(root,relative)).metadata();sizes[relative]={width:m.width,height:m.height};

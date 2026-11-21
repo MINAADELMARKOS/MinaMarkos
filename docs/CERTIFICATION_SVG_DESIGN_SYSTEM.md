@@ -1,5 +1,7 @@
 # Certification SVG design system
 
+Archived artwork: current cards use issuer logos. See `certification-redesign/README.md` for the current integration and tests. The SVG files remain available and unchanged.
+
 Seven original portfolio illustrations, created on `design/certification-svg-system`. They are technical illustrations, not issuer badges, certificate reproductions or examination evidence. All original asset filenames, card titles, descriptions, order and credential links are preserved. The unused IBM asset is outside this seven-card collection and was left unchanged.
 
 ## Principles and composition

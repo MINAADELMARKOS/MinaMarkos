@@ -1,0 +1,176 @@
+{
+  "scope": "Local Chromium; not deployed verification",
+  "checks": [
+    "Unrelated homepage byte parity",
+    "7 unchanged credential records",
+    "Databricks unpublished",
+    "Keyboard and secure links",
+    "No local missing assets or console errors"
+  ],
+  "viewports": [
+    {
+      "width": 375,
+      "columns": 1,
+      "overflow": false,
+      "heights": [
+        556.5,
+        468,
+        440,
+        519,
+        468,
+        468,
+        442.5
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/vodafone-logo.png"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "columns": 2,
+      "overflow": false,
+      "heights": [
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/vodafone-logo.png"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "columns": 2,
+      "overflow": false,
+      "heights": [
+        477.5,
+        477.5,
+        477.5,
+        477.5,
+        477.5,
+        477.5,
+        477.5
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/vodafone-logo.png"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "columns": 3,
+      "overflow": false,
+      "heights": [
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/google-cloud.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/brands/Cloudera_Logo.png"
+        },
+        {
+          "loaded": true,
+          "fit": "contain",
+          "src": "img/vodafone-logo.png"
+        }
+      ]
+    }
+  ]
+}
