@@ -1,0 +1,79 @@
+{
+  "investinator": [
+    {
+      "name": "publish",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304660/job/135211241708"
+    },
+    {
+      "name": "public-investigator",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304728/job/135211195796"
+    },
+    {
+      "name": "frontend",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304728/job/135211195662"
+    },
+    {
+      "name": "java-scaffold",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304728/job/135211195598"
+    },
+    {
+      "name": "backend",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304728/job/135211195495"
+    },
+    {
+      "name": "showcase",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/Investinator-Enterprise-DataOps-Incident-Resolution/actions/runs/44420304728/job/135211195104"
+    }
+  ],
+  "verdatrace": [
+    {
+      "name": "report-build-status",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340773486/job/102430889018"
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340773486/job/102430888981"
+    },
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340773486/job/102430778871"
+    },
+    {
+      "name": "containers",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340774246/job/102430775995"
+    },
+    {
+      "name": "terraform",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340774246/job/102430775976"
+    },
+    {
+      "name": "test",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-/actions/runs/34340774246/job/102430775624"
+    }
+  ],
+  "dataguard": []
+}

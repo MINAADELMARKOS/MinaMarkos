@@ -12,7 +12,7 @@ Repository revisions, source paths, inventory, architectures and editorial ranki
 | DataGuard-AI | Python `pytest -q`, revision `d76cbf63295f` | **2 passed**. Feed/revenue-rule behavior, not revenue savings or production availability. |
 | DataGuard API | Local health/dashboard/alerts HTTP requests | Healthy response, seeded dashboard structure and alert-count reconciliation verified. Synthetic clock/data; no real telecom feed. |
 
-No cloud Terraform apply, real credentialed Airflow/Snowflake run, banking-model runtime, production incident action, Java feature-branch release, remote CI result, performance benchmark or financial uplift measurement was executed. CI workflow presence is reported separately from successful CI runs. Project-owned historical validation documents remain historical, author-reported evidence, not tests executed by this task.
+No cloud Terraform apply, real credentialed Airflow/Snowflake run, banking-model runtime, production incident action, Java feature-branch release, performance benchmark or financial uplift measurement was executed. Remote check runs were later retrieved successfully; see `remote-ci.json` for job names, conclusions and URLs at the reviewed revisions. Project-owned historical validation documents remain historical, author-reported evidence, not tests executed by this task.
 
 ## New CV
 
@@ -20,9 +20,15 @@ The supplied PDF is copied byte-for-byte to `assets/cv/Mina_Adel_Markos_Senior_D
 
 The CV's displayed banking-data-platform repository was unavailable; the embedded link instead points to Banking-Fraud-Detection. No duplicate banking project was fabricated. The repository-documented InvestiNator preview is distinguished from the alternate preview URL embedded in the supplied CV. Databricks SQL analysis is a project, not a newly verified certification. The SI certificate and unpublished Databricks credential record are not changed by this project task.
 
-## Publication limitations
+## Public access and deployment
 
-The portfolio host, public preview URLs, linked Drive documents and GitHub Pages API remain subject to environment network policy. A declared preview URL/workflow does not prove current HTTP availability or backend functionality. No publicly accessible API/demo is invented for projects with only source code or screenshots. The user-approved egress additions saved earlier still need runtime application before public verification can succeed.
+Network access became available during final validation. The public portfolio, InvestiNator synthetic UI preview and VerdaTrace data portal returned HTTP 200 with the expected HTML titles. The Pages API reported the initial implementation commit `2b417072ef7ee0071f7ed0be128319522acf35a5` built successfully. Final publication and browser checks are recorded in the task handoff.
+
+Remote check runs for the reviewed InvestiNator and VerdaTrace revisions completed successfully. DataGuard returned an empty check-run list; this does not establish CI success or failure. Frontend publication and passing CI do not establish production deployment, security certification, model quality or financial results. Google Drive document availability was not independently established.
+
+## VerdaTrace frontend utility output
+
+```text
 ok - payload handling accepts arbitrary and empty dataset arrays safely
 ok - selection resolves known IDs and falls back for unknown IDs
 ok - query helpers preserve a static-site path and encode dataset IDs
@@ -40,5 +46,4 @@ ok - capabilities distinguish spatial, temporal, and numeric datasets
 ℹ skipped 0
 ℹ todo 0
 ℹ duration_ms 76.225808
-
 ```

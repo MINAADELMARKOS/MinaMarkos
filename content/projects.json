@@ -43,6 +43,7 @@
       5
     ],
     "demo": "https://minaadelmarkos.github.io/Investinator-Enterprise-DataOps-Incident-Resolution/",
+    "demo_label": "UI preview (synthetic)",
     "rank": 1,
     "weighted_score": 45,
     "original_links": [
@@ -97,7 +98,8 @@
       5,
       5
     ],
-    "demo": null,
+    "demo": "https://minaadelmarkos.github.io/VerdaTrace-Data-Platform-/",
+    "demo_label": "Data portal preview (samples/fixtures)",
     "rank": 2,
     "weighted_score": 45,
     "original_links": [
@@ -148,6 +150,7 @@
       3
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 3,
     "weighted_score": 34,
     "original_links": [
@@ -198,6 +201,7 @@
       2
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 4,
     "weighted_score": 32,
     "original_links": [
@@ -245,6 +249,7 @@
       2
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 5,
     "weighted_score": 30,
     "original_links": [
@@ -291,6 +296,7 @@
       3
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 6,
     "weighted_score": 24,
     "original_links": [],
@@ -330,6 +336,7 @@
       1
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 7,
     "weighted_score": 24,
     "original_links": [
@@ -376,6 +383,7 @@
       2
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 8,
     "weighted_score": 19,
     "original_links": [
@@ -417,6 +425,7 @@
       1
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 9,
     "weighted_score": 12,
     "original_links": [
@@ -458,6 +467,7 @@
       1
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 10,
     "weighted_score": 12,
     "original_links": [
@@ -499,6 +509,7 @@
       1
     ],
     "demo": null,
+    "demo_label": "UI preview (synthetic)",
     "rank": 11,
     "weighted_score": 9,
     "original_links": [

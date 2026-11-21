@@ -5,7 +5,7 @@
 - Eleven project cards: all ten original projects plus the Databricks SQL project in the supplied CV. Each card includes category, business problem, solution, stack, evidence-bounded development status, source links and a case-study action.
 - Eleven dedicated case-study pages, each with the ten requested sections. Source-reviewed flow diagrams use semantic HTML/CSS so they remain readable on phones without a diagram library. Cases with insufficient evidence say which components are unknown instead of fabricating a production topology.
 - Evidence-first prioritization: InvestiNator and VerdaTrace co-lead the weighted assessment; DataGuard-AI follows. Numeric rubric values are explicitly editorial judgments, not project performance data. See `INVENTORY_AND_RANKING.md`.
-- All original project source and related article links remain in the homepage. GitHub repositories are not invented for document-only projects. Only the repository-documented InvestiNator preview is linked as a preview, explicitly synthetic. Its alternate CV-listed preview is retained in the case study with an unverified-availability label.
+- All original project source and related article links remain in the homepage. GitHub repositories are not invented for document-only projects. Repository-documented previews are linked for InvestiNator (synthetic UI) and VerdaTrace (sample/fixture data portal). Its alternate CV-listed preview is retained in the case study with an unverified-availability label.
 - The supplied CV is served locally and linked from both homepage and CV summary. The web summary follows its current location, selected experience dates, training and education. Existing certifications are not upgraded or added based on a CV line alone.
 
 ## Sources and maintenance
@@ -30,6 +30,6 @@ Commands: `node tools/check_project_portfolio.cjs`, `HUB_BASE_URL=http://127.0.0
 
 ## Publication and remaining evidence
 
-The existing Pages publication path is retained. Public HTTPS, preview behavior and Pages build status require access to `minaadelmarkos.github.io` and `api.github.com`; prior approved domain additions were saved but were not active in the running environment at review time. Git repository access works. A push alone is not deployment confirmation.
+The existing Pages publication path is retained. Network access became available during final validation. The initial implementation build completed for `2b41707`, and the public homepage returned the new grid and local CV link. InvestiNator and VerdaTrace preview endpoints returned the expected public HTML. Remote CI checks are recorded in `remote-ci.json`; these are not production-readiness certifications. Public browser checks and final deployment verification are reported in the handoff.
 
 Live cloud operation, production security, model quality, latency/throughput improvements, incident-time reductions and financial outcomes are not established by these local checks. Document-only projects need source packages, metric definitions and reproducible instructions before stronger implementation claims. The banking prototype needs its legacy runtime/configuration/model dependencies resolved. The Java feature branch in InvestiNator is not treated as a released production implementation.

@@ -37,7 +37,7 @@ All ten existing projects are retained; Databricks SQL analysis is added from th
 - Status: Implemented reference platform; cloud deployment not verified
 - Repository: https://github.com/MINAADELMARKOS/VerdaTrace-Data-Platform-
 - Revision: 69a94cf0f9baee525bbd57a51f6fa44644382b58
-- Preview: No independently established live application
+- Preview: https://minaadelmarkos.github.io/VerdaTrace-Data-Platform-/
 - Screenshot: img/portfolio/VerdaTrace_Data Platform_Portoflio.png
 - Documentation / source: verdatrace/registered.py, verdatrace/quality.py, verdatrace/security.py, data_pipeline.py, main.tf, deployment.yaml, tests/test_registered_pipeline.py, docs/architecture.md, docs/validation.md, frontend/data/platform_demo.json
 - Architecture: Registered local / attributed sample datasets → bounded ingestion → Quality checks → catalog / semantics → analysis → task-suitability evaluation → Normalized results + lineage / governance → generated frontend portal payload → Cloud worker path: Pub/Sub → GKE Python worker → BigQuery curated tables + controlled GCS archive → Cross-cutting IAM / Workload Identity / secret redaction / audit / monitoring

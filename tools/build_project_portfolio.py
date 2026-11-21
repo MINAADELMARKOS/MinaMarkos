@@ -14,6 +14,7 @@ weights=[2,1,2,1,1,2,1];criteria=['Enterprise relevance','Architecture complexit
 projects=sorted(PROJECTS,key=lambda p:-sum(s*w for s,w in zip(p['scores'],weights)))
 (R/'projects').mkdir(exist_ok=True);(R/'docs/project-review').mkdir(parents=True,exist_ok=True)
 for rank,p in enumerate(projects,1):
+ p['demo_label']='Data portal preview (samples/fixtures)' if p['slug']=='verdatrace' else 'UI preview (synthetic)'
  p['rank']=rank;p['weighted_score']=sum(s*w for s,w in zip(p['scores'],weights));p['original_links']=[]
  for old in original:
   if old['image']==p['image']:p['original_links']=old['links']
@@ -35,12 +36,18 @@ for rank,p in enumerate(projects,1):
  if p['repo']:
   evidence+=f'<p>Reviewed repository revision: <a href="{p["repo_url"]}/tree/{p["commit"]}">{p["commit"][:12]}</a>. Code presence is distinct from executed runtime behavior.</p><ul>'+''.join(f'<li><a href="{repo_link(f)}">{E(f)}</a></li>'for f in p['evidence'])+'</ul>'
  else:evidence+='<p>No implementation repository was established from the accessible source. The card does not invent one.</p>'
- evidence+='<p><a href="../docs/project-review/VALIDATION.md">Current local test outcomes and unexecuted checks</a>. CI configuration was inspected where present; remote CI run success was not obtained.</p>'
+ evidence+='<p><a href="../docs/project-review/VALIDATION.md">Current local test outcomes and unexecuted checks</a>. CI and test evidence is separated from production readiness; the validation record includes retrieved checks at the reviewed revision.</p>'
+ ci_file=R/'docs/project-review/remote-ci.json'
+ if ci_file.exists():
+  ci=json.loads(ci_file.read_text()).get(p['slug'])
+  if isinstance(ci,list):
+   evidence+='<p>Remote check runs returned for this revision: '+('none; no CI success is inferred.' if not ci else '')+'</p>'
+   if ci:evidence+='<ul>'+''.join(f'<li><a href="{c["html_url"]}">{E(c["name"])}</a>: {E(c["status"])} / {E(c["conclusion"] or "unknown")}</li>' for c in ci)+'</ul>'
  if p['image']:evidence+=f'<figure><img class="case-screenshot" src="../{E(p["image"],quote=True)}" alt="{E(p["name"],quote=True)} — existing project screenshot" loading="lazy"><figcaption>Existing project artifact; this screenshot is not a new live-execution result.</figcaption></figure>'
  content=content.replace('<section><h2 id="future-improvements">',evidence+'</section><section><h2 id="future-improvements">')
  links=[]
  if p['repo_url']:links.append((p['repo_url'],'GitHub repository'))
- if p['demo']:links.append((p['demo'],'Public UI preview — synthetic data'))
+ if p['demo']:links.append((p['demo'],p['demo_label']))
  if p['slug']=='investinator':links.append(('https://minaadelmarkos.github.io/Enterprise-DataOps-Incident-Resolution-Copilot/','CV-listed alternate preview (availability unverified)'))
  for link in p['original_links']:
   links.append(('../'+link if not link.startswith('http') else link,'Related explanation' if not link.startswith('http') else 'Original supporting link'))
@@ -57,7 +64,7 @@ for p in projects:
  if p['slug']=='verdatrace':tags+=[categories.index('Cloud Architecture')]
  links=[]
  if p['repo_url']:links.append((p['repo_url'],'GitHub'))
- if p['demo']:links.append((p['demo'],'UI preview (synthetic)'))
+ if p['demo']:links.append((p['demo'],p['demo_label']))
  for url in p['original_links']:links.append((url,'Technical explanation' if not url.startswith('http') else 'Original source'))
  links=unique_links(links)
  cards+=f'''<div class="all {' '.join('category-'+str(i)for i in tags)}"><article class="engineering-project"><img src="{E(p['image'],quote=True)}" alt="{E(p['name'],quote=True)} project preview" loading="lazy" decoding="async"><div class="project-body"><p class="project-category">{E(p['category'])}</p><h3>{E(p['name'])}</h3><p class="project-status">{E(p['status'])}</p><p class="project-problem">{E(p['problem'])}</p><p>{E(p['solution'])}</p><p class="project-stack">{E(p['stack'])}</p><div class="engineering-project-actions"><a class="case-button" href="projects/{p['slug']}.html" data-engagement="project">View Case Study<span class="sr-only">: {E(p['name'])}</span></a><div class="project-evidence-links">{''.join(f'<a href="{E(url,quote=True)}"'+(' target="_blank" rel="noopener noreferrer"'if url.startswith('http') else '')+f'>{label}</a>'for url,label in links)}</div></div></div></article></div>'''
