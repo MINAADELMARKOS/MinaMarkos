@@ -1,0 +1,118 @@
+[
+  {
+    "width": 375,
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 375,
+    "page": "blog.html",
+    "violations": [],
+    "passedRules": 43
+  },
+  {
+    "width": 375,
+    "page": "projects/investinator.html",
+    "violations": [],
+    "passedRules": 35
+  },
+  {
+    "width": 375,
+    "page": "cv.html",
+    "violations": [],
+    "passedRules": 31
+  },
+  {
+    "width": 375,
+    "page": "insights/spark-performance.html",
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 768,
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 768,
+    "page": "blog.html",
+    "violations": [],
+    "passedRules": 43
+  },
+  {
+    "width": 768,
+    "page": "projects/investinator.html",
+    "violations": [],
+    "passedRules": 35
+  },
+  {
+    "width": 768,
+    "page": "cv.html",
+    "violations": [],
+    "passedRules": 31
+  },
+  {
+    "width": 768,
+    "page": "insights/spark-performance.html",
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 1024,
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 1024,
+    "page": "blog.html",
+    "violations": [],
+    "passedRules": 43
+  },
+  {
+    "width": 1024,
+    "page": "projects/investinator.html",
+    "violations": [],
+    "passedRules": 35
+  },
+  {
+    "width": 1024,
+    "page": "cv.html",
+    "violations": [],
+    "passedRules": 31
+  },
+  {
+    "width": 1024,
+    "page": "insights/spark-performance.html",
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 1440,
+    "violations": [],
+    "passedRules": 42
+  },
+  {
+    "width": 1440,
+    "page": "blog.html",
+    "violations": [],
+    "passedRules": 43
+  },
+  {
+    "width": 1440,
+    "page": "projects/investinator.html",
+    "violations": [],
+    "passedRules": 35
+  },
+  {
+    "width": 1440,
+    "page": "cv.html",
+    "violations": [],
+    "passedRules": 31
+  },
+  {
+    "width": 1440,
+    "page": "insights/spark-performance.html",
+    "violations": [],
+    "passedRules": 42
+  }
+]

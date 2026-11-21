@@ -1,0 +1,17 @@
+{
+  "stylesheet": "css/homepage.18a2057a275a.min.css",
+  "javascript": "js/homepage.1cc2a958bddf.js",
+  "javascript_sha256": "1cc2a958bddf6936d83e56b745df2b87113a760596d391217672b4a628adab6c",
+  "sha256": "18a2057a275afa2549952a2a18d702d622871494404fa895d6478ec14cc9f85c",
+  "bytes": 46292,
+  "sources": [
+    "css/bootstrap.css",
+    "css/font-awesome.min.css",
+    "css/style.css",
+    "css/home-blog-navigation.css",
+    "css/seo-accessibility.css",
+    "css/homepage-executive.css",
+    "css/project-portfolio.css",
+    "css/design-system.css"
+  ]
+}

@@ -7,6 +7,50 @@
     "width": 768,
     "height": 1152
   },
+  "img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "img/portfolio/VerdaTrace_Data Platform_Portoflio.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "img/portfolio/DataGuard-AI.png": {
+    "width": 1672,
+    "height": 941
+  },
+  "img/portfolio/Banking-Fraud-Detection.png": {
+    "width": 1671,
+    "height": 940
+  },
+  "img/portfolio/Airflow_Data_Pipeline_ETL.png": {
+    "width": 1007,
+    "height": 666
+  },
+  "img/portfolio/Databricks_Customer_Sales.png": {
+    "width": 1838,
+    "height": 913
+  },
+  "img/portfolio/VodaFone_Assistant.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "img/portfolio/SuperMarket.jpg": {
+    "width": 1920,
+    "height": 1373
+  },
+  "img/portfolio/ETD.jpeg": {
+    "width": 1280,
+    "height": 510
+  },
+  "img/portfolio/Supplychain.jpg": {
+    "width": 1920,
+    "height": 1373
+  },
+  "img/portfolio/AOM.jpeg": {
+    "width": 1280,
+    "height": 504
+  },
   "img/optimized/mina-adel-markos-about-768.webp": {
     "width": 768,
     "height": 768
@@ -66,89 +110,5 @@
   "img/brands/Python.png": {
     "width": 800,
     "height": 800
-  },
-  "img/services/Picture25.png": {
-    "width": 104,
-    "height": 101
-  },
-  "img/services/Picture26.png": {
-    "width": 73,
-    "height": 77
-  },
-  "img/services/Picture27.png": {
-    "width": 174,
-    "height": 132
-  },
-  "img/services/Picture28.png": {
-    "width": 153,
-    "height": 144
-  },
-  "img/portfolio/AOM.jpeg": {
-    "width": 1280,
-    "height": 504
-  },
-  "img/portfolio/ETD.jpeg": {
-    "width": 1280,
-    "height": 510
-  },
-  "img/portfolio/Airflow_Data_Pipeline_ETL.png": {
-    "width": 1007,
-    "height": 666
-  },
-  "img/portfolio/Banking-Fraud-Detection.png": {
-    "width": 1671,
-    "height": 940
-  },
-  "img/portfolio/VodaFone_Assistant.png": {
-    "width": 1536,
-    "height": 1024
-  },
-  "img/portfolio/SuperMarket.jpg": {
-    "width": 1920,
-    "height": 1373
-  },
-  "img/portfolio/VerdaTrace_Data Platform_Portoflio.png": {
-    "width": 1672,
-    "height": 941
-  },
-  "img/portfolio/DataGuard-AI.png": {
-    "width": 1672,
-    "height": 941
-  },
-  "img/portfolio/Supplychain.jpg": {
-    "width": 1920,
-    "height": 1373
-  },
-  "img/portfolio/Enterprise-DataOps-Incident-Resolution-Copilot.png": {
-    "width": 1672,
-    "height": 941
-  },
-  "img/testimonials/generative-ai-leader-illustration.svg": {
-    "width": 420,
-    "height": 380
-  },
-  "img/testimonials/google-cloud-associate-cloud-engineer-custom-evidence.svg": {
-    "width": 1080,
-    "height": 1080
-  },
-  "img/testimonials/google-business-intelligence-certificate.svg": {
-    "width": 640,
-    "height": 640
-  },
-  "img/testimonials/cloudera-certified-data-engineer.svg": {
-    "width": 640,
-    "height": 640
-  },
-  "img/testimonials/si-architect-certification.svg": {
-    "width": 640,
-    "height": 640
-  },
-  "img/testimonials/vodafone-data-analytics.svg": {
-    "width": 640,
-    "height": 640
-  },
-  "img/testimonials/cloudera-data-analyst.svg": {
-    "width": 640,
-    "height": 640
   }
 }
